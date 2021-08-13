@@ -1,0 +1,12 @@
+{
+  "pinned": [
+    "obsidian-plugin-toc:create-toc",
+    "obsidian-admonition:insert-admonition",
+    "templater-obsidian:create-new-note-from-template",
+    "workspace:split-vertical",
+    "markdown:toggle-preview",
+    "obsidian-icons-plugin:open-icons-plugin-modal",
+    "backlink:toggle-backlinks-in-document",
+    "wikilinks-to-mdlinks-obsidian:toggle-wiki-md-links"
+  ]
+}

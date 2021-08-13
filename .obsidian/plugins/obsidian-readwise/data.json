@@ -1,0 +1,10 @@
+{
+  "syncOnBoot": true,
+  "autoSyncInterval": 5,
+  "disableNotifications": false,
+  "headerTemplatePath": "",
+  "highlightTemplatePath": "",
+  "highlightStoragePath": "Highlights",
+  "authorsMappingFilename": "authors.json",
+  "lastUpdate": 1628596248581
+}

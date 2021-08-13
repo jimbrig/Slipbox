@@ -1,0 +1,35 @@
+{
+  "outputFileName": "Logs/Unlinked-Files",
+  "disableWorkingLinks": false,
+  "directoriesToIgnore": [
+    ""
+  ],
+  "filesToIgnore": [
+    ""
+  ],
+  "fileTypesToIgnore": [
+    "txt",
+    " json"
+  ],
+  "linksToIgnore": [],
+  "tagsToIgnore": [
+    ""
+  ],
+  "fileTypesToDelete": [
+    ""
+  ],
+  "ignoreFileTypes": true,
+  "ignoreDirectories": true,
+  "unresolvedLinksOutputFileName": "Logs/Unresolved-Links",
+  "unresolvedLinksDirectoriesToIgnore": [
+    ""
+  ],
+  "unresolvedLinksFilesToIgnore": [
+    ""
+  ],
+  "unresolvedLinksFileTypesToIgnore": [
+    "txt"
+  ],
+  "unresolvedLinksLinksToIgnore": [],
+  "unresolvedLinksTagsToIgnore": []
+}

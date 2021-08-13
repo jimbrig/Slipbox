@@ -1,0 +1,137 @@
+{
+  "main": {
+    "id": "376fdda07e1771dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0e468b28d63dd18",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Run Commands as Another User Account - RUNAS.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1fd739e61c3fd8aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "011a7abf332097bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd48c4fc19ee779e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e04bc79cdae688a8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ca5fdae2d0a5b4f0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "913ba98054ef421c",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "189edfa13993d9cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "80e316169552cc5d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5016ce5c088cf909",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "27128dacf3e323f0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Run Commands as Another User Account - RUNAS.md"
+              }
+            }
+          },
+          {
+            "id": "07ce1c8eeae00245",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "2181aae3bb82e615",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "d0e468b28d63dd18",
+  "lastOpenFiles": [
+    "Run Commands as Another User Account - RUNAS.md",
+    "Untitled.md",
+    "System Design Primer.md",
+    "Backend Web Architecture.md",
+    "Development.md",
+    "010-Development-MOC.md",
+    "Meta/Tags.md",
+    "Meta/Untitled.md",
+    "Meta/Obsidian Vault Setup.md",
+    "030-Tools-Computer-MOC.md"
+  ]
+}

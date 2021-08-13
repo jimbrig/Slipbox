@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "templaterFiles": [
+    "Default-Note-Template.md",
+    "MOC-Template.md",
+    "Mindsweep-Note-Template.md",
+    "README-Template.md"
+  ],
+  "newFileTemplates": [],
+  "openNewFileTemplateInNewPane": true,
+  "useNewFileTemplateOnFileCreation": true
+}
