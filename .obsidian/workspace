@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Run Commands as Another User Account - RUNAS.md",
+            "file": "System Design Primer.md",
             "mode": "source"
           }
         }
@@ -60,6 +60,14 @@
             "id": "913ba98054ef421c",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e1a0f5ed1bf67836",
+            "type": "leaf",
+            "state": {
               "type": "recent-files",
               "state": {}
             }
@@ -95,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Run Commands as Another User Account - RUNAS.md"
+                "file": "System Design Primer.md"
               }
             }
           },
@@ -103,7 +111,7 @@
             "id": "07ce1c8eeae00245",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "empty",
               "state": {}
             }
           },
@@ -111,7 +119,44 @@
             "id": "2181aae3bb82e615",
             "type": "leaf",
             "state": {
-              "type": "dictionary-view",
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "146fa3d349065f16",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "System Design Primer.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e8d06124716be876",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "System Design Primer.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d1284b783d53b738",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
@@ -123,15 +168,15 @@
   },
   "active": "d0e468b28d63dd18",
   "lastOpenFiles": [
-    "Run Commands as Another User Account - RUNAS.md",
-    "Untitled.md",
     "System Design Primer.md",
+    "Run Commands as Another User Account - RUNAS.md",
+    "How to Resolve PIN Issues in Windows.md",
+    "Database GUIs.md",
     "Backend Web Architecture.md",
-    "Development.md",
-    "010-Development-MOC.md",
-    "Meta/Tags.md",
-    "Meta/Untitled.md",
-    "Meta/Obsidian Vault Setup.md",
-    "030-Tools-Computer-MOC.md"
+    "AutoHotKey Scripts.md",
+    "040-Computer-MOC.md",
+    "030-Tools-MOC.md",
+    "020-Productivity-MOC.md",
+    "010-Development-MOC.md"
   ]
 }

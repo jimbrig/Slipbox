@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "System Design Primer",
+      "path": "System Design Primer.md"
+    },
+    {
       "basename": "Run Commands as Another User Account - RUNAS",
       "path": "Run Commands as Another User Account - RUNAS.md"
     },
@@ -13,24 +17,12 @@
       "path": "Database GUIs.md"
     },
     {
-      "basename": "System Design Primer",
-      "path": "System Design Primer.md"
-    },
-    {
       "basename": "Backend Web Architecture",
       "path": "Backend Web Architecture.md"
     },
     {
-      "basename": "010-Development-MOC",
-      "path": "010-Development-MOC.md"
-    },
-    {
-      "basename": "Tags",
-      "path": "Meta/Tags.md"
-    },
-    {
-      "basename": "Obsidian Vault Setup",
-      "path": "Meta/Obsidian Vault Setup.md"
+      "basename": "AutoHotKey Scripts",
+      "path": "AutoHotKey Scripts.md"
     },
     {
       "basename": "040-Computer-MOC",
@@ -45,12 +37,20 @@
       "path": "020-Productivity-MOC.md"
     },
     {
+      "basename": "010-Development-MOC",
+      "path": "010-Development-MOC.md"
+    },
+    {
       "basename": "000-INDEX",
       "path": "000-INDEX.md"
     },
     {
-      "basename": "AutoHotKey Scripts",
-      "path": "AutoHotKey Scripts.md"
+      "basename": "Tags",
+      "path": "Meta/Tags.md"
+    },
+    {
+      "basename": "Obsidian Vault Setup",
+      "path": "Meta/Obsidian Vault Setup.md"
     },
     {
       "basename": "Unlinked-Files",
