@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Meta/Obsidian Vault Setup.md",
+            "file": "Templates/Default-Note-Template.md",
             "mode": "source"
           }
         }
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meta/Obsidian Vault Setup.md"
+                "file": "Templates/Default-Note-Template.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meta/Obsidian Vault Setup.md",
+                "file": "Templates/Default-Note-Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meta/Obsidian Vault Setup.md",
+                "file": "Templates/Default-Note-Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,15 +168,15 @@
   },
   "active": "d0e468b28d63dd18",
   "lastOpenFiles": [
+    "Templates/Default-Note-Template.md",
+    "SlipBox/Untitled.md",
+    "Meta/Tags.md",
     "Meta/Obsidian Vault Setup.md",
     "000-INDEX.md",
     "AutoHotKey Scripts.md",
     "040-Computer-MOC.md",
     "030-Tools-MOC.md",
     "020-Productivity-MOC.md",
-    "010-Development-MOC.md",
-    "Daily-Notes/2021-08-25.md",
-    "System Design Primer.md",
-    "Run Commands as Another User Account - RUNAS.md"
+    "010-Development-MOC.md"
   ]
 }

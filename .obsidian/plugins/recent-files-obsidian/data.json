@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Default-Note-Template",
+      "path": "Templates/Default-Note-Template.md"
+    },
+    {
+      "basename": "The Roles of a Personal Knowledge Manager",
+      "path": "SlipBox/The Roles of a Personal Knowledge Manager.md"
+    },
+    {
+      "basename": "Tags",
+      "path": "Meta/Tags.md"
+    },
+    {
       "basename": "Obsidian Vault Setup",
       "path": "Meta/Obsidian Vault Setup.md"
     },
@@ -51,10 +63,6 @@
     {
       "basename": "Backend Web Architecture",
       "path": "Backend Web Architecture.md"
-    },
-    {
-      "basename": "Tags",
-      "path": "Meta/Tags.md"
     },
     {
       "basename": "Unlinked-Files",
@@ -191,14 +199,6 @@
     {
       "basename": "Taxonomy",
       "path": "Glossary/Taxonomy.md"
-    },
-    {
-      "basename": "2021-08-13",
-      "path": "Daily-Notes/2021-08-13.md"
-    },
-    {
-      "basename": "Daily-Note-Template",
-      "path": "Templates/Daily-Note-Template.md"
     }
   ],
   "omittedPaths": [],

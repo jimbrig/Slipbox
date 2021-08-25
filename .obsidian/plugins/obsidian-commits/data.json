@@ -7502,7 +7502,7 @@
     "Logs/Changelog.md": {
       "size": 2347,
       "tags": 0,
-      "links": 55
+      "links": 56
     },
     "Templates/Daily-Note-Template.md": {
       "size": 0,
@@ -7778,13 +7778,18 @@
       "size": 0,
       "tags": 1,
       "links": 2
+    },
+    "SlipBox/The Roles of a Personal Knowledge Manager.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 964,
-      "Create": 763,
-      "Link": 922,
+      "Refactor": 965,
+      "Create": 764,
+      "Link": 923,
       "Expand": 110
     }
   },
@@ -7804,7 +7809,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 199,
+      "14": 202,
       "15": 104,
       "16": 436,
       "17": 132,
@@ -7820,7 +7825,7 @@
     "/": {
       "Mon": 498,
       "Tue": 157,
-      "Wed": 877,
+      "Wed": 880,
       "Thu": 148,
       "Fri": 792,
       "Sat": 0,
@@ -7883,6 +7888,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"SlipBox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-25.md\"> 2021-08-25 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-24.md\"> 2021-08-24 </a>",
         "<a class=\"internal-link\" href=\"Run Commands as Another User Account - RUNAS.md\"> Run Commands as Another User Account - RUNAS </a>",
@@ -7932,10 +7938,10 @@
         "<a class=\"internal-link\" href=\"Daily-Notes/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-13.md\"> 2021-08-13 </a>",
         "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Logs/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Logs/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"SlipBox/The Roles of a Personal Knowledge Manager.md\"> The Roles of a Personal Knowledge Manager </a>",
         "<a class=\"internal-link\" href=\"How to Resolve PIN Issues in Windows.md\"> How to Resolve PIN Issues in Windows </a>",
         "<a class=\"internal-link\" href=\"Backend Web Architecture.md\"> Backend Web Architecture </a>",
         "<a class=\"internal-link\" href=\"Meta/Obsidian Vault Setup.md\"> Obsidian Vault Setup </a>",
@@ -7985,8 +7991,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Why you need to step out of your comfort zone.md\"> Why you need to step out of your comfort zone </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/What Gets Measured, Gets Managed.md\"> What Gets Measured, Gets Managed </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-24.md\"> 2021-08-24 </a>",
@@ -8109,6 +8114,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/R-Markdown.md\"> R-Markdown </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-24.md\"> 2021-08-24 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-25.md\"> 2021-08-25 </a>",
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
@@ -8158,8 +8164,7 @@
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>"
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
