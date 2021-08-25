@@ -7800,17 +7800,17 @@
       "links": 0
     },
     "Daily-Notes/Apps.md": {
-      "size": 8131,
+      "size": 23078,
       "tags": 0,
-      "links": 0
+      "links": 5
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 968,
       "Create": 770,
-      "Link": 932,
-      "Expand": 111
+      "Link": 933,
+      "Expand": 112
     }
   },
   "dailyCommits": {
@@ -7833,7 +7833,7 @@
       "15": 107,
       "16": 436,
       "17": 135,
-      "18": 52,
+      "18": 54,
       "19": 60,
       "20": 38,
       "21": 2,
@@ -7845,7 +7845,7 @@
     "/": {
       "Mon": 498,
       "Tue": 157,
-      "Wed": 899,
+      "Wed": 901,
       "Thu": 148,
       "Fri": 792,
       "Sat": 0,
@@ -7855,6 +7855,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"Daily-Notes/Apps.md\"> Apps </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Apps.md\"> Apps </a>",
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"System Design Primer.md\"> System Design Primer </a>",
@@ -7904,8 +7905,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Increase your productivity with outsourcing and SOPs.md\"> Increase your productivity with outsourcing and SOPs </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>"
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"Daily-Notes/Untitled.md\"> Untitled </a>",
@@ -8134,6 +8134,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Ruby.md\"> Ruby </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"Daily-Notes/Apps.md\"> Apps </a>",
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Meta/Obsidian Vault Setup.md\"> Obsidian Vault Setup </a>",
         "<a class=\"internal-link\" href=\"Meta/Obsidian Vault Setup.md\"> Obsidian Vault Setup </a>",
@@ -8183,8 +8184,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Developer Environment.md\"> Windows Developer Environment </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Ansible for the Windows System Admin.md\"> Ansible for the Windows System Admin </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-10.md\"> 2021-08-10 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md\"> How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md\"> How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

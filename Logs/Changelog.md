@@ -1,4 +1,4 @@
-- 2021-08-25 at 18h04 · [[Apps]]
+- 2021-08-25 at 18h05 · [[Apps]]
 - 2021-08-25 at 15h01 · [[Obsidian Vault Setup]]
 - 2021-08-25 at 14h56 · [[TemplaterDemo]]
 - 2021-08-25 at 14h52 · [[Archive]]

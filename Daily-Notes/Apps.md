@@ -2,6 +2,13 @@
 
 ## Contents
 
+- [[#Apps|Apps]]
+- [[#Windows Store Apps|Windows Store Apps]]
+- [[#System|System]]
+- [[#Hidden|Hidden]]
+- [[#Startup|Startup]]
+
+
 ### Apps
 
 - **Installed Programs (Apps)**
