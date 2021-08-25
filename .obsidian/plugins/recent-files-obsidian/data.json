@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Algorithm",
-      "path": "Glossary/Algorithm.md"
+      "basename": "Archive",
+      "path": "Glossary/Archive.md"
     },
     {
       "basename": "2021-08-25",
       "path": "Daily-Notes/2021-08-25.md"
     },
     {
+      "basename": "Algorithm",
+      "path": "Glossary/Algorithm.md"
+    },
+    {
       "basename": "Daily-Note-Template",
       "path": "Templates/Daily-Note-Template.md"
+    },
+    {
+      "basename": "25-08-2021",
+      "path": "Daily-Notes/25-08-2021.md"
+    },
+    {
+      "basename": "2021-08-13",
+      "path": "Daily-Notes/2021-08-13.md"
+    },
+    {
+      "basename": "2021-08-24",
+      "path": "Daily-Notes/2021-08-24.md"
     },
     {
       "basename": "Default-Note-Template",
@@ -169,10 +185,6 @@
       "path": "Glossary/Gyroscope.md"
     },
     {
-      "basename": "Archive",
-      "path": "Glossary/Archive.md"
-    },
-    {
       "basename": "Catalogue",
       "path": "Glossary/Catalogue.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Ephemeral",
       "path": "Glossary/Ephemeral.md"
-    },
-    {
-      "basename": "Fleeting",
-      "path": "Glossary/Fleeting.md"
-    },
-    {
-      "basename": "Hierarchy",
-      "path": "Glossary/Hierarchy.md"
-    },
-    {
-      "basename": "Ontology",
-      "path": "Glossary/Ontology.md"
     }
   ],
   "omittedPaths": [],

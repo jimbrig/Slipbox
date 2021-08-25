@@ -10,6 +10,8 @@ Tags: [ "#Type/Daily" ]
 
 # <% tp.date.now("MMMM DD, YYYY - dddd") %>
 
+## Captures
+
 ***
 
 Links:

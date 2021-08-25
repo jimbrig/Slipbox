@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Glossary/Algorithm.md",
+            "file": "Glossary/Archive.md",
             "mode": "source"
           }
         }
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Glossary/Algorithm.md"
+                "file": "Glossary/Archive.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Glossary/Algorithm.md",
+                "file": "Glossary/Archive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Glossary/Algorithm.md",
+                "file": "Glossary/Archive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,15 +168,15 @@
   },
   "active": "d0e468b28d63dd18",
   "lastOpenFiles": [
-    "Glossary/Algorithm.md",
+    "Glossary/Archive.md",
     "Daily-Notes/2021-08-25.md",
+    "Glossary/Algorithm.md",
     "Templates/Daily-Note-Template.md",
+    "Daily-Notes/25-08-2021.md",
+    "Daily-Notes/2021-08-13.md",
+    "Daily-Notes/2021-08-24.md",
     "Templates/Default-Note-Template.md",
     "SlipBox/Untitled.md",
-    "Meta/Tags.md",
-    "Meta/Obsidian Vault Setup.md",
-    "000-INDEX.md",
-    "AutoHotKey Scripts.md",
-    "040-Computer-MOC.md"
+    "Meta/Tags.md"
   ]
 }

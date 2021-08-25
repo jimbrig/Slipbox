@@ -7502,7 +7502,7 @@
     "Logs/Changelog.md": {
       "size": 2347,
       "tags": 0,
-      "links": 56
+      "links": 58
     },
     "Templates/Daily-Note-Template.md": {
       "size": 0,
@@ -7783,13 +7783,23 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "Daily-Notes/25-08-2021.md": {
+      "size": 412,
+      "tags": 1,
+      "links": 2
+    },
+    "Daily-Notes/08-25-2021.md": {
+      "size": 412,
+      "tags": 1,
+      "links": 2
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 965,
-      "Create": 764,
-      "Link": 923,
+      "Create": 766,
+      "Link": 928,
       "Expand": 110
     }
   },
@@ -7809,7 +7819,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 202,
+      "14": 209,
       "15": 104,
       "16": 436,
       "17": 132,
@@ -7825,7 +7835,7 @@
     "/": {
       "Mon": 498,
       "Tue": 157,
-      "Wed": 880,
+      "Wed": 887,
       "Thu": 148,
       "Fri": 792,
       "Sat": 0,
@@ -7888,6 +7898,8 @@
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Daily-Notes/08-25-2021.md\"> 08-25-2021 </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/25-08-2021.md\"> 25-08-2021 </a>",
         "<a class=\"internal-link\" href=\"SlipBox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-25.md\"> 2021-08-25 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-24.md\"> 2021-08-24 </a>",
@@ -7936,9 +7948,7 @@
         "<a class=\"internal-link\" href=\"Glossary/Archive.md\"> Archive </a>",
         "<a class=\"internal-link\" href=\"Glossary/Hierarchy.md\"> Hierarchy </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-13.md\"> 2021-08-13 </a>",
-        "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Logs/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-13.md\"> 2021-08-13 </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"SlipBox/The Roles of a Personal Knowledge Manager.md\"> The Roles of a Personal Knowledge Manager </a>",
@@ -7994,6 +8004,8 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"Daily-Notes/25-08-2021.md\"> 25-08-2021 </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/08-25-2021.md\"> 08-25-2021 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-24.md\"> 2021-08-24 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-25.md\"> 2021-08-25 </a>",
         "<a class=\"internal-link\" href=\"How to Resolve PIN Issues in Windows.md\"> How to Resolve PIN Issues in Windows </a>",
@@ -8042,8 +8054,6 @@
         "<a class=\"internal-link\" href=\"Glossary/Catalogue.md\"> Catalogue </a>",
         "<a class=\"internal-link\" href=\"Glossary/Deduction.md\"> Deduction </a>",
         "<a class=\"internal-link\" href=\"Tags.md\"> Tags </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/Tags.md\"> Tags </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/Tags.md\"> Tags </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Tags.md\"> Tags </a>"
       ],
       "Refactored": [
@@ -8114,6 +8124,9 @@
         "<a class=\"internal-link\" href=\"0-Inbox/R-Markdown.md\"> R-Markdown </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"Daily-Notes/25-08-2021.md\"> 25-08-2021 </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/08-25-2021.md\"> 08-25-2021 </a>",
+        "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-24.md\"> 2021-08-24 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-25.md\"> 2021-08-25 </a>",
@@ -8161,9 +8174,6 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/How to Use Sysprep in Windows.md\"> How to Use Sysprep in Windows </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>"
       ],
       "Removed Tags from": [
