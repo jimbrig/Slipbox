@@ -1,4 +1,4 @@
-- 2021-08-25 at 14h21 · [[Obsidian Vault Setup]]
+- 2021-08-25 at 14h24 · [[Obsidian Vault Setup]]
 - 2021-08-25 at 14h20 · [[2021-08-25]]
 - 2021-08-25 at 14h20 · [[System Design Primer]]
 - 2021-08-24 at 14h38 · [[How to Resolve PIN Issues in Windows]]

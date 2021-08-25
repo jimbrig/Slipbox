@@ -7500,9 +7500,9 @@
       "links": 1
     },
     "Logs/Changelog.md": {
-      "size": 2034,
+      "size": 2347,
       "tags": 0,
-      "links": 53
+      "links": 55
     },
     "Templates/Daily-Note-Template.md": {
       "size": 0,
@@ -7741,7 +7741,7 @@
     },
     "Meta/Obsidian Vault Setup.md": {
       "size": 0,
-      "tags": 2,
+      "tags": 1,
       "links": 1
     },
     "Backend Web Architecture.md": {
@@ -7768,14 +7768,24 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "Daily-Notes/2021-08-24.md": {
+      "size": 394,
+      "tags": 1,
+      "links": 2
+    },
+    "Daily-Notes/2021-08-25.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 2
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 963,
-      "Create": 761,
-      "Link": 917,
-      "Expand": 109
+      "Refactor": 964,
+      "Create": 763,
+      "Link": 922,
+      "Expand": 110
     }
   },
   "dailyCommits": {
@@ -7794,7 +7804,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 190,
+      "14": 199,
       "15": 104,
       "16": 436,
       "17": 132,
@@ -7810,7 +7820,7 @@
     "/": {
       "Mon": 498,
       "Tue": 157,
-      "Wed": 868,
+      "Wed": 877,
       "Thu": 148,
       "Fri": 792,
       "Sat": 0,
@@ -7820,6 +7830,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"System Design Primer.md\"> System Design Primer </a>",
         "<a class=\"internal-link\" href=\"Database GUIs.md\"> Database GUIs </a>",
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
@@ -7869,10 +7880,11 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Increase your productivity with outsourcing and SOPs.md\"> Increase your productivity with outsourcing and SOPs </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-25.md\"> 2021-08-25 </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-24.md\"> 2021-08-24 </a>",
         "<a class=\"internal-link\" href=\"Run Commands as Another User Account - RUNAS.md\"> Run Commands as Another User Account - RUNAS </a>",
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
@@ -7921,9 +7933,7 @@
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-13.md\"> 2021-08-13 </a>",
         "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Logs/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Logs/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"Logs/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"How to Resolve PIN Issues in Windows.md\"> How to Resolve PIN Issues in Windows </a>",
@@ -7979,6 +7989,8 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-24.md\"> 2021-08-24 </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-25.md\"> 2021-08-25 </a>",
         "<a class=\"internal-link\" href=\"How to Resolve PIN Issues in Windows.md\"> How to Resolve PIN Issues in Windows </a>",
         "<a class=\"internal-link\" href=\"Meta/Tags.md\"> Tags </a>",
         "<a class=\"internal-link\" href=\"System Design Primer.md\"> System Design Primer </a>",
@@ -8025,8 +8037,6 @@
         "<a class=\"internal-link\" href=\"Glossary/Catalogue.md\"> Catalogue </a>",
         "<a class=\"internal-link\" href=\"Glossary/Deduction.md\"> Deduction </a>",
         "<a class=\"internal-link\" href=\"Tags.md\"> Tags </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/Tags.md\"> Tags </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/Tags.md\"> Tags </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Tags.md\"> Tags </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Tags.md\"> Tags </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Tags.md\"> Tags </a>"
@@ -8099,6 +8109,9 @@
         "<a class=\"internal-link\" href=\"0-Inbox/R-Markdown.md\"> R-Markdown </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-24.md\"> 2021-08-24 </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-25.md\"> 2021-08-25 </a>",
+        "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"How to Resolve PIN Issues in Windows.md\"> How to Resolve PIN Issues in Windows </a>",
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
@@ -8146,10 +8159,7 @@
         "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>"
+        "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -8175,7 +8185,8 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Project Management Pipeline.md\"> Project Management Pipeline </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Plumber Logging.md\"> Plumber Logging </a>",
-        "<a class=\"internal-link\" href=\"Meta/Tags.md\"> Tags </a>"
+        "<a class=\"internal-link\" href=\"Meta/Tags.md\"> Tags </a>",
+        "<a class=\"internal-link\" href=\"Meta/Obsidian Vault Setup.md\"> Obsidian Vault Setup </a>"
       ],
       "Removed Links from": [
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",

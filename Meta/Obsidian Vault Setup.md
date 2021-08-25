@@ -8,7 +8,19 @@ Tags: ["#Topic/Tools/Obsidian"]
 
 # Obsidian Vault Setup
 
-#TODO 
+- Definite Folders:
+	- Daily-Notes
+	- Templates
+	- Attachments/Assets Folders
+
+- Folders to think about further:
+	- SlipBox/Permanent Notes Folder
+	- Reference Folder for external source notes and support materials
+	- Inbox Folder for Fleeting Notes for processing
+	- Maps of Content Folder for Index Notes
+	- Placeholder Notes
+	- Logs and vault information notes (changelog, etc.)
+	- 
 
 
 
