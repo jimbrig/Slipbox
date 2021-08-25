@@ -7502,7 +7502,7 @@
     "Logs/Changelog.md": {
       "size": 2347,
       "tags": 0,
-      "links": 60
+      "links": 59
     },
     "Templates/Daily-Note-Template.md": {
       "size": 0,
@@ -7742,7 +7742,7 @@
     "Meta/Obsidian Vault Setup.md": {
       "size": 0,
       "tags": 1,
-      "links": 1
+      "links": 8
     },
     "Backend Web Architecture.md": {
       "size": 9838,
@@ -7802,9 +7802,9 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 967,
+      "Refactor": 968,
       "Create": 769,
-      "Link": 929,
+      "Link": 930,
       "Expand": 110
     }
   },
@@ -7825,7 +7825,7 @@
       "12": 24,
       "13": 29,
       "14": 215,
-      "15": 104,
+      "15": 106,
       "16": 436,
       "17": 132,
       "18": 52,
@@ -7840,7 +7840,7 @@
     "/": {
       "Mon": 498,
       "Tue": 157,
-      "Wed": 893,
+      "Wed": 895,
       "Thu": 148,
       "Fri": 792,
       "Sat": 0,
@@ -8129,6 +8129,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Ruby.md\"> Ruby </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"Meta/Obsidian Vault Setup.md\"> Obsidian Vault Setup </a>",
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/25-08-2021.md\"> 25-08-2021 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/08-25-2021.md\"> 08-25-2021 </a>",
@@ -8178,8 +8179,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md\"> How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/How to Use Sysprep in Windows.md\"> How to Use Sysprep in Windows </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/How to Use Sysprep in Windows.md\"> How to Use Sysprep in Windows </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -8209,6 +8209,7 @@
         "<a class=\"internal-link\" href=\"Meta/Obsidian Vault Setup.md\"> Obsidian Vault Setup </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
@@ -8256,7 +8257,6 @@
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"

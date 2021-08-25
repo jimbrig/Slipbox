@@ -8,10 +8,27 @@ Tags: ["#Topic/Tools/Obsidian"]
 
 # Obsidian Vault Setup
 
+## Contents
+
+- [[#Vault Structure|Vault Structure]]
+	- [[#Definite Folders|Definite Folders]]
+	- [[#Folders to Think About Further|Folders to Think About Further]]
+	- [[#Tags|Tags]]
+- [[#Configuration|Configuration]]
+	- [[#Theme and Appearance|Theme and Appearance]]
+	- [[#Core Plugins|Core Plugins]]
+	- [[#Community Plugins|Community Plugins]]
+
+## Vault Structure
+
+### Definite Folders
+
 - Definite Folders:
 	- Daily-Notes
 	- Templates
 	- Attachments/Assets Folders
+
+### Folders to Think About Further
 
 - Folders to think about further:
 	- SlipBox/Permanent Notes Folder
@@ -20,9 +37,16 @@ Tags: ["#Topic/Tools/Obsidian"]
 	- Maps of Content Folder for Index Notes
 	- Placeholder Notes
 	- Logs and vault information notes (changelog, etc.)
-	- 
 
+### Tags
 
+## Configuration
+
+### Theme and Appearance
+
+### Core Plugins
+
+### Community Plugins
 
 
 ***

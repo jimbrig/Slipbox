@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Tags",
+      "path": "Meta/Tags.md"
+    },
+    {
+      "basename": "Obsidian Vault Setup",
+      "path": "Meta/Obsidian Vault Setup.md"
+    },
+    {
+      "basename": "The Roles of a Personal Knowledge Manager",
+      "path": "SlipBox/The Roles of a Personal Knowledge Manager.md"
+    },
+    {
       "basename": "TemplaterDemo",
       "path": "Templates/TemplaterDemo.md"
     },
@@ -35,18 +47,6 @@
     {
       "basename": "Default-Note-Template",
       "path": "Templates/Default-Note-Template.md"
-    },
-    {
-      "basename": "The Roles of a Personal Knowledge Manager",
-      "path": "SlipBox/The Roles of a Personal Knowledge Manager.md"
-    },
-    {
-      "basename": "Tags",
-      "path": "Meta/Tags.md"
-    },
-    {
-      "basename": "Obsidian Vault Setup",
-      "path": "Meta/Obsidian Vault Setup.md"
     },
     {
       "basename": "000-INDEX",

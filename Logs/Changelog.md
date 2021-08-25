@@ -1,3 +1,4 @@
+- 2021-08-25 at 15h01 · [[Obsidian Vault Setup]]
 - 2021-08-25 at 14h56 · [[TemplaterDemo]]
 - 2021-08-25 at 14h52 · [[Archive]]
 - 2021-08-25 at 14h52 · [[2021-08-25]]
@@ -9,7 +10,6 @@
 - 2021-08-25 at 14h30 · [[Default-Note-Template]]
 - 2021-08-25 at 14h28 · [[The Roles of a Personal Knowledge Manager]]
 - 2021-08-25 at 14h27 · [[Tags]]
-- 2021-08-25 at 14h24 · [[Obsidian Vault Setup]]
 - 2021-08-25 at 14h20 · [[System Design Primer]]
 - 2021-08-24 at 14h38 · [[How to Resolve PIN Issues in Windows]]
 - 2021-08-24 at 14h38 · [[Database GUIs]]
