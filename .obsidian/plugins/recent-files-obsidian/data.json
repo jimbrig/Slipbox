@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2021-08-25",
+      "path": "Daily-Notes/2021-08-25.md"
+    },
+    {
+      "basename": "Daily-Note-Template",
+      "path": "Templates/Daily-Note-Template.md"
+    },
+    {
       "basename": "Default-Note-Template",
       "path": "Templates/Default-Note-Template.md"
     },
@@ -39,10 +47,6 @@
     {
       "basename": "010-Development-MOC",
       "path": "010-Development-MOC.md"
-    },
-    {
-      "basename": "2021-08-25",
-      "path": "Daily-Notes/2021-08-25.md"
     },
     {
       "basename": "System Design Primer",
@@ -195,10 +199,6 @@
     {
       "basename": "Ontology",
       "path": "Glossary/Ontology.md"
-    },
-    {
-      "basename": "Taxonomy",
-      "path": "Glossary/Taxonomy.md"
     }
   ],
   "omittedPaths": [],

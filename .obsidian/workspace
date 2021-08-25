@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Templates/Default-Note-Template.md",
+            "file": "Daily-Notes/2021-08-25.md",
             "mode": "source"
           }
         }
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Default-Note-Template.md"
+                "file": "Daily-Notes/2021-08-25.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Default-Note-Template.md",
+                "file": "Daily-Notes/2021-08-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Default-Note-Template.md",
+                "file": "Daily-Notes/2021-08-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,6 +168,8 @@
   },
   "active": "d0e468b28d63dd18",
   "lastOpenFiles": [
+    "Daily-Notes/2021-08-25.md",
+    "Templates/Daily-Note-Template.md",
     "Templates/Default-Note-Template.md",
     "SlipBox/Untitled.md",
     "Meta/Tags.md",
@@ -175,8 +177,6 @@
     "000-INDEX.md",
     "AutoHotKey Scripts.md",
     "040-Computer-MOC.md",
-    "030-Tools-MOC.md",
-    "020-Productivity-MOC.md",
-    "010-Development-MOC.md"
+    "030-Tools-MOC.md"
   ]
 }

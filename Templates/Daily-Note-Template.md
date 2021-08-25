@@ -8,7 +8,7 @@ Tags: [ "#Type/Daily" ]
 
 << [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
 
-# <% tp.date.now("dddd, MMMM YYYY") %>
+# <% tp.date.now("MMMM DD, YYYY - dddd") %>
 
 ***
 

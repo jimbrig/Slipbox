@@ -7,10 +7,10 @@
       ""
     ]
   ],
-  "trigger_on_file_creation": false,
+  "trigger_on_file_creation": true,
   "enable_system_commands": false,
   "shell_path": "",
   "script_folder": "",
-  "empty_file_template": "3-Resources/Templates/Default-Note-Template",
+  "empty_file_template": "Templates/Default-Note-Template",
   "syntax_highlighting": true
 }
