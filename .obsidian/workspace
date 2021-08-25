@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Meta/Tags.md",
+            "file": "Daily-Notes/2021-08-25.md",
             "mode": "source"
           }
         }
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meta/Tags.md"
+                "file": "Daily-Notes/2021-08-25.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meta/Tags.md",
+                "file": "Daily-Notes/2021-08-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meta/Tags.md",
+                "file": "Daily-Notes/2021-08-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,6 +168,7 @@
   },
   "active": "d0e468b28d63dd18",
   "lastOpenFiles": [
+    "Daily-Notes/2021-08-25.md",
     "Meta/Tags.md",
     "Meta/Obsidian Vault Setup.md",
     "SlipBox/The Roles of a Personal Knowledge Manager.md",
@@ -175,7 +176,6 @@
     "Templates/TemplaterDemo.md",
     "Yoooo.md",
     "Templates/Untitled.md",
-    "Daily-Notes/2021-08-25.md",
     "Glossary/Archive.md",
     "Glossary/Algorithm.md"
   ]
