@@ -1,24 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "System Design Primer",
-      "path": "System Design Primer.md"
+      "basename": "Obsidian Vault Setup",
+      "path": "Meta/Obsidian Vault Setup.md"
     },
     {
-      "basename": "Run Commands as Another User Account - RUNAS",
-      "path": "Run Commands as Another User Account - RUNAS.md"
-    },
-    {
-      "basename": "How to Resolve PIN Issues in Windows",
-      "path": "How to Resolve PIN Issues in Windows.md"
-    },
-    {
-      "basename": "Database GUIs",
-      "path": "Database GUIs.md"
-    },
-    {
-      "basename": "Backend Web Architecture",
-      "path": "Backend Web Architecture.md"
+      "basename": "000-INDEX",
+      "path": "000-INDEX.md"
     },
     {
       "basename": "AutoHotKey Scripts",
@@ -41,16 +29,32 @@
       "path": "010-Development-MOC.md"
     },
     {
-      "basename": "000-INDEX",
-      "path": "000-INDEX.md"
+      "basename": "2021-08-25",
+      "path": "Daily-Notes/2021-08-25.md"
+    },
+    {
+      "basename": "System Design Primer",
+      "path": "System Design Primer.md"
+    },
+    {
+      "basename": "Run Commands as Another User Account - RUNAS",
+      "path": "Run Commands as Another User Account - RUNAS.md"
+    },
+    {
+      "basename": "How to Resolve PIN Issues in Windows",
+      "path": "How to Resolve PIN Issues in Windows.md"
+    },
+    {
+      "basename": "Database GUIs",
+      "path": "Database GUIs.md"
+    },
+    {
+      "basename": "Backend Web Architecture",
+      "path": "Backend Web Architecture.md"
     },
     {
       "basename": "Tags",
       "path": "Meta/Tags.md"
-    },
-    {
-      "basename": "Obsidian Vault Setup",
-      "path": "Meta/Obsidian Vault Setup.md"
     },
     {
       "basename": "Unlinked-Files",
@@ -195,10 +199,6 @@
     {
       "basename": "Daily-Note-Template",
       "path": "Templates/Daily-Note-Template.md"
-    },
-    {
-      "basename": "Index-Template",
-      "path": "Templates/Index-Template.md"
     }
   ],
   "omittedPaths": [],

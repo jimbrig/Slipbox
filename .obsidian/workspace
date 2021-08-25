@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "System Design Primer.md",
+            "file": "Meta/Obsidian Vault Setup.md",
             "mode": "source"
           }
         }
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Design Primer.md"
+                "file": "Meta/Obsidian Vault Setup.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Design Primer.md",
+                "file": "Meta/Obsidian Vault Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Design Primer.md",
+                "file": "Meta/Obsidian Vault Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,15 +168,15 @@
   },
   "active": "d0e468b28d63dd18",
   "lastOpenFiles": [
-    "System Design Primer.md",
-    "Run Commands as Another User Account - RUNAS.md",
-    "How to Resolve PIN Issues in Windows.md",
-    "Database GUIs.md",
-    "Backend Web Architecture.md",
+    "Meta/Obsidian Vault Setup.md",
+    "000-INDEX.md",
     "AutoHotKey Scripts.md",
     "040-Computer-MOC.md",
     "030-Tools-MOC.md",
     "020-Productivity-MOC.md",
-    "010-Development-MOC.md"
+    "010-Development-MOC.md",
+    "Daily-Notes/2021-08-25.md",
+    "System Design Primer.md",
+    "Run Commands as Another User Account - RUNAS.md"
   ]
 }
