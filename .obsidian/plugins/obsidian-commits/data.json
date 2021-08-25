@@ -7502,7 +7502,7 @@
     "Logs/Changelog.md": {
       "size": 2347,
       "tags": 0,
-      "links": 58
+      "links": 60
     },
     "Templates/Daily-Note-Template.md": {
       "size": 0,
@@ -7793,13 +7793,18 @@
       "size": 412,
       "tags": 1,
       "links": 2
+    },
+    "Templates/TemplaterDemo.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 965,
-      "Create": 766,
-      "Link": 928,
+      "Refactor": 967,
+      "Create": 769,
+      "Link": 929,
       "Expand": 110
     }
   },
@@ -7819,7 +7824,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 209,
+      "14": 215,
       "15": 104,
       "16": 436,
       "17": 132,
@@ -7835,7 +7840,7 @@
     "/": {
       "Mon": 498,
       "Tue": 157,
-      "Wed": 887,
+      "Wed": 893,
       "Thu": 148,
       "Fri": 792,
       "Sat": 0,
@@ -7898,6 +7903,9 @@
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"test.md\"> test </a>",
+        "<a class=\"internal-link\" href=\"Yoooo.md\"> Yoooo </a>",
+        "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/08-25-2021.md\"> 08-25-2021 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/25-08-2021.md\"> 25-08-2021 </a>",
         "<a class=\"internal-link\" href=\"SlipBox/Untitled.md\"> Untitled </a>",
@@ -7945,10 +7953,7 @@
         "<a class=\"internal-link\" href=\"Glossary/Derivation.md\"> Derivation </a>",
         "<a class=\"internal-link\" href=\"Glossary/Deduction.md\"> Deduction </a>",
         "<a class=\"internal-link\" href=\"Glossary/Catalogue.md\"> Catalogue </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Archive.md\"> Archive </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Hierarchy.md\"> Hierarchy </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-13.md\"> 2021-08-13 </a>"
+        "<a class=\"internal-link\" href=\"Glossary/Archive.md\"> Archive </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"SlipBox/The Roles of a Personal Knowledge Manager.md\"> The Roles of a Personal Knowledge Manager </a>",
@@ -8071,6 +8076,8 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Yoooo.md\"> Yoooo </a>",
+        "<a class=\"internal-link\" href=\"test.md\"> test </a>",
         "<a class=\"internal-link\" href=\"Development.md\"> Development </a>",
         "<a class=\"internal-link\" href=\"Logs/Unresolved-Links 1.md\"> Unresolved-Links 1 </a>",
         "<a class=\"internal-link\" href=\"Logs/Unlinked-Files 1.md\"> Unlinked-Files 1 </a>",
@@ -8119,11 +8126,10 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Scala.md\"> Scala </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/SASS.md\"> SASS </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Rust.md\"> Rust </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Ruby.md\"> Ruby </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/RStudio.md\"> RStudio </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/R-Markdown.md\"> R-Markdown </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Ruby.md\"> Ruby </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/25-08-2021.md\"> 25-08-2021 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/08-25-2021.md\"> 08-25-2021 </a>",
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
@@ -8173,8 +8179,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/How to Use Sysprep in Windows.md\"> How to Use Sysprep in Windows </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

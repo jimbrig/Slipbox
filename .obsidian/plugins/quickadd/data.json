@@ -1,6 +1,13 @@
 {
   "choices": [
     {
+      "id": "b5d81408-0fd4-4df8-a6b5-b7392f239920",
+      "name": "📂Folder",
+      "type": "Multi",
+      "command": false,
+      "choices": []
+    },
+    {
       "id": "b2b3875e-aa7f-4ba8-be41-4946cff60743",
       "name": "📅 Capture to Daily Note",
       "type": "Capture",
@@ -32,6 +39,32 @@
         "focus": false
       },
       "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "223e8d23-904a-4ed2-83f8-720d6bc7ee6c",
+      "name": "📝Create Note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/TemplaterDemo.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": true,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
       "openFileInMode": "default"
     }
   ],
