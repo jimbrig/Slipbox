@@ -10,16 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "Daily-Notes/Apps.md",
-            "mode": "source"
+            "mode": "preview"
           }
-        }
-      },
-      {
-        "id": "a15c37afef52af30",
-        "type": "leaf",
-        "state": {
-          "type": "Search on Internet",
-          "state": {}
         }
       }
     ],
@@ -176,6 +168,7 @@
   },
   "active": "d0e468b28d63dd18",
   "lastOpenFiles": [
+    "Daily-Notes/Apps.md",
     "Daily-Notes/Untitled.md",
     "Daily-Notes/2021-08-25.md",
     "Meta/Tags.md",
@@ -184,7 +177,6 @@
     "test.md",
     "Templates/TemplaterDemo.md",
     "Yoooo.md",
-    "Templates/Untitled.md",
-    "Glossary/Archive.md"
+    "Templates/Untitled.md"
   ]
 }
