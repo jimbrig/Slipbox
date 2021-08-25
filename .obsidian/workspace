@@ -9,9 +9,17 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily-Notes/2021-08-25.md",
+            "file": "Daily-Notes/Apps.md",
             "mode": "source"
           }
+        }
+      },
+      {
+        "id": "a15c37afef52af30",
+        "type": "leaf",
+        "state": {
+          "type": "Search on Internet",
+          "state": {}
         }
       }
     ],
@@ -103,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Notes/2021-08-25.md"
+                "file": "Daily-Notes/Apps.md"
               }
             }
           },
@@ -129,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Notes/2021-08-25.md",
+                "file": "Daily-Notes/Apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Notes/2021-08-25.md",
+                "file": "Daily-Notes/Apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,6 +176,7 @@
   },
   "active": "d0e468b28d63dd18",
   "lastOpenFiles": [
+    "Daily-Notes/Untitled.md",
     "Daily-Notes/2021-08-25.md",
     "Meta/Tags.md",
     "Meta/Obsidian Vault Setup.md",
@@ -176,7 +185,6 @@
     "Templates/TemplaterDemo.md",
     "Yoooo.md",
     "Templates/Untitled.md",
-    "Glossary/Archive.md",
-    "Glossary/Algorithm.md"
+    "Glossary/Archive.md"
   ]
 }
