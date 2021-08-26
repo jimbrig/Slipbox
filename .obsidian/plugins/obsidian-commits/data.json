@@ -7746,7 +7746,7 @@
     },
     "Daily-Notes/2021-08-26.md": {
       "size": 0,
-      "tags": 1,
+      "tags": 0,
       "links": 2
     },
     "MOCs/000-INDEX.md": {
@@ -7812,7 +7812,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 982,
+      "Refactor": 983,
       "Create": 772,
       "Link": 937,
       "Expand": 112
@@ -7832,7 +7832,7 @@
       "9": 0,
       "10": 0,
       "11": 46,
-      "12": 40,
+      "12": 41,
       "13": 29,
       "14": 215,
       "15": 107,
@@ -7851,7 +7851,7 @@
       "Mon": 498,
       "Tue": 157,
       "Wed": 901,
-      "Thu": 168,
+      "Thu": 169,
       "Fri": 792,
       "Sat": 0,
       "Sun": 287
@@ -8217,7 +8217,8 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Plumber Logging.md\"> Plumber Logging </a>",
         "<a class=\"internal-link\" href=\"Meta/Tags.md\"> Tags </a>",
         "<a class=\"internal-link\" href=\"Meta/Obsidian Vault Setup.md\"> Obsidian Vault Setup </a>",
-        "<a class=\"internal-link\" href=\"Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>"
+        "<a class=\"internal-link\" href=\"Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-26.md\"> 2021-08-26 </a>"
       ],
       "Removed Links from": [
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",

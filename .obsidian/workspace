@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Templates/Daily-Note-Template.md",
+            "file": "Daily-Notes/2021-08-26.md",
             "mode": "source"
           }
         }
@@ -72,8 +72,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Daily-Note-Template.md"
+                "file": "Daily-Notes/2021-08-26.md"
               }
             }
           },
@@ -130,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Daily-Note-Template.md",
+                "file": "Daily-Notes/2021-08-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Daily-Note-Template.md",
+                "file": "Daily-Notes/2021-08-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,13 +168,13 @@
   },
   "active": "d0e468b28d63dd18",
   "lastOpenFiles": [
+    "Daily-Notes/2021-08-26.md",
     "Templates/Daily-Note-Template.md",
     "Templates/Default-Note-Template.md",
     "README.md",
     "Daily-Notes/Apps.md",
     "Meta/Untitled.md",
     "Meta/Obsidian Vault Setup.md",
-    "Daily-Notes/2021-08-26.md",
     "Daily-Notes/Untitled.md",
     "Daily-Notes/2021-08-25.md",
     "Meta/Tags.md"

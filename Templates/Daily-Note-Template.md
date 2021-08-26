@@ -2,24 +2,10 @@
 Creation Date: <% tp.file.creation_date() %>
 Last Modified Date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
 Author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
-Alias: <% tp.file.creation_date() %>
+Alias: ["<% tp.date.now("MMMM DD, YYYY - dddd") %>", "<% tp.file.creation_date("YYYY-MM-DD") %>"]
 Type: [ "#Type/Daily" ]
 ---
-
----
-Creation Date: <% tp.file.creation_date() %>
-Last Modified Date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
-Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Type:
-Alias: <% tp.file.title %>
-Description:
----
-%%
-Status: 
-%%
-
----
-**Tags::  
+**Tags**::  
 **Links**::  
 **Sources**::  
 
@@ -29,7 +15,11 @@ Status:
 
 # <% tp.date.now("MMMM DD, YYYY - dddd") %>
 
-## Captures
+## 📝 Scratchpad
+
+## ✔️ Tasks
+
+## 📂 Captures
 
 ***
 
