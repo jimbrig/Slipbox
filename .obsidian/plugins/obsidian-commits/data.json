@@ -7502,7 +7502,7 @@
     "Logs/Changelog.md": {
       "size": 2347,
       "tags": 0,
-      "links": 60
+      "links": 61
     },
     "Templates/Daily-Note-Template.md": {
       "size": 0,
@@ -7803,13 +7803,18 @@
       "size": 23078,
       "tags": 0,
       "links": 5
+    },
+    "Daily-Notes/2021-08-26.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 2
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 968,
-      "Create": 770,
-      "Link": 933,
+      "Create": 771,
+      "Link": 936,
       "Expand": 112
     }
   },
@@ -7826,7 +7831,7 @@
       "8": 6,
       "9": 0,
       "10": 0,
-      "11": 42,
+      "11": 46,
       "12": 24,
       "13": 29,
       "14": 215,
@@ -7846,7 +7851,7 @@
       "Mon": 498,
       "Tue": 157,
       "Wed": 901,
-      "Thu": 148,
+      "Thu": 152,
       "Fri": 792,
       "Sat": 0,
       "Sun": 287
@@ -7908,6 +7913,7 @@
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-26.md\"> 2021-08-26 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"test.md\"> test </a>",
         "<a class=\"internal-link\" href=\"Yoooo.md\"> Yoooo </a>",
@@ -7957,8 +7963,7 @@
         "<a class=\"internal-link\" href=\"Glossary/Fleeting.md\"> Fleeting </a>",
         "<a class=\"internal-link\" href=\"Glossary/Ephemeral.md\"> Ephemeral </a>",
         "<a class=\"internal-link\" href=\"Glossary/Derivation.md\"> Derivation </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Deduction.md\"> Deduction </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Catalogue.md\"> Catalogue </a>"
+        "<a class=\"internal-link\" href=\"Glossary/Deduction.md\"> Deduction </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"SlipBox/The Roles of a Personal Knowledge Manager.md\"> The Roles of a Personal Knowledge Manager </a>",
@@ -8014,6 +8019,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-26.md\"> 2021-08-26 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/25-08-2021.md\"> 25-08-2021 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/08-25-2021.md\"> 08-25-2021 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-24.md\"> 2021-08-24 </a>",
@@ -8063,8 +8069,7 @@
         "<a class=\"internal-link\" href=\"Glossary/Archive.md\"> Archive </a>",
         "<a class=\"internal-link\" href=\"Glossary/Catalogue.md\"> Catalogue </a>",
         "<a class=\"internal-link\" href=\"Glossary/Deduction.md\"> Deduction </a>",
-        "<a class=\"internal-link\" href=\"Tags.md\"> Tags </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/Tags.md\"> Tags </a>"
+        "<a class=\"internal-link\" href=\"Tags.md\"> Tags </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -8134,6 +8139,8 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Ruby.md\"> Ruby </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-26.md\"> 2021-08-26 </a>",
+        "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Apps.md\"> Apps </a>",
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Meta/Obsidian Vault Setup.md\"> Obsidian Vault Setup </a>",
@@ -8182,9 +8189,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Classification of Note Types.md\"> Classification of Note Types </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Developer Environment.md\"> Windows Developer Environment </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Ansible for the Windows System Admin.md\"> Ansible for the Windows System Admin </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-10.md\"> 2021-08-10 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md\"> How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File </a>"
+        "<a class=\"internal-link\" href=\"3-Reference/Ansible for the Windows System Admin.md\"> Ansible for the Windows System Admin </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
