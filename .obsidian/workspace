@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily-Notes/2021-08-26.md",
+            "file": "SlipBox/Check Internet Speed with Command Line.md",
             "mode": "source"
           }
         }
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Notes/2021-08-26.md"
+                "file": "SlipBox/Check Internet Speed with Command Line.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Notes/2021-08-26.md",
+                "file": "SlipBox/Check Internet Speed with Command Line.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Notes/2021-08-26.md",
+                "file": "SlipBox/Check Internet Speed with Command Line.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,15 +168,15 @@
   },
   "active": "d0e468b28d63dd18",
   "lastOpenFiles": [
+    "SlipBox/Untitled.md",
+    "Daily-Notes/25-08-2021.md",
+    "Daily-Notes/08-25-2021.md",
+    "Day Planners/Day Planner-20210826.md",
+    "Reference/Apps.md",
     "Daily-Notes/2021-08-26.md",
     "Templates/Daily-Note-Template.md",
     "Templates/Default-Note-Template.md",
     "README.md",
-    "Daily-Notes/Apps.md",
-    "Meta/Untitled.md",
-    "Meta/Obsidian Vault Setup.md",
-    "Daily-Notes/Untitled.md",
-    "Daily-Notes/2021-08-25.md",
-    "Meta/Tags.md"
+    "Daily-Notes/Apps.md"
   ]
 }

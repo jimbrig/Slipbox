@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Check Internet Speed with Command Line",
+      "path": "SlipBox/Check Internet Speed with Command Line.md"
+    },
+    {
+      "basename": "Day Planner-20210826",
+      "path": "Day Planners/Day Planner-20210826.md"
+    },
+    {
+      "basename": "Apps",
+      "path": "Reference/Apps.md"
+    },
+    {
       "basename": "2021-08-26",
       "path": "Daily-Notes/2021-08-26.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "Apps",
-      "path": "Reference/Apps.md"
     },
     {
       "basename": "Obsidian Vault Setup",
@@ -47,10 +55,6 @@
     {
       "basename": "Algorithm",
       "path": "Glossary/Algorithm.md"
-    },
-    {
-      "basename": "25-08-2021",
-      "path": "Daily-Notes/25-08-2021.md"
     },
     {
       "basename": "2021-08-13",
@@ -191,14 +195,6 @@
     {
       "basename": "Wisdom",
       "path": "Glossary/Wisdom.md"
-    },
-    {
-      "basename": "Kanban",
-      "path": "Glossary/Kanban.md"
-    },
-    {
-      "basename": "Gyroscope",
-      "path": "Glossary/Gyroscope.md"
     }
   ],
   "omittedPaths": [],
