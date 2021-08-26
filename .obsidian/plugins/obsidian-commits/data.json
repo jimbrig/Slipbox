@@ -7500,9 +7500,9 @@
       "links": 1
     },
     "Logs/Changelog.md": {
-      "size": 2347,
+      "size": 2793,
       "tags": 0,
-      "links": 62
+      "links": 64
     },
     "Templates/Daily-Note-Template.md": {
       "size": 0,
@@ -7806,16 +7806,26 @@
     },
     "SlipBox/Check Internet Speed with Command Line.md": {
       "size": 0,
+      "tags": 4,
+      "links": 3
+    },
+    "Reference/Command Line Tools.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "Reference/Node Package Manager - npm.md": {
+      "size": 0,
       "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 985,
-      "Create": 774,
-      "Link": 937,
-      "Expand": 112
+      "Refactor": 987,
+      "Create": 776,
+      "Link": 940,
+      "Expand": 113
     }
   },
   "dailyCommits": {
@@ -7833,7 +7843,7 @@
       "10": 0,
       "11": 46,
       "12": 45,
-      "13": 29,
+      "13": 37,
       "14": 215,
       "15": 107,
       "16": 436,
@@ -7851,7 +7861,7 @@
       "Mon": 498,
       "Tue": 157,
       "Wed": 901,
-      "Thu": 173,
+      "Thu": 181,
       "Fri": 792,
       "Sat": 0,
       "Sun": 287
@@ -7860,6 +7870,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Apps.md\"> Apps </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Apps.md\"> Apps </a>",
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
@@ -7909,10 +7920,11 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Why you need to step out of your comfort zone.md\"> Why you need to step out of your comfort zone </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Increase your productivity with outsourcing and SOPs.md\"> Increase your productivity with outsourcing and SOPs </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Increase your productivity with outsourcing and SOPs.md\"> Increase your productivity with outsourcing and SOPs </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"SlipBox/Node Package Manager - npm.md\"> Node Package Manager - npm </a>",
+        "<a class=\"internal-link\" href=\"SlipBox/Command Line Tools.md\"> Command Line Tools </a>",
         "<a class=\"internal-link\" href=\"SlipBox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Day Planners/Day Planner-20210826.md\"> Day Planner-20210826 </a>",
         "<a class=\"internal-link\" href=\"Meta/Untitled.md\"> Untitled </a>",
@@ -7961,11 +7973,11 @@
         "<a class=\"internal-link\" href=\"Glossary/Wisdom.md\"> Wisdom </a>",
         "<a class=\"internal-link\" href=\"Glossary/Kanban.md\"> Kanban </a>",
         "<a class=\"internal-link\" href=\"Glossary/Gyroscope.md\"> Gyroscope </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Taxonomy.md\"> Taxonomy </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Ontology.md\"> Ontology </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Fleeting.md\"> Fleeting </a>"
+        "<a class=\"internal-link\" href=\"Glossary/Taxonomy.md\"> Taxonomy </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Reference/Node Package Manager - npm.md\"> Node Package Manager - npm </a>",
+        "<a class=\"internal-link\" href=\"Reference/Command Line Tools.md\"> Command Line Tools </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"Reference/Apps.md\"> Apps </a>",
         "<a class=\"internal-link\" href=\"SlipBox/System Design Primer.md\"> System Design Primer </a>",
@@ -8014,11 +8026,10 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Tips and Tricks.md\"> RStudio Tips and Tricks </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Package Managers.md\"> Package Managers </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Mozilla Firefox.md\"> Mozilla Firefox </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Microsoft Edge.md\"> Microsoft Edge </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Memory in R.md\"> Memory in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Memory in R.md\"> Memory in R </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Microsoft Edge.md\"> Microsoft Edge </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"SlipBox/Check Internet Speed with Command Line.md\"> Check Internet Speed with Command Line </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-26.md\"> 2021-08-26 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/25-08-2021.md\"> 25-08-2021 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/08-25-2021.md\"> 08-25-2021 </a>",
@@ -8068,8 +8079,7 @@
         "<a class=\"internal-link\" href=\"Glossary/Hierarchy.md\"> Hierarchy </a>",
         "<a class=\"internal-link\" href=\"Glossary/Archive.md\"> Archive </a>",
         "<a class=\"internal-link\" href=\"Glossary/Catalogue.md\"> Catalogue </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Deduction.md\"> Deduction </a>",
-        "<a class=\"internal-link\" href=\"Tags.md\"> Tags </a>"
+        "<a class=\"internal-link\" href=\"Glossary/Deduction.md\"> Deduction </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -8140,6 +8150,8 @@
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"SlipBox/Check Internet Speed with Command Line.md\"> Check Internet Speed with Command Line </a>",
+        "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-26.md\"> 2021-08-26 </a>",
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Apps.md\"> Apps </a>",
@@ -8187,9 +8199,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Use Sysprep in Windows.md\"> How to Use Sysprep in Windows </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Classification of Note Types.md\"> Classification of Note Types </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Developer Environment.md\"> Windows Developer Environment </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

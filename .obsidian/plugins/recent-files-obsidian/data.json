@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Computer Setup",
+      "path": "SlipBox/Computer Setup.md"
+    },
+    {
       "basename": "Check Internet Speed with Command Line",
       "path": "SlipBox/Check Internet Speed with Command Line.md"
+    },
+    {
+      "basename": "Node Package Manager - npm",
+      "path": "Reference/Node Package Manager - npm.md"
+    },
+    {
+      "basename": "Command Line Tools",
+      "path": "Reference/Command Line Tools.md"
     },
     {
       "basename": "Day Planner-20210826",
@@ -187,14 +199,6 @@
     {
       "basename": "Psychology",
       "path": "Glossary/Psychology.md"
-    },
-    {
-      "basename": "Cognitive",
-      "path": "Glossary/Cognitive.md"
-    },
-    {
-      "basename": "Wisdom",
-      "path": "Glossary/Wisdom.md"
     }
   ],
   "omittedPaths": [],

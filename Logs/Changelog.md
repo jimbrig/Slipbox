@@ -1,4 +1,7 @@
-- 2021-08-26 at 12h30 · [[Check Internet Speed with Command Line]]
+- 2021-08-26 at 13h26 · [[Computer Setup]]
+- 2021-08-26 at 13h25 · [[Node Package Manager - npm]]
+- 2021-08-26 at 13h25 · [[Command Line Tools]]
+- 2021-08-26 at 13h25 · [[Check Internet Speed with Command Line]]
 - 2021-08-26 at 12h27 · [[Day Planner-20210826]]
 - 2021-08-26 at 12h25 · [[2021-08-26]]
 - 2021-08-26 at 12h25 · [[Daily-Note-Template]]
