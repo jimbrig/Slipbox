@@ -1,3 +1,5 @@
+- 2021-08-26 at 12h21 · [[Daily-Note-Template]]
+- 2021-08-26 at 12h19 · [[README]]
 - 2021-08-26 at 11h51 · [[2021-08-26]]
 - 2021-08-25 at 18h05 · [[Apps]]
 - 2021-08-25 at 15h01 · [[Obsidian Vault Setup]]
@@ -7,7 +9,6 @@
 - 2021-08-25 at 14h50 · [[08-25-2021]]
 - 2021-08-25 at 14h49 · [[2021-08-13]]
 - 2021-08-25 at 14h49 · [[25-08-2021]]
-- 2021-08-25 at 14h47 · [[Daily-Note-Template]]
 - 2021-08-25 at 14h47 · [[Algorithm]]
 - 2021-08-25 at 14h30 · [[Default-Note-Template]]
 - 2021-08-25 at 14h28 · [[The Roles of a Personal Knowledge Manager]]

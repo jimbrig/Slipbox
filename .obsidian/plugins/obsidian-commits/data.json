@@ -1085,9 +1085,9 @@
       "links": 30
     },
     "README.md": {
-      "size": 200,
-      "tags": 2,
-      "links": 5
+      "size": 0,
+      "tags": 0,
+      "links": 0
     },
     "Productivity/zettelkasten.md": {
       "size": 4071,
@@ -7502,11 +7502,11 @@
     "Logs/Changelog.md": {
       "size": 2347,
       "tags": 0,
-      "links": 61
+      "links": 62
     },
     "Templates/Daily-Note-Template.md": {
       "size": 0,
-      "tags": 1,
+      "tags": 0,
       "links": 2
     },
     "Templates/Default-Note-Template.md": {
@@ -7709,65 +7709,10 @@
       "tags": 1,
       "links": 0
     },
-    "AutoHotKey Scripts.md": {
-      "size": 59511,
-      "tags": 8,
-      "links": 13
-    },
-    "010-Development-MOC.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 0
-    },
-    "000-INDEX.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "020-Productivity-MOC.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 0
-    },
-    "030-Tools-MOC.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 0
-    },
-    "040-Computer-MOC.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 0
-    },
     "Meta/Obsidian Vault Setup.md": {
       "size": 0,
       "tags": 1,
       "links": 9
-    },
-    "Backend Web Architecture.md": {
-      "size": 9838,
-      "tags": 4,
-      "links": 13
-    },
-    "System Design Primer.md": {
-      "size": 4412,
-      "tags": 3,
-      "links": 4
-    },
-    "Database GUIs.md": {
-      "size": 3811,
-      "tags": 3,
-      "links": 0
-    },
-    "How to Resolve PIN Issues in Windows.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 2
-    },
-    "Run Commands as Another User Account - RUNAS.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
     },
     "Daily-Notes/2021-08-24.md": {
       "size": 394,
@@ -7799,22 +7744,77 @@
       "tags": 0,
       "links": 0
     },
-    "Daily-Notes/Apps.md": {
-      "size": 23078,
-      "tags": 0,
-      "links": 5
-    },
     "Daily-Notes/2021-08-26.md": {
       "size": 0,
       "tags": 1,
       "links": 2
+    },
+    "MOCs/000-INDEX.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "MOCs/010-Development-MOC.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 0
+    },
+    "MOCs/020-Productivity-MOC.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 0
+    },
+    "MOCs/030-Tools-MOC.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 0
+    },
+    "MOCs/040-Computer-MOC.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 0
+    },
+    "SlipBox/AutoHotKey Scripts.md": {
+      "size": 59511,
+      "tags": 8,
+      "links": 13
+    },
+    "SlipBox/Backend Web Architecture.md": {
+      "size": 9838,
+      "tags": 4,
+      "links": 13
+    },
+    "SlipBox/Database GUIs.md": {
+      "size": 3811,
+      "tags": 3,
+      "links": 0
+    },
+    "SlipBox/How to Resolve PIN Issues in Windows.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 2
+    },
+    "SlipBox/Run Commands as Another User Account - RUNAS.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "SlipBox/System Design Primer.md": {
+      "size": 4412,
+      "tags": 3,
+      "links": 4
+    },
+    "Reference/Apps.md": {
+      "size": 23078,
+      "tags": 0,
+      "links": 5
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 968,
-      "Create": 771,
-      "Link": 936,
+      "Refactor": 982,
+      "Create": 772,
+      "Link": 937,
       "Expand": 112
     }
   },
@@ -7832,7 +7832,7 @@
       "9": 0,
       "10": 0,
       "11": 46,
-      "12": 24,
+      "12": 40,
       "13": 29,
       "14": 215,
       "15": 107,
@@ -7851,7 +7851,7 @@
       "Mon": 498,
       "Tue": 157,
       "Wed": 901,
-      "Thu": 152,
+      "Thu": 168,
       "Fri": 792,
       "Sat": 0,
       "Sun": 287
@@ -7913,6 +7913,7 @@
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Meta/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-26.md\"> 2021-08-26 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"test.md\"> test </a>",
@@ -7962,10 +7963,22 @@
         "<a class=\"internal-link\" href=\"Glossary/Ontology.md\"> Ontology </a>",
         "<a class=\"internal-link\" href=\"Glossary/Fleeting.md\"> Fleeting </a>",
         "<a class=\"internal-link\" href=\"Glossary/Ephemeral.md\"> Ephemeral </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Derivation.md\"> Derivation </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Deduction.md\"> Deduction </a>"
+        "<a class=\"internal-link\" href=\"Glossary/Derivation.md\"> Derivation </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Reference/Apps.md\"> Apps </a>",
+        "<a class=\"internal-link\" href=\"SlipBox/System Design Primer.md\"> System Design Primer </a>",
+        "<a class=\"internal-link\" href=\"SlipBox/Run Commands as Another User Account - RUNAS.md\"> Run Commands as Another User Account - RUNAS </a>",
+        "<a class=\"internal-link\" href=\"SlipBox/How to Resolve PIN Issues in Windows.md\"> How to Resolve PIN Issues in Windows </a>",
+        "<a class=\"internal-link\" href=\"SlipBox/Database GUIs.md\"> Database GUIs </a>",
+        "<a class=\"internal-link\" href=\"SlipBox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
+        "<a class=\"internal-link\" href=\"SlipBox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
+        "<a class=\"internal-link\" href=\"MOCs/040-Computer-MOC.md\"> 040-Computer-MOC </a>",
+        "<a class=\"internal-link\" href=\"MOCs/030-Tools-MOC.md\"> 030-Tools-MOC </a>",
+        "<a class=\"internal-link\" href=\"MOCs/020-Productivity-MOC.md\"> 020-Productivity-MOC </a>",
+        "<a class=\"internal-link\" href=\"MOCs/010-Development-MOC.md\"> 010-Development-MOC </a>",
+        "<a class=\"internal-link\" href=\"MOCs/000-INDEX.md\"> 000-INDEX </a>",
         "<a class=\"internal-link\" href=\"SlipBox/The Roles of a Personal Knowledge Manager.md\"> The Roles of a Personal Knowledge Manager </a>",
         "<a class=\"internal-link\" href=\"How to Resolve PIN Issues in Windows.md\"> How to Resolve PIN Issues in Windows </a>",
         "<a class=\"internal-link\" href=\"Backend Web Architecture.md\"> Backend Web Architecture </a>",
@@ -8003,20 +8016,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Mozilla Firefox.md\"> Mozilla Firefox </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Microsoft Edge.md\"> Microsoft Edge </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Memory in R.md\"> Memory in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Memory in R.md\"> Memory in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Information Overload.md\"> Information Overload </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/GTD - Desired Outcome.md\"> GTD - Desired Outcome </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Google Chrome.md\"> Google Chrome </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Collectors Fallacy.md\"> Collectors Fallacy </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Cloud Hosted Environments.md\"> Cloud Hosted Environments </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Building a Second Brain.md\"> Building a Second Brain </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/You Need a Status Page.md\"> You Need a Status Page </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/You Need a Blog.md\"> You Need a Blog </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Why you need to step out of your comfort zone.md\"> Why you need to step out of your comfort zone </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/What Gets Measured, Gets Managed.md\"> What Gets Measured, Gets Managed </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Memory in R.md\"> Memory in R </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-26.md\"> 2021-08-26 </a>",
@@ -8139,6 +8139,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Ruby.md\"> Ruby </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-26.md\"> 2021-08-26 </a>",
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Apps.md\"> Apps </a>",
@@ -8188,8 +8189,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Classification of Note Types.md\"> Classification of Note Types </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Developer Environment.md\"> Windows Developer Environment </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Ansible for the Windows System Admin.md\"> Ansible for the Windows System Admin </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Developer Environment.md\"> Windows Developer Environment </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -8216,7 +8216,8 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Plumber Logging.md\"> Plumber Logging </a>",
         "<a class=\"internal-link\" href=\"Meta/Tags.md\"> Tags </a>",
-        "<a class=\"internal-link\" href=\"Meta/Obsidian Vault Setup.md\"> Obsidian Vault Setup </a>"
+        "<a class=\"internal-link\" href=\"Meta/Obsidian Vault Setup.md\"> Obsidian Vault Setup </a>",
+        "<a class=\"internal-link\" href=\"Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>"
       ],
       "Removed Links from": [
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",

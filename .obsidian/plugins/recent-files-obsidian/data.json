@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "2021-08-26",
-      "path": "Daily-Notes/2021-08-26.md"
+      "basename": "Daily-Note-Template",
+      "path": "Templates/Daily-Note-Template.md"
+    },
+    {
+      "basename": "Default-Note-Template",
+      "path": "Templates/Default-Note-Template.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "Apps",
-      "path": "Daily-Notes/Apps.md"
+      "path": "Reference/Apps.md"
+    },
+    {
+      "basename": "Obsidian Vault Setup",
+      "path": "Meta/Obsidian Vault Setup.md"
+    },
+    {
+      "basename": "2021-08-26",
+      "path": "Daily-Notes/2021-08-26.md"
     },
     {
       "basename": "2021-08-25",
@@ -15,10 +31,6 @@
     {
       "basename": "Tags",
       "path": "Meta/Tags.md"
-    },
-    {
-      "basename": "Obsidian Vault Setup",
-      "path": "Meta/Obsidian Vault Setup.md"
     },
     {
       "basename": "The Roles of a Personal Knowledge Manager",
@@ -37,10 +49,6 @@
       "path": "Glossary/Algorithm.md"
     },
     {
-      "basename": "Daily-Note-Template",
-      "path": "Templates/Daily-Note-Template.md"
-    },
-    {
       "basename": "25-08-2021",
       "path": "Daily-Notes/25-08-2021.md"
     },
@@ -53,52 +61,48 @@
       "path": "Daily-Notes/2021-08-24.md"
     },
     {
-      "basename": "Default-Note-Template",
-      "path": "Templates/Default-Note-Template.md"
-    },
-    {
       "basename": "000-INDEX",
-      "path": "000-INDEX.md"
+      "path": "MOCs/000-INDEX.md"
     },
     {
       "basename": "AutoHotKey Scripts",
-      "path": "AutoHotKey Scripts.md"
+      "path": "SlipBox/AutoHotKey Scripts.md"
     },
     {
       "basename": "040-Computer-MOC",
-      "path": "040-Computer-MOC.md"
+      "path": "MOCs/040-Computer-MOC.md"
     },
     {
       "basename": "030-Tools-MOC",
-      "path": "030-Tools-MOC.md"
+      "path": "MOCs/030-Tools-MOC.md"
     },
     {
       "basename": "020-Productivity-MOC",
-      "path": "020-Productivity-MOC.md"
+      "path": "MOCs/020-Productivity-MOC.md"
     },
     {
       "basename": "010-Development-MOC",
-      "path": "010-Development-MOC.md"
+      "path": "MOCs/010-Development-MOC.md"
     },
     {
       "basename": "System Design Primer",
-      "path": "System Design Primer.md"
+      "path": "SlipBox/System Design Primer.md"
     },
     {
       "basename": "Run Commands as Another User Account - RUNAS",
-      "path": "Run Commands as Another User Account - RUNAS.md"
+      "path": "SlipBox/Run Commands as Another User Account - RUNAS.md"
     },
     {
       "basename": "How to Resolve PIN Issues in Windows",
-      "path": "How to Resolve PIN Issues in Windows.md"
+      "path": "SlipBox/How to Resolve PIN Issues in Windows.md"
     },
     {
       "basename": "Database GUIs",
-      "path": "Database GUIs.md"
+      "path": "SlipBox/Database GUIs.md"
     },
     {
       "basename": "Backend Web Architecture",
-      "path": "Backend Web Architecture.md"
+      "path": "SlipBox/Backend Web Architecture.md"
     },
     {
       "basename": "Unlinked-Files",
@@ -195,10 +199,6 @@
     {
       "basename": "Gyroscope",
       "path": "Glossary/Gyroscope.md"
-    },
-    {
-      "basename": "Catalogue",
-      "path": "Glossary/Catalogue.md"
     }
   ],
   "omittedPaths": [],

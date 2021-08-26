@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily-Notes/2021-08-26.md",
+            "file": "Templates/Daily-Note-Template.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Source",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +72,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Notes/2021-08-26.md"
+                "file": "Templates/Daily-Note-Template.md"
               }
             }
           },
@@ -129,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Notes/2021-08-26.md",
+                "file": "Templates/Daily-Note-Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Notes/2021-08-26.md",
+                "file": "Templates/Daily-Note-Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,15 +169,15 @@
   },
   "active": "d0e468b28d63dd18",
   "lastOpenFiles": [
-    "Daily-Notes/2021-08-26.md",
+    "Templates/Daily-Note-Template.md",
+    "Templates/Default-Note-Template.md",
+    "README.md",
     "Daily-Notes/Apps.md",
+    "Meta/Untitled.md",
+    "Meta/Obsidian Vault Setup.md",
+    "Daily-Notes/2021-08-26.md",
     "Daily-Notes/Untitled.md",
     "Daily-Notes/2021-08-25.md",
-    "Meta/Tags.md",
-    "Meta/Obsidian Vault Setup.md",
-    "SlipBox/The Roles of a Personal Knowledge Manager.md",
-    "test.md",
-    "Templates/TemplaterDemo.md",
-    "Yoooo.md"
+    "Meta/Tags.md"
   ]
 }
