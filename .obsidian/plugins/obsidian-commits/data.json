@@ -7502,7 +7502,7 @@
     "Logs/Changelog.md": {
       "size": 2793,
       "tags": 0,
-      "links": 64
+      "links": 65
     },
     "Templates/Daily-Note-Template.md": {
       "size": 0,
@@ -7769,16 +7769,6 @@
       "tags": 8,
       "links": 13
     },
-    "SlipBox/Backend Web Architecture.md": {
-      "size": 9838,
-      "tags": 4,
-      "links": 13
-    },
-    "SlipBox/Database GUIs.md": {
-      "size": 3811,
-      "tags": 3,
-      "links": 0
-    },
     "SlipBox/How to Resolve PIN Issues in Windows.md": {
       "size": 0,
       "tags": 2,
@@ -7788,11 +7778,6 @@
       "size": 0,
       "tags": 0,
       "links": 0
-    },
-    "SlipBox/System Design Primer.md": {
-      "size": 4412,
-      "tags": 3,
-      "links": 4
     },
     "Reference/Apps.md": {
       "size": 23078,
@@ -7807,7 +7792,7 @@
     "SlipBox/Check Internet Speed with Command Line.md": {
       "size": 0,
       "tags": 4,
-      "links": 3
+      "links": 4
     },
     "Reference/Command Line Tools.md": {
       "size": 0,
@@ -7818,13 +7803,33 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "Reference/Computer Setup.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "Reference/Database GUIs.md": {
+      "size": 3811,
+      "tags": 3,
+      "links": 0
+    },
+    "Reference/Backend Web Architecture.md": {
+      "size": 9838,
+      "tags": 4,
+      "links": 13
+    },
+    "Reference/System Design Primer.md": {
+      "size": 4412,
+      "tags": 3,
+      "links": 4
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 987,
-      "Create": 776,
-      "Link": 940,
+      "Refactor": 991,
+      "Create": 777,
+      "Link": 942,
       "Expand": 113
     }
   },
@@ -7843,14 +7848,14 @@
       "10": 0,
       "11": 46,
       "12": 45,
-      "13": 37,
+      "13": 42,
       "14": 215,
       "15": 107,
       "16": 436,
       "17": 135,
       "18": 54,
       "19": 60,
-      "20": 38,
+      "20": 40,
       "21": 2,
       "22": 160,
       "23": 161
@@ -7861,7 +7866,7 @@
       "Mon": 498,
       "Tue": 157,
       "Wed": 901,
-      "Thu": 181,
+      "Thu": 188,
       "Fri": 792,
       "Sat": 0,
       "Sun": 287
@@ -7923,6 +7928,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Increase your productivity with outsourcing and SOPs.md\"> Increase your productivity with outsourcing and SOPs </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"SlipBox/Computer Setup.md\"> Computer Setup </a>",
         "<a class=\"internal-link\" href=\"SlipBox/Node Package Manager - npm.md\"> Node Package Manager - npm </a>",
         "<a class=\"internal-link\" href=\"SlipBox/Command Line Tools.md\"> Command Line Tools </a>",
         "<a class=\"internal-link\" href=\"SlipBox/Untitled.md\"> Untitled </a>",
@@ -7972,10 +7978,13 @@
         "<a class=\"internal-link\" href=\"Glossary/Cognitive.md\"> Cognitive </a>",
         "<a class=\"internal-link\" href=\"Glossary/Wisdom.md\"> Wisdom </a>",
         "<a class=\"internal-link\" href=\"Glossary/Kanban.md\"> Kanban </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Gyroscope.md\"> Gyroscope </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Taxonomy.md\"> Taxonomy </a>"
+        "<a class=\"internal-link\" href=\"Glossary/Gyroscope.md\"> Gyroscope </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Reference/System Design Primer.md\"> System Design Primer </a>",
+        "<a class=\"internal-link\" href=\"Reference/Backend Web Architecture.md\"> Backend Web Architecture </a>",
+        "<a class=\"internal-link\" href=\"Reference/Database GUIs.md\"> Database GUIs </a>",
+        "<a class=\"internal-link\" href=\"Reference/Computer Setup.md\"> Computer Setup </a>",
         "<a class=\"internal-link\" href=\"Reference/Node Package Manager - npm.md\"> Node Package Manager - npm </a>",
         "<a class=\"internal-link\" href=\"Reference/Command Line Tools.md\"> Command Line Tools </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
@@ -8022,11 +8031,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WinSCP.md\"> WinSCP </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Virtual Machines.md\"> Virtual Machines </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Time Block Planner.md\"> Time Block Planner </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Static Site Generators.md\"> Static Site Generators </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Tips and Tricks.md\"> RStudio Tips and Tricks </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Package Managers.md\"> Package Managers </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Mozilla Firefox.md\"> Mozilla Firefox </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Microsoft Edge.md\"> Microsoft Edge </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Static Site Generators.md\"> Static Site Generators </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"SlipBox/Check Internet Speed with Command Line.md\"> Check Internet Speed with Command Line </a>",
@@ -8152,6 +8157,8 @@
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"SlipBox/Check Internet Speed with Command Line.md\"> Check Internet Speed with Command Line </a>",
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"SlipBox/Check Internet Speed with Command Line.md\"> Check Internet Speed with Command Line </a>",
+        "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-26.md\"> 2021-08-26 </a>",
         "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Apps.md\"> Apps </a>",
@@ -8197,9 +8204,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/How to Use Sysprep in Windows.md\"> How to Use Sysprep in Windows </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to Use Sysprep in Windows.md\"> How to Use Sysprep in Windows </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

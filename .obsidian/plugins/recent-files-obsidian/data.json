@@ -1,32 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Computer Setup",
-      "path": "SlipBox/Computer Setup.md"
+      "basename": "Day Planner-20210826",
+      "path": "Day Planners/Day Planner-20210826.md"
+    },
+    {
+      "basename": "2021-08-26",
+      "path": "Daily-Notes/2021-08-26.md"
+    },
+    {
+      "basename": "AutoHotKey Scripts",
+      "path": "SlipBox/AutoHotKey Scripts.md"
     },
     {
       "basename": "Check Internet Speed with Command Line",
       "path": "SlipBox/Check Internet Speed with Command Line.md"
     },
     {
-      "basename": "Node Package Manager - npm",
-      "path": "Reference/Node Package Manager - npm.md"
+      "basename": "How to Resolve PIN Issues in Windows",
+      "path": "SlipBox/How to Resolve PIN Issues in Windows.md"
+    },
+    {
+      "basename": "Run Commands as Another User Account - RUNAS",
+      "path": "SlipBox/Run Commands as Another User Account - RUNAS.md"
+    },
+    {
+      "basename": "The Roles of a Personal Knowledge Manager",
+      "path": "SlipBox/The Roles of a Personal Knowledge Manager.md"
+    },
+    {
+      "basename": "Backend Web Architecture",
+      "path": "Reference/Backend Web Architecture.md"
+    },
+    {
+      "basename": "Computer Setup",
+      "path": "Reference/Computer Setup.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "Command Line Tools",
       "path": "Reference/Command Line Tools.md"
     },
     {
-      "basename": "Day Planner-20210826",
-      "path": "Day Planners/Day Planner-20210826.md"
-    },
-    {
       "basename": "Apps",
       "path": "Reference/Apps.md"
     },
     {
-      "basename": "2021-08-26",
-      "path": "Daily-Notes/2021-08-26.md"
+      "basename": "Changelog",
+      "path": "Logs/Changelog.md"
+    },
+    {
+      "basename": "Node Package Manager - npm",
+      "path": "Reference/Node Package Manager - npm.md"
     },
     {
       "basename": "Daily-Note-Template",
@@ -35,10 +63,6 @@
     {
       "basename": "Default-Note-Template",
       "path": "Templates/Default-Note-Template.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Obsidian Vault Setup",
@@ -51,10 +75,6 @@
     {
       "basename": "Tags",
       "path": "Meta/Tags.md"
-    },
-    {
-      "basename": "The Roles of a Personal Knowledge Manager",
-      "path": "SlipBox/The Roles of a Personal Knowledge Manager.md"
     },
     {
       "basename": "TemplaterDemo",
@@ -81,10 +101,6 @@
       "path": "MOCs/000-INDEX.md"
     },
     {
-      "basename": "AutoHotKey Scripts",
-      "path": "SlipBox/AutoHotKey Scripts.md"
-    },
-    {
       "basename": "040-Computer-MOC",
       "path": "MOCs/040-Computer-MOC.md"
     },
@@ -102,23 +118,11 @@
     },
     {
       "basename": "System Design Primer",
-      "path": "SlipBox/System Design Primer.md"
-    },
-    {
-      "basename": "Run Commands as Another User Account - RUNAS",
-      "path": "SlipBox/Run Commands as Another User Account - RUNAS.md"
-    },
-    {
-      "basename": "How to Resolve PIN Issues in Windows",
-      "path": "SlipBox/How to Resolve PIN Issues in Windows.md"
+      "path": "Reference/System Design Primer.md"
     },
     {
       "basename": "Database GUIs",
-      "path": "SlipBox/Database GUIs.md"
-    },
-    {
-      "basename": "Backend Web Architecture",
-      "path": "SlipBox/Backend Web Architecture.md"
+      "path": "Reference/Database GUIs.md"
     },
     {
       "basename": "Unlinked-Files",
@@ -127,10 +131,6 @@
     {
       "basename": "Unresolved-Links",
       "path": "Logs/Unresolved-Links.md"
-    },
-    {
-      "basename": "Changelog",
-      "path": "Logs/Changelog.md"
     },
     {
       "basename": "Explicit",

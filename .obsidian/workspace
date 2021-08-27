@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SlipBox/Computer Setup.md",
+            "file": "Day Planners/Day Planner-20210826.md",
             "mode": "source"
           }
         }
@@ -103,24 +103,58 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SlipBox/Computer Setup.md"
+                "file": "Day Planners/Day Planner-20210826.md"
               }
             }
           },
           {
-            "id": "07ce1c8eeae00245",
+            "id": "d1284b783d53b738",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "calendar",
               "state": {}
             }
-          },
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "ceae8cb243c6e03a",
+        "type": "tabs",
+        "children": [
           {
-            "id": "2181aae3bb82e615",
+            "id": "694d5abf1bfcda4b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "localgraph",
+              "state": {
+                "file": "Day Planners/Day Planner-20210826.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -2.4,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7132754626224423,
+                  "close": true
+                }
+              }
             }
           },
           {
@@ -129,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SlipBox/Computer Setup.md",
+                "file": "Day Planners/Day Planner-20210826.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,37 +180,29 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SlipBox/Computer Setup.md",
+                "file": "Day Planners/Day Planner-20210826.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "d1284b783d53b738",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 453
   },
   "active": "d0e468b28d63dd18",
   "lastOpenFiles": [
-    "SlipBox/Computer Setup.md",
-    "SlipBox/Check Internet Speed with Command Line.md",
-    "SlipBox/Node Package Manager - npm.md",
-    "SlipBox/Command Line Tools.md",
-    "SlipBox/Untitled.md",
-    "Daily-Notes/25-08-2021.md",
-    "Daily-Notes/08-25-2021.md",
     "Day Planners/Day Planner-20210826.md",
-    "Reference/Apps.md",
-    "Daily-Notes/2021-08-26.md"
+    "Daily-Notes/2021-08-26.md",
+    "SlipBox/AutoHotKey Scripts.md",
+    "SlipBox/Check Internet Speed with Command Line.md",
+    "SlipBox/How to Resolve PIN Issues in Windows.md",
+    "SlipBox/Run Commands as Another User Account - RUNAS.md",
+    "SlipBox/The Roles of a Personal Knowledge Manager.md",
+    "SlipBox/Backend Web Architecture.md",
+    "SlipBox/Computer Setup.md",
+    "README.md"
   ]
 }

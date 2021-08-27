@@ -19,6 +19,10 @@ npm install -g speed-test
 speed-test
 ```
 
+Result:
+
+![[Pasted image 20210826132647.png]]
+
 ---
 
 **Tags**:: #Topic/Tools | #Topic/Computer | #Topic/Development/CMD   
