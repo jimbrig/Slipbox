@@ -1,0 +1,407 @@
+{
+  "recentFiles": [
+    {
+<<<<<<< Updated upstream
+      "basename": "Day Planner-20210826",
+      "path": "Day Planners/Day Planner-20210826.md"
+    },
+    {
+      "basename": "2021-08-26",
+      "path": "Daily-Notes/2021-08-26.md"
+    },
+    {
+      "basename": "AutoHotKey Scripts",
+      "path": "SlipBox/AutoHotKey Scripts.md"
+    },
+    {
+      "basename": "Check Internet Speed with Command Line",
+      "path": "SlipBox/Check Internet Speed with Command Line.md"
+    },
+    {
+      "basename": "How to Resolve PIN Issues in Windows",
+      "path": "SlipBox/How to Resolve PIN Issues in Windows.md"
+    },
+    {
+      "basename": "Run Commands as Another User Account - RUNAS",
+      "path": "SlipBox/Run Commands as Another User Account - RUNAS.md"
+    },
+    {
+      "basename": "The Roles of a Personal Knowledge Manager",
+      "path": "SlipBox/The Roles of a Personal Knowledge Manager.md"
+    },
+    {
+      "basename": "Backend Web Architecture",
+      "path": "Reference/Backend Web Architecture.md"
+    },
+    {
+      "basename": "Computer Setup",
+      "path": "Reference/Computer Setup.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Command Line Tools",
+      "path": "Reference/Command Line Tools.md"
+    },
+    {
+      "basename": "Apps",
+      "path": "Reference/Apps.md"
+    },
+    {
+      "basename": "Changelog",
+      "path": "Logs/Changelog.md"
+    },
+    {
+      "basename": "Node Package Manager - npm",
+      "path": "Reference/Node Package Manager - npm.md"
+    },
+    {
+      "basename": "Daily-Note-Template",
+      "path": "Templates/Daily-Note-Template.md"
+    },
+    {
+      "basename": "Default-Note-Template",
+      "path": "Templates/Default-Note-Template.md"
+    },
+    {
+      "basename": "Obsidian Vault Setup",
+      "path": "Meta/Obsidian Vault Setup.md"
+    },
+    {
+      "basename": "2021-08-25",
+      "path": "Daily-Notes/2021-08-25.md"
+    },
+    {
+      "basename": "Tags",
+      "path": "Meta/Tags.md"
+    },
+    {
+      "basename": "TemplaterDemo",
+      "path": "Templates/TemplaterDemo.md"
+    },
+    {
+      "basename": "Archive",
+      "path": "Glossary/Archive.md"
+    },
+    {
+      "basename": "Algorithm",
+      "path": "Glossary/Algorithm.md"
+    },
+    {
+      "basename": "2021-08-13",
+      "path": "Daily-Notes/2021-08-13.md"
+    },
+    {
+      "basename": "2021-08-24",
+      "path": "Daily-Notes/2021-08-24.md"
+    },
+    {
+      "basename": "000-INDEX",
+      "path": "MOCs/000-INDEX.md"
+    },
+    {
+      "basename": "040-Computer-MOC",
+      "path": "MOCs/040-Computer-MOC.md"
+    },
+    {
+      "basename": "030-Tools-MOC",
+      "path": "MOCs/030-Tools-MOC.md"
+    },
+    {
+      "basename": "020-Productivity-MOC",
+      "path": "MOCs/020-Productivity-MOC.md"
+    },
+    {
+      "basename": "010-Development-MOC",
+      "path": "MOCs/010-Development-MOC.md"
+    },
+    {
+      "basename": "System Design Primer",
+      "path": "Reference/System Design Primer.md"
+    },
+    {
+      "basename": "Database GUIs",
+      "path": "Reference/Database GUIs.md"
+    },
+    {
+      "basename": "Unlinked-Files",
+      "path": "Logs/Unlinked-Files.md"
+    },
+    {
+      "basename": "Unresolved-Links",
+      "path": "Logs/Unresolved-Links.md"
+    },
+    {
+      "basename": "Explicit",
+      "path": "Glossary/Explicit.md"
+    },
+    {
+      "basename": "Comprehensive",
+      "path": "Glossary/Comprehensive.md"
+    },
+    {
+      "basename": "Schema",
+      "path": "Glossary/Schema.md"
+    },
+    {
+      "basename": "Constative",
+      "path": "Glossary/Constative.md"
+    },
+    {
+      "basename": "Declarative",
+      "path": "Glossary/Declarative.md"
+    },
+    {
+      "basename": "Classification",
+      "path": "Glossary/Classification.md"
+    },
+    {
+      "basename": "Perception",
+      "path": "Glossary/Perception.md"
+    },
+    {
+      "basename": "Transitive",
+      "path": "Glossary/Transitive.md"
+    },
+    {
+      "basename": "Semantic",
+      "path": "Glossary/Semantic.md"
+    },
+    {
+      "basename": "Fallacy",
+      "path": "Glossary/Fallacy.md"
+    },
+    {
+      "basename": "Curation",
+      "path": "Glossary/Curation.md"
+    },
+    {
+      "basename": "Cognition",
+      "path": "Glossary/Cognition.md"
+    },
+    {
+      "basename": "Consciousness",
+      "path": "Glossary/Consciousness.md"
+    },
+    {
+      "basename": "Emergence",
+      "path": "Glossary/Emergence.md"
+    },
+    {
+      "basename": "Quantum",
+      "path": "Glossary/Quantum.md"
+    },
+    {
+      "basename": "Physics",
+      "path": "Glossary/Physics.md"
+    },
+    {
+      "basename": "Psychology",
+      "path": "Glossary/Psychology.md"
+=======
+      "basename": "020 - Development",
+      "path": "1-Maps-of-Content/020 - Development.md"
+    },
+    {
+      "basename": "Windows Registry Paths and Keys",
+      "path": "2-Slipbox/Windows Registry Paths and Keys.md"
+    },
+    {
+      "basename": "Windows Registry",
+      "path": "2-Slipbox/Windows Registry.md"
+    },
+    {
+      "basename": "Windows Developer Environment",
+      "path": "2-Slipbox/Windows Developer Environment.md"
+    },
+    {
+      "basename": "Using diskusage Command in Windows",
+      "path": "2-Slipbox/Using diskusage Command in Windows.md"
+    },
+    {
+      "basename": "Keyboard shortcuts for Gmail - Gmail Help",
+      "path": "3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md"
+    },
+    {
+      "basename": "Keyboard shortcuts for Gmail - Computer",
+      "path": "2-Slipbox/Keyboard shortcuts for Gmail - Computer.md"
+    },
+    {
+      "basename": "How to Cleanup Windows from Command Line",
+      "path": "2-Slipbox/How to Cleanup Windows from Command Line.md"
+    },
+    {
+      "basename": "How To Change Explorer Drive Icons via Registry",
+      "path": "2-Slipbox/How To Change Explorer Drive Icons via Registry.md"
+    },
+    {
+      "basename": "Dotfiles Tools",
+      "path": "2-Slipbox/Dotfiles Tools.md"
+    },
+    {
+      "basename": "Docker Best Practices",
+      "path": "2-Slipbox/Docker Best Practices.md"
+    },
+    {
+      "basename": "Ansible for the Windows System Admin",
+      "path": "3-Reference/Ansible for the Windows System Admin.md"
+    },
+    {
+      "basename": "Reset Windows Graphics Drivers with a Hotkey",
+      "path": "0-Inbox/Reset Windows Graphics Drivers with a Hotkey.md"
+    },
+    {
+      "basename": "Ludicrously Complex Projects in Software Development",
+      "path": "2-Slipbox/Ludicrously Complex Projects in Software Development.md"
+    },
+    {
+      "basename": "Database Documentation",
+      "path": "2-Slipbox/Database Documentation.md"
+    },
+    {
+      "basename": "Tools - Resilio Sync",
+      "path": "2-Slipbox/Tools - Resilio Sync.md"
+    },
+    {
+      "basename": "MOC - Setup",
+      "path": "1-Maps-of-Content/MOC - Setup.md"
+    },
+    {
+      "basename": "Highlights - Why We Sleep",
+      "path": "3-Resources/Highlights/Highlights - Why We Sleep.md"
+    },
+    {
+      "basename": "Highlights - The Linux Command Line",
+      "path": "3-Resources/Highlights/Highlights - The Linux Command Line.md"
+    },
+    {
+      "basename": "A Builder’s Guide to Note-Taking",
+      "path": "3-Resources/Highlights/A Builder’s Guide to Note-Taking.md"
+    },
+    {
+      "basename": "README",
+      "path": "5-Projects/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Windows Security Policies - secpol.msc",
+      "path": "0-Inbox/Windows Security Policies - secpol.msc.md"
+    },
+    {
+      "basename": "Windows Setup Checklist",
+      "path": "2-Slipbox/Windows Setup Checklist.md"
+    },
+    {
+      "basename": "Windows User Dictionaries Locations",
+      "path": "3-Reference/Windows User Dictionaries Locations.md"
+    },
+    {
+      "basename": "WSL - Permissions",
+      "path": "2-Slipbox/WSL - Permissions.md"
+    },
+    {
+      "basename": "YouTube Download CLI - youtube-dl",
+      "path": "2-Slipbox/YouTube Download CLI - youtube-dl.md"
+    },
+    {
+      "basename": "Fixing Graphics Driver Issues in Windows",
+      "path": "2-Slipbox/Fixing Graphics Driver Issues in Windows.md"
+    },
+    {
+      "basename": "Cloud Run - Serverless Applications",
+      "path": "0-Inbox/Cloud Run - Serverless Applications.md"
+    },
+    {
+      "basename": "Digital Cleanup",
+      "path": "0-Inbox/Digital Cleanup.md"
+    },
+    {
+      "basename": "Cleaning Up Windows",
+      "path": "0-Inbox/Cleaning Up Windows.md"
+    },
+    {
+      "basename": "2021-09-28",
+      "path": "3-Resources/Daily-Notes/2021-09-28.md"
+    },
+    {
+      "basename": "Windows Registry",
+      "path": "0-Inbox/Windows Registry.md"
+    },
+    {
+      "basename": "MSI",
+      "path": "0-Inbox/MSI.md"
+    },
+    {
+      "basename": "2021-09-26",
+      "path": "3-Resources/Daily-Notes/2021-09-26.md"
+    },
+    {
+      "basename": "2021-09-24",
+      "path": "3-Resources/Daily-Notes/2021-09-24.md"
+    },
+    {
+      "basename": "2021-09-23",
+      "path": "3-Resources/Daily-Notes/2021-09-23.md"
+    },
+    {
+      "basename": "Windows Command Line Commands Overview",
+      "path": "2-Slipbox/Windows Command Line Commands Overview.md"
+    },
+    {
+      "basename": "Changelog",
+      "path": "4-Logs/Changelog.md"
+    },
+    {
+      "basename": "README",
+      "path": "0-Inbox/README.md"
+    },
+    {
+      "basename": "2021-09-22",
+      "path": "3-Resources/Daily-Notes/2021-09-22.md"
+    },
+    {
+      "basename": "Programming as an Actuary",
+      "path": "0-Inbox/Programming as an Actuary.md"
+    },
+    {
+      "basename": "2021-09-21",
+      "path": "3-Resources/Daily-Notes/2021-09-21.md"
+    },
+    {
+      "basename": "Movies and Shows to Watch",
+      "path": "0-Inbox/Movies and Shows to Watch.md"
+    },
+    {
+      "basename": "2021-09-14",
+      "path": "3-Resources/Daily-Notes/2021-09-14.md"
+    },
+    {
+      "basename": "Untitled go  pop 59)93,${~,|%|% goz",
+      "path": "0-Inbox/Untitled go  pop 59)93,${~,|%|% goz.md"
+    },
+    {
+      "basename": "README",
+      "path": "4-Logs/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "2-Slipbox/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "1-Maps-of-Content/README.md"
+>>>>>>> Stashed changes
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null
+}

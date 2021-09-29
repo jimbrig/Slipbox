@@ -1,0 +1,107 @@
+{
+  "choices": [
+    {
+<<<<<<< Updated upstream
+      "id": "b5d81408-0fd4-4df8-a6b5-b7392f239920",
+      "name": "📂Folder",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "223e8d23-904a-4ed2-83f8-720d6bc7ee6c",
+          "name": "📝Create Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Templates/TemplaterDemo.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [],
+            "chooseWhenCreatingNote": true,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "b2b3875e-aa7f-4ba8-be41-4946cff60743",
+          "name": "📅 Capture to Daily Note",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily-Notes/{{DATE:YYYY-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": true,
+            "createWithTemplate": true,
+            "template": "Templates/Daily-Note-Template.md"
+          },
+          "format": {
+            "enabled": true,
+            "format": "- {{DATE:HH:mm}}: {{VALUE}}\\n\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## Captures",
+            "insertAtEnd": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": false
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        }
+      ]
+    }
+  ],
+  "macros": []
+=======
+      "id": "d386e20d-93f7-4a94-bbc2-34a27121f5df",
+      "name": "default",
+      "type": "Template",
+      "command": false,
+      "templatePath": "_templates/default_note_template.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false
+      },
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical"
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFile": true
+    }
+  ],
+  "macros": [
+    {
+      "name": "template",
+      "id": "b010534d-cb01-4a97-a04f-34b5874102ed",
+      "commands": [],
+      "runOnStartup": false
+    }
+  ]
+>>>>>>> Stashed changes
+}

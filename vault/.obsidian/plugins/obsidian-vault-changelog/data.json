@@ -1,0 +1,9 @@
+{
+  "numberOfFilesToShow": 1000,
+<<<<<<< Updated upstream
+  "changelogFilePath": "Logs/Changelog.md",
+=======
+  "changelogFilePath": "4-Logs/Changelog.md",
+>>>>>>> Stashed changes
+  "watchVaultChange": true
+}

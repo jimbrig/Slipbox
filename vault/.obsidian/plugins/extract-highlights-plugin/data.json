@@ -1,0 +1,15 @@
+{
+  "headlineText": "",
+  "addFootnotes": true,
+  "useBoldForHighlights": false,
+  "createLinks": false,
+  "autoCapitalize": false,
+<<<<<<< Updated upstream
+  "createNewFile": false,
+=======
+  "createNewFile": true,
+>>>>>>> Stashed changes
+  "explodeIntoNotes": false,
+  "openExplodedNotes": false,
+  "createContextualQuotes": false
+}
