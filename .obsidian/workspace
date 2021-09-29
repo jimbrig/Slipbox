@@ -7,8 +7,16 @@
         "id": "6b099741b46df8cc",
         "type": "leaf",
         "state": {
+<<<<<<< Updated upstream
           "type": "empty",
           "state": {}
+=======
+          "type": "markdown",
+          "state": {
+            "file": "0-Inbox/Windows Security Policies - secpol.msc.md",
+            "mode": "source"
+          }
+>>>>>>> Stashed changes
         }
       },
       {
@@ -26,8 +34,16 @@
         "id": "fac0697af0e0704f",
         "type": "leaf",
         "state": {
+<<<<<<< Updated upstream
           "type": "empty",
           "state": {}
+=======
+          "type": "markdown",
+          "state": {
+            "file": "1-Maps-of-Content/020 - Development.md",
+            "mode": "source"
+          }
+>>>>>>> Stashed changes
         }
       }
     ],
@@ -108,6 +124,10 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
+=======
+                "file": "1-Maps-of-Content/020 - Development.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +144,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
+=======
+                "file": "1-Maps-of-Content/020 - Development.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +169,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+<<<<<<< Updated upstream
               "state": {}
+=======
+              "state": {
+                "file": "1-Maps-of-Content/020 - Development.md"
+              }
+>>>>>>> Stashed changes
             }
           },
           {

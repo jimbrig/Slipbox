@@ -2,6 +2,7 @@
 
 var obsidian = require('obsidian');
 
+<<<<<<< Updated upstream
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -1035,6 +1036,1041 @@ class LinksHandler {
             return res;
         });
     }
+=======
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+
+function __awaiter(thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+}
+
+const DEFAULT_SETTINGS = {
+    ignoreFolders: [".git/", ".obsidian/"],
+    renameFileTypes: ["png", "jpg", "gif"],
+    renameOnlyLinkedAttachments: true,
+    mergeTheSameAttachments: true,
+};
+class SettingTab extends obsidian.PluginSettingTab {
+    constructor(app, plugin) {
+        super(app, plugin);
+        this.plugin = plugin;
+    }
+    display() {
+        let { containerEl } = this;
+        containerEl.empty();
+        containerEl.createEl('h2', { text: 'Unique attachments - Settings' });
+        new obsidian.Setting(containerEl)
+            .setName("File types to rename")
+            .setDesc("Search and rename attachments of the listed file types. Write types separated by comma.")
+            .addTextArea(cb => cb
+            .setPlaceholder("Example: jpg,png,gif")
+            .setValue(this.plugin.settings.renameFileTypes.join(","))
+            .onChange((value) => {
+            let extensions = value.trim().split(",");
+            this.plugin.settings.renameFileTypes = extensions;
+            this.plugin.saveSettings();
+        }));
+        new obsidian.Setting(containerEl)
+            .setName("Ignore folders")
+            .setDesc("Do not search or rename attachments in these folders. Write each folder on a new line.")
+            .addTextArea(cb => cb
+            .setPlaceholder("Example:\n.git/\n.obsidian/")
+            .setValue(this.plugin.settings.ignoreFolders.join("\n"))
+            .onChange((value) => {
+            let paths = value.trim().split("\n").map(value => this.getNormalizedPath(value) + "/");
+            this.plugin.settings.ignoreFolders = paths;
+            this.plugin.saveSettings();
+        }));
+        new obsidian.Setting(containerEl)
+            .setName('Rename only linked attachments')
+            .setDesc('Rename only attachments that are used in notes. If disabled, all found files will be renamed.')
+            .addToggle(cb => cb.onChange(value => {
+            this.plugin.settings.renameOnlyLinkedAttachments = value;
+            this.plugin.saveSettings();
+        }).setValue(this.plugin.settings.renameOnlyLinkedAttachments));
+        new obsidian.Setting(containerEl)
+            .setName('Delete duplicates')
+            .setDesc('If several files in the same folder have identical contents then delete duplicates. Otherwise, the file will be ignored (not renamed).')
+            .addToggle(cb => cb.onChange(value => {
+            this.plugin.settings.mergeTheSameAttachments = value;
+            this.plugin.saveSettings();
+        }).setValue(this.plugin.settings.mergeTheSameAttachments));
+    }
+    getNormalizedPath(path) {
+        return path.length == 0 ? path : obsidian.normalizePath(path);
+    }
+}
+
+class Utils {
+    static delay(ms) {
+        return __awaiter(this, void 0, void 0, function* () {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        });
+    }
+    static normalizePathForFile(path) {
+        path = path.replace(/\\/gi, "/"); //replace \ to /
+        path = path.replace(/%20/gi, " "); //replace %20 to space
+        return path;
+    }
+    static normalizePathForLink(path) {
+        path = path.replace(/\\/gi, "/"); //replace \ to /
+        path = path.replace(/ /gi, "%20"); //replace space to %20
+        return path;
+    }
+}
+
+class path {
+    static join(...parts) {
+        if (arguments.length === 0)
+            return '.';
+        var joined;
+        for (var i = 0; i < arguments.length; ++i) {
+            var arg = arguments[i];
+            if (arg.length > 0) {
+                if (joined === undefined)
+                    joined = arg;
+                else
+                    joined += '/' + arg;
+            }
+        }
+        if (joined === undefined)
+            return '.';
+        return this.posixNormalize(joined);
+    }
+    static dirname(path) {
+        if (path.length === 0)
+            return '.';
+        var code = path.charCodeAt(0);
+        var hasRoot = code === 47 /*/*/;
+        var end = -1;
+        var matchedSlash = true;
+        for (var i = path.length - 1; i >= 1; --i) {
+            code = path.charCodeAt(i);
+            if (code === 47 /*/*/) {
+                if (!matchedSlash) {
+                    end = i;
+                    break;
+                }
+            }
+            else {
+                // We saw the first non-path separator
+                matchedSlash = false;
+            }
+        }
+        if (end === -1)
+            return hasRoot ? '/' : '.';
+        if (hasRoot && end === 1)
+            return '//';
+        return path.slice(0, end);
+    }
+    static basename(path, ext) {
+        if (ext !== undefined && typeof ext !== 'string')
+            throw new TypeError('"ext" argument must be a string');
+        var start = 0;
+        var end = -1;
+        var matchedSlash = true;
+        var i;
+        if (ext !== undefined && ext.length > 0 && ext.length <= path.length) {
+            if (ext.length === path.length && ext === path)
+                return '';
+            var extIdx = ext.length - 1;
+            var firstNonSlashEnd = -1;
+            for (i = path.length - 1; i >= 0; --i) {
+                var code = path.charCodeAt(i);
+                if (code === 47 /*/*/) {
+                    // If we reached a path separator that was not part of a set of path
+                    // separators at the end of the string, stop now
+                    if (!matchedSlash) {
+                        start = i + 1;
+                        break;
+                    }
+                }
+                else {
+                    if (firstNonSlashEnd === -1) {
+                        // We saw the first non-path separator, remember this index in case
+                        // we need it if the extension ends up not matching
+                        matchedSlash = false;
+                        firstNonSlashEnd = i + 1;
+                    }
+                    if (extIdx >= 0) {
+                        // Try to match the explicit extension
+                        if (code === ext.charCodeAt(extIdx)) {
+                            if (--extIdx === -1) {
+                                // We matched the extension, so mark this as the end of our path
+                                // component
+                                end = i;
+                            }
+                        }
+                        else {
+                            // Extension does not match, so our result is the entire path
+                            // component
+                            extIdx = -1;
+                            end = firstNonSlashEnd;
+                        }
+                    }
+                }
+            }
+            if (start === end)
+                end = firstNonSlashEnd;
+            else if (end === -1)
+                end = path.length;
+            return path.slice(start, end);
+        }
+        else {
+            for (i = path.length - 1; i >= 0; --i) {
+                if (path.charCodeAt(i) === 47 /*/*/) {
+                    // If we reached a path separator that was not part of a set of path
+                    // separators at the end of the string, stop now
+                    if (!matchedSlash) {
+                        start = i + 1;
+                        break;
+                    }
+                }
+                else if (end === -1) {
+                    // We saw the first non-path separator, mark this as the end of our
+                    // path component
+                    matchedSlash = false;
+                    end = i + 1;
+                }
+            }
+            if (end === -1)
+                return '';
+            return path.slice(start, end);
+        }
+    }
+    static extname(path) {
+        var startDot = -1;
+        var startPart = 0;
+        var end = -1;
+        var matchedSlash = true;
+        // Track the state of characters (if any) we see before our first dot and
+        // after any path separator we find
+        var preDotState = 0;
+        for (var i = path.length - 1; i >= 0; --i) {
+            var code = path.charCodeAt(i);
+            if (code === 47 /*/*/) {
+                // If we reached a path separator that was not part of a set of path
+                // separators at the end of the string, stop now
+                if (!matchedSlash) {
+                    startPart = i + 1;
+                    break;
+                }
+                continue;
+            }
+            if (end === -1) {
+                // We saw the first non-path separator, mark this as the end of our
+                // extension
+                matchedSlash = false;
+                end = i + 1;
+            }
+            if (code === 46 /*.*/) {
+                // If this is our first dot, mark it as the start of our extension
+                if (startDot === -1)
+                    startDot = i;
+                else if (preDotState !== 1)
+                    preDotState = 1;
+            }
+            else if (startDot !== -1) {
+                // We saw a non-dot and non-path separator before our dot, so we should
+                // have a good chance at having a non-empty extension
+                preDotState = -1;
+            }
+        }
+        if (startDot === -1 || end === -1 ||
+            // We saw a non-dot character immediately before the dot
+            preDotState === 0 ||
+            // The (right-most) trimmed path component is exactly '..'
+            preDotState === 1 && startDot === end - 1 && startDot === startPart + 1) {
+            return '';
+        }
+        return path.slice(startDot, end);
+    }
+    static parse(path) {
+        var ret = { root: '', dir: '', base: '', ext: '', name: '' };
+        if (path.length === 0)
+            return ret;
+        var code = path.charCodeAt(0);
+        var isAbsolute = code === 47 /*/*/;
+        var start;
+        if (isAbsolute) {
+            ret.root = '/';
+            start = 1;
+        }
+        else {
+            start = 0;
+        }
+        var startDot = -1;
+        var startPart = 0;
+        var end = -1;
+        var matchedSlash = true;
+        var i = path.length - 1;
+        // Track the state of characters (if any) we see before our first dot and
+        // after any path separator we find
+        var preDotState = 0;
+        // Get non-dir info
+        for (; i >= start; --i) {
+            code = path.charCodeAt(i);
+            if (code === 47 /*/*/) {
+                // If we reached a path separator that was not part of a set of path
+                // separators at the end of the string, stop now
+                if (!matchedSlash) {
+                    startPart = i + 1;
+                    break;
+                }
+                continue;
+            }
+            if (end === -1) {
+                // We saw the first non-path separator, mark this as the end of our
+                // extension
+                matchedSlash = false;
+                end = i + 1;
+            }
+            if (code === 46 /*.*/) {
+                // If this is our first dot, mark it as the start of our extension
+                if (startDot === -1)
+                    startDot = i;
+                else if (preDotState !== 1)
+                    preDotState = 1;
+            }
+            else if (startDot !== -1) {
+                // We saw a non-dot and non-path separator before our dot, so we should
+                // have a good chance at having a non-empty extension
+                preDotState = -1;
+            }
+        }
+        if (startDot === -1 || end === -1 ||
+            // We saw a non-dot character immediately before the dot
+            preDotState === 0 ||
+            // The (right-most) trimmed path component is exactly '..'
+            preDotState === 1 && startDot === end - 1 && startDot === startPart + 1) {
+            if (end !== -1) {
+                if (startPart === 0 && isAbsolute)
+                    ret.base = ret.name = path.slice(1, end);
+                else
+                    ret.base = ret.name = path.slice(startPart, end);
+            }
+        }
+        else {
+            if (startPart === 0 && isAbsolute) {
+                ret.name = path.slice(1, startDot);
+                ret.base = path.slice(1, end);
+            }
+            else {
+                ret.name = path.slice(startPart, startDot);
+                ret.base = path.slice(startPart, end);
+            }
+            ret.ext = path.slice(startDot, end);
+        }
+        if (startPart > 0)
+            ret.dir = path.slice(0, startPart - 1);
+        else if (isAbsolute)
+            ret.dir = '/';
+        return ret;
+    }
+    static posixNormalize(path) {
+        if (path.length === 0)
+            return '.';
+        var isAbsolute = path.charCodeAt(0) === 47 /*/*/;
+        var trailingSeparator = path.charCodeAt(path.length - 1) === 47 /*/*/;
+        // Normalize the path
+        path = this.normalizeStringPosix(path, !isAbsolute);
+        if (path.length === 0 && !isAbsolute)
+            path = '.';
+        if (path.length > 0 && trailingSeparator)
+            path += '/';
+        if (isAbsolute)
+            return '/' + path;
+        return path;
+    }
+    static normalizeStringPosix(path, allowAboveRoot) {
+        var res = '';
+        var lastSegmentLength = 0;
+        var lastSlash = -1;
+        var dots = 0;
+        var code;
+        for (var i = 0; i <= path.length; ++i) {
+            if (i < path.length)
+                code = path.charCodeAt(i);
+            else if (code === 47 /*/*/)
+                break;
+            else
+                code = 47 /*/*/;
+            if (code === 47 /*/*/) {
+                if (lastSlash === i - 1 || dots === 1) ;
+                else if (lastSlash !== i - 1 && dots === 2) {
+                    if (res.length < 2 || lastSegmentLength !== 2 || res.charCodeAt(res.length - 1) !== 46 /*.*/ || res.charCodeAt(res.length - 2) !== 46 /*.*/) {
+                        if (res.length > 2) {
+                            var lastSlashIndex = res.lastIndexOf('/');
+                            if (lastSlashIndex !== res.length - 1) {
+                                if (lastSlashIndex === -1) {
+                                    res = '';
+                                    lastSegmentLength = 0;
+                                }
+                                else {
+                                    res = res.slice(0, lastSlashIndex);
+                                    lastSegmentLength = res.length - 1 - res.lastIndexOf('/');
+                                }
+                                lastSlash = i;
+                                dots = 0;
+                                continue;
+                            }
+                        }
+                        else if (res.length === 2 || res.length === 1) {
+                            res = '';
+                            lastSegmentLength = 0;
+                            lastSlash = i;
+                            dots = 0;
+                            continue;
+                        }
+                    }
+                    if (allowAboveRoot) {
+                        if (res.length > 0)
+                            res += '/..';
+                        else
+                            res = '..';
+                        lastSegmentLength = 2;
+                    }
+                }
+                else {
+                    if (res.length > 0)
+                        res += '/' + path.slice(lastSlash + 1, i);
+                    else
+                        res = path.slice(lastSlash + 1, i);
+                    lastSegmentLength = i - lastSlash - 1;
+                }
+                lastSlash = i;
+                dots = 0;
+            }
+            else if (code === 46 /*.*/ && dots !== -1) {
+                ++dots;
+            }
+            else {
+                dots = -1;
+            }
+        }
+        return res;
+    }
+    static posixResolve(...args) {
+        var resolvedPath = '';
+        var resolvedAbsolute = false;
+        var cwd;
+        for (var i = args.length - 1; i >= -1 && !resolvedAbsolute; i--) {
+            var path;
+            if (i >= 0)
+                path = args[i];
+            else {
+                if (cwd === undefined)
+                    cwd = process.cwd();
+                path = cwd;
+            }
+            // Skip empty entries
+            if (path.length === 0) {
+                continue;
+            }
+            resolvedPath = path + '/' + resolvedPath;
+            resolvedAbsolute = path.charCodeAt(0) === 47 /*/*/;
+        }
+        // At this point the path should be resolved to a full absolute path, but
+        // handle relative paths to be safe (might happen when process.cwd() fails)
+        // Normalize the path
+        resolvedPath = this.normalizeStringPosix(resolvedPath, !resolvedAbsolute);
+        if (resolvedAbsolute) {
+            if (resolvedPath.length > 0)
+                return '/' + resolvedPath;
+            else
+                return '/';
+        }
+        else if (resolvedPath.length > 0) {
+            return resolvedPath;
+        }
+        else {
+            return '.';
+        }
+    }
+    static relative(from, to) {
+        if (from === to)
+            return '';
+        from = this.posixResolve(from);
+        to = this.posixResolve(to);
+        if (from === to)
+            return '';
+        // Trim any leading backslashes
+        var fromStart = 1;
+        for (; fromStart < from.length; ++fromStart) {
+            if (from.charCodeAt(fromStart) !== 47 /*/*/)
+                break;
+        }
+        var fromEnd = from.length;
+        var fromLen = fromEnd - fromStart;
+        // Trim any leading backslashes
+        var toStart = 1;
+        for (; toStart < to.length; ++toStart) {
+            if (to.charCodeAt(toStart) !== 47 /*/*/)
+                break;
+        }
+        var toEnd = to.length;
+        var toLen = toEnd - toStart;
+        // Compare paths to find the longest common path from root
+        var length = fromLen < toLen ? fromLen : toLen;
+        var lastCommonSep = -1;
+        var i = 0;
+        for (; i <= length; ++i) {
+            if (i === length) {
+                if (toLen > length) {
+                    if (to.charCodeAt(toStart + i) === 47 /*/*/) {
+                        // We get here if `from` is the exact base path for `to`.
+                        // For example: from='/foo/bar'; to='/foo/bar/baz'
+                        return to.slice(toStart + i + 1);
+                    }
+                    else if (i === 0) {
+                        // We get here if `from` is the root
+                        // For example: from='/'; to='/foo'
+                        return to.slice(toStart + i);
+                    }
+                }
+                else if (fromLen > length) {
+                    if (from.charCodeAt(fromStart + i) === 47 /*/*/) {
+                        // We get here if `to` is the exact base path for `from`.
+                        // For example: from='/foo/bar/baz'; to='/foo/bar'
+                        lastCommonSep = i;
+                    }
+                    else if (i === 0) {
+                        // We get here if `to` is the root.
+                        // For example: from='/foo'; to='/'
+                        lastCommonSep = 0;
+                    }
+                }
+                break;
+            }
+            var fromCode = from.charCodeAt(fromStart + i);
+            var toCode = to.charCodeAt(toStart + i);
+            if (fromCode !== toCode)
+                break;
+            else if (fromCode === 47 /*/*/)
+                lastCommonSep = i;
+        }
+        var out = '';
+        // Generate the relative path based on the path difference between `to`
+        // and `from`
+        for (i = fromStart + lastCommonSep + 1; i <= fromEnd; ++i) {
+            if (i === fromEnd || from.charCodeAt(i) === 47 /*/*/) {
+                if (out.length === 0)
+                    out += '..';
+                else
+                    out += '/..';
+            }
+        }
+        // Lastly, append the rest of the destination (`to`) path that comes after
+        // the common path parts
+        if (out.length > 0)
+            return out + to.slice(toStart + lastCommonSep);
+        else {
+            toStart += lastCommonSep;
+            if (to.charCodeAt(toStart) === 47 /*/*/)
+                ++toStart;
+            return to.slice(toStart);
+        }
+    }
+}
+
+//simple regex
+// const markdownLinkOrEmbedRegexSimple = /\[(.*?)\]\((.*?)\)/gim
+// const markdownLinkRegexSimple = /(?<!\!)\[(.*?)\]\((.*?)\)/gim;
+// const markdownEmbedRegexSimple = /\!\[(.*?)\]\((.*?)\)/gim
+// const wikiLinkOrEmbedRegexSimple = /\[\[(.*?)\]\]/gim
+// const wikiLinkRegexSimple = /(?<!\!)\[\[(.*?)\]\]/gim;
+// const wikiEmbedRegexSimple = /\!\[\[(.*?)\]\]/gim
+//with escaping \ characters
+const markdownLinkOrEmbedRegexG = /(?<!\\)\[(.*?)(?<!\\)\]\((.*?)(?<!\\)\)/gim;
+const markdownLinkRegexG = /(?<!\!)(?<!\\)\[(.*?)(?<!\\)\]\((.*?)(?<!\\)\)/gim;
+const markdownEmbedRegexG = /(?<!\\)\!\[(.*?)(?<!\\)\]\((.*?)(?<!\\)\)/gim;
+const wikiLinkOrEmbedRegexG = /(?<!\\)\[\[(.*?)(?<!\\)\]\]/gim;
+const wikiLinkRegexG = /(?<!\!)(?<!\\)\[\[(.*?)(?<!\\)\]\]/gim;
+const wikiEmbedRegexG = /(?<!\\)\!\[\[(.*?)(?<!\\)\]\]/gim;
+const markdownLinkRegex = /(?<!\!)(?<!\\)\[(.*?)(?<!\\)\]\((.*?)(?<!\\)\)/im;
+class LinksHandler {
+    constructor(app, consoleLogPrefix = "") {
+        this.app = app;
+        this.consoleLogPrefix = consoleLogPrefix;
+    }
+    checkIsCorrectMarkdownEmbed(text) {
+        let elements = text.match(markdownEmbedRegexG);
+        return (elements != null && elements.length > 0);
+    }
+    checkIsCorrectMarkdownLink(text) {
+        let elements = text.match(markdownLinkRegexG);
+        return (elements != null && elements.length > 0);
+    }
+    checkIsCorrectMarkdownEmbedOrLink(text) {
+        let elements = text.match(markdownLinkOrEmbedRegexG);
+        return (elements != null && elements.length > 0);
+    }
+    checkIsCorrectWikiEmbed(text) {
+        let elements = text.match(wikiEmbedRegexG);
+        return (elements != null && elements.length > 0);
+    }
+    checkIsCorrectWikiLink(text) {
+        let elements = text.match(wikiLinkRegexG);
+        return (elements != null && elements.length > 0);
+    }
+    checkIsCorrectWikiEmbedOrLink(text) {
+        let elements = text.match(wikiLinkOrEmbedRegexG);
+        return (elements != null && elements.length > 0);
+    }
+    getFileByLink(link, owningNotePath) {
+        let fullPath = this.getFullPathForLink(link, owningNotePath);
+        let file = this.getFileByPath(fullPath);
+        return file;
+    }
+    getFileByPath(path) {
+        path = Utils.normalizePathForFile(path);
+        let files = this.app.vault.getFiles();
+        let file = files.find(file => Utils.normalizePathForFile(file.path) === path);
+        return file;
+    }
+    getFullPathForLink(link, owningNotePath) {
+        link = Utils.normalizePathForFile(link);
+        owningNotePath = Utils.normalizePathForFile(owningNotePath);
+        let parentFolder = owningNotePath.substring(0, owningNotePath.lastIndexOf("/"));
+        let fullPath = path.join(parentFolder, link);
+        fullPath = Utils.normalizePathForFile(fullPath);
+        return fullPath;
+    }
+    getAllCachedLinksToFile(filePath) {
+        var _a;
+        let allLinks = {};
+        let notes = this.app.vault.getMarkdownFiles();
+        if (notes) {
+            for (let note of notes) {
+                //!!! this can return undefined if note was just updated
+                let links = (_a = this.app.metadataCache.getCache(note.path)) === null || _a === void 0 ? void 0 : _a.links;
+                if (links) {
+                    for (let link of links) {
+                        let linkFullPath = this.getFullPathForLink(link.link, note.path);
+                        if (linkFullPath == filePath) {
+                            if (!allLinks[note.path])
+                                allLinks[note.path] = [];
+                            allLinks[note.path].push(link);
+                        }
+                    }
+                }
+            }
+        }
+        return allLinks;
+    }
+    getAllCachedEmbedsToFile(filePath) {
+        var _a;
+        let allEmbeds = {};
+        let notes = this.app.vault.getMarkdownFiles();
+        if (notes) {
+            for (let note of notes) {
+                //!!! this can return undefined if note was just updated
+                let embeds = (_a = this.app.metadataCache.getCache(note.path)) === null || _a === void 0 ? void 0 : _a.embeds;
+                if (embeds) {
+                    for (let embed of embeds) {
+                        let linkFullPath = this.getFullPathForLink(embed.link, note.path);
+                        if (linkFullPath == filePath) {
+                            if (!allEmbeds[note.path])
+                                allEmbeds[note.path] = [];
+                            allEmbeds[note.path].push(embed);
+                        }
+                    }
+                }
+            }
+        }
+        return allEmbeds;
+    }
+    updateLinksToRenamedFile(oldNotePath, newNotePath, changelinksAlt = false) {
+        return __awaiter(this, void 0, void 0, function* () {
+            let notes = yield this.getNotesThatHaveLinkToFile(oldNotePath);
+            let links = [{ oldPath: oldNotePath, newPath: newNotePath }];
+            if (notes) {
+                for (let note of notes) {
+                    yield this.updateChangedPathsInNote(note, links, changelinksAlt);
+                }
+            }
+        });
+    }
+    updateChangedPathInNote(notePath, oldLink, newLink, changelinksAlt = false) {
+        return __awaiter(this, void 0, void 0, function* () {
+            let changes = [{ oldPath: oldLink, newPath: newLink }];
+            return yield this.updateChangedPathsInNote(notePath, changes, changelinksAlt);
+        });
+    }
+    updateChangedPathsInNote(notePath, changedLinks, changelinksAlt = false) {
+        return __awaiter(this, void 0, void 0, function* () {
+            let file = this.getFileByPath(notePath);
+            if (!file) {
+                console.error(this.consoleLogPrefix + "cant update links in note, file not found: " + notePath);
+                return;
+            }
+            let text = yield this.app.vault.read(file);
+            let dirty = false;
+            let elements = text.match(markdownLinkOrEmbedRegexG);
+            if (elements != null && elements.length > 0) {
+                for (let el of elements) {
+                    let alt = el.match(/\[(.*?)\]/)[1];
+                    let link = el.match(/\((.*?)\)/)[1];
+                    let fullLink = this.getFullPathForLink(link, notePath);
+                    for (let changedLink of changedLinks) {
+                        if (fullLink == changedLink.oldPath) {
+                            let newRelLink = path.relative(notePath, changedLink.newPath);
+                            newRelLink = Utils.normalizePathForLink(newRelLink);
+                            if (newRelLink.startsWith("../")) {
+                                newRelLink = newRelLink.substring(3);
+                            }
+                            if (changelinksAlt && newRelLink.endsWith(".md")) {
+                                let ext = path.extname(newRelLink);
+                                let baseName = path.basename(newRelLink, ext);
+                                alt = Utils.normalizePathForFile(baseName);
+                            }
+                            text = text.replace(el, '[' + alt + ']' + '(' + newRelLink + ')');
+                            dirty = true;
+                            console.log(this.consoleLogPrefix + "link updated in note [note, old link, new link]: \n   "
+                                + file.path + "\n   " + link + "\n   " + newRelLink);
+                        }
+                    }
+                }
+            }
+            if (dirty)
+                yield this.app.vault.modify(file, text);
+        });
+    }
+    updateInternalLinksInMovedNote(oldNotePath, newNotePath, attachmentsAlreadyMoved) {
+        return __awaiter(this, void 0, void 0, function* () {
+            let file = this.getFileByPath(newNotePath);
+            if (!file) {
+                console.error(this.consoleLogPrefix + "cant update internal links, file not found: " + newNotePath);
+                return;
+            }
+            let text = yield this.app.vault.read(file);
+            let dirty = false;
+            let elements = text.match(/\[.*?\)/g);
+            if (elements != null && elements.length > 0) {
+                for (let el of elements) {
+                    let alt = el.match(/\[(.*?)\]/)[1];
+                    let link = el.match(/\((.*?)\)/)[1];
+                    //startsWith("../") - for not skipping files that not in the note dir
+                    if (attachmentsAlreadyMoved && !link.endsWith(".md") && !link.startsWith("../"))
+                        continue;
+                    let fullLink = this.getFullPathForLink(link, oldNotePath);
+                    let newRelLink = path.relative(newNotePath, fullLink);
+                    newRelLink = Utils.normalizePathForLink(newRelLink);
+                    if (newRelLink.startsWith("../")) {
+                        newRelLink = newRelLink.substring(3);
+                    }
+                    text = text.replace(el, '[' + alt + ']' + '(' + newRelLink + ')');
+                    dirty = true;
+                    console.log(this.consoleLogPrefix + "link updated in note [note, old link, new link]: \n   "
+                        + file.path + "\n   " + link + "   \n" + newRelLink);
+                }
+            }
+            if (dirty)
+                yield this.app.vault.modify(file, text);
+        });
+    }
+    getCachedNotesThatHaveLinkToFile(filePath) {
+        var _a, _b;
+        let notes = [];
+        let allNotes = this.app.vault.getMarkdownFiles();
+        if (allNotes) {
+            for (let note of allNotes) {
+                let notePath = note.path;
+                //!!! this can return undefined if note was just updated
+                let embeds = (_a = this.app.metadataCache.getCache(notePath)) === null || _a === void 0 ? void 0 : _a.embeds;
+                if (embeds) {
+                    for (let embed of embeds) {
+                        let linkPath = this.getFullPathForLink(embed.link, note.path);
+                        if (linkPath == filePath) {
+                            if (!notes.contains(notePath))
+                                notes.push(notePath);
+                        }
+                    }
+                }
+                //!!! this can return undefined if note was just updated
+                let links = (_b = this.app.metadataCache.getCache(notePath)) === null || _b === void 0 ? void 0 : _b.links;
+                if (links) {
+                    for (let link of links) {
+                        let linkPath = this.getFullPathForLink(link.link, note.path);
+                        if (linkPath == filePath) {
+                            if (!notes.contains(notePath))
+                                notes.push(notePath);
+                        }
+                    }
+                }
+            }
+        }
+        return notes;
+    }
+    getNotesThatHaveLinkToFile(filePath) {
+        return __awaiter(this, void 0, void 0, function* () {
+            let notes = [];
+            let allNotes = this.app.vault.getMarkdownFiles();
+            if (allNotes) {
+                for (let note of allNotes) {
+                    let notePath = note.path;
+                    let links = yield this.getLinksFromNote(notePath);
+                    for (let link of links) {
+                        let linkFullPath = this.getFullPathForLink(link.link, notePath);
+                        if (linkFullPath == filePath) {
+                            if (!notes.contains(notePath))
+                                notes.push(notePath);
+                        }
+                    }
+                }
+            }
+            return notes;
+        });
+    }
+    getFilePathWithRenamedBaseName(filePath, newBaseName) {
+        return Utils.normalizePathForFile(path.join(path.dirname(filePath), newBaseName + path.extname(filePath)));
+    }
+    getLinksFromNote(notePath) {
+        return __awaiter(this, void 0, void 0, function* () {
+            let file = this.getFileByPath(notePath);
+            if (!file) {
+                console.error(this.consoleLogPrefix + "cant get embeds, file not found: " + notePath);
+                return;
+            }
+            let text = yield this.app.vault.read(file);
+            let links = [];
+            let elements = text.match(markdownLinkOrEmbedRegexG);
+            if (elements != null && elements.length > 0) {
+                for (let el of elements) {
+                    let alt = el.match(/\[(.*?)\]/)[1];
+                    let link = el.match(/\((.*?)\)/)[1];
+                    let emb = {
+                        link: link,
+                        displayText: alt,
+                        original: el,
+                        position: {
+                            start: {
+                                col: 0,
+                                line: 0,
+                                offset: 0
+                            },
+                            end: {
+                                col: 0,
+                                line: 0,
+                                offset: 0
+                            }
+                        }
+                    };
+                    links.push(emb);
+                }
+            }
+            return links;
+        });
+    }
+    convertAllNoteEmbedsPathsToRelative(notePath) {
+        var _a;
+        return __awaiter(this, void 0, void 0, function* () {
+            let changedEmbeds = [];
+            let embeds = (_a = this.app.metadataCache.getCache(notePath)) === null || _a === void 0 ? void 0 : _a.embeds;
+            if (embeds) {
+                for (let embed of embeds) {
+                    let isMarkdownEmbed = this.checkIsCorrectMarkdownEmbed(embed.original);
+                    let isWikiEmbed = this.checkIsCorrectWikiEmbed(embed.original);
+                    if (isMarkdownEmbed || isWikiEmbed) {
+                        let file = this.getFileByLink(embed.link, notePath);
+                        if (file)
+                            continue;
+                        file = this.app.metadataCache.getFirstLinkpathDest(embed.link, notePath);
+                        if (file) {
+                            let newRelLink = path.relative(notePath, file.path);
+                            newRelLink = isMarkdownEmbed ? Utils.normalizePathForLink(newRelLink) : Utils.normalizePathForFile(newRelLink);
+                            if (newRelLink.startsWith("../")) {
+                                newRelLink = newRelLink.substring(3);
+                            }
+                            changedEmbeds.push({ old: embed, newLink: newRelLink });
+                        }
+                        else {
+                            console.error(this.consoleLogPrefix + notePath + " has bad embed (file does not exist): " + embed.link);
+                        }
+                    }
+                    else {
+                        console.error(this.consoleLogPrefix + notePath + " has bad embed (format of link is not markdown or wikilink): " + embed.original);
+                    }
+                }
+            }
+            yield this.updateChangedEmbedInNote(notePath, changedEmbeds);
+            return changedEmbeds;
+        });
+    }
+    convertAllNoteLinksPathsToRelative(notePath) {
+        var _a;
+        return __awaiter(this, void 0, void 0, function* () {
+            let changedLinks = [];
+            let links = (_a = this.app.metadataCache.getCache(notePath)) === null || _a === void 0 ? void 0 : _a.links;
+            if (links) {
+                for (let link of links) {
+                    let isMarkdownLink = this.checkIsCorrectMarkdownLink(link.original);
+                    let isWikiLink = this.checkIsCorrectWikiLink(link.original);
+                    if (isMarkdownLink || isWikiLink) {
+                        let file = this.getFileByLink(link.link, notePath);
+                        if (file)
+                            continue;
+                        //!!! link.displayText is always "" - OBSIDIAN BUG?, so get display text manualy
+                        if (isMarkdownLink) {
+                            let elements = link.original.match(markdownLinkRegex);
+                            if (elements)
+                                link.displayText = elements[1];
+                        }
+                        file = this.app.metadataCache.getFirstLinkpathDest(link.link, notePath);
+                        if (file) {
+                            let newRelLink = path.relative(notePath, file.path);
+                            newRelLink = isMarkdownLink ? Utils.normalizePathForLink(newRelLink) : Utils.normalizePathForFile(newRelLink);
+                            if (newRelLink.startsWith("../")) {
+                                newRelLink = newRelLink.substring(3);
+                            }
+                            changedLinks.push({ old: link, newLink: newRelLink });
+                        }
+                        else {
+                            console.error(this.consoleLogPrefix + notePath + " has bad link (file does not exist): " + link.link);
+                        }
+                    }
+                    else {
+                        console.error(this.consoleLogPrefix + notePath + " has bad link (format of link is not markdown or wikilink): " + link.original);
+                    }
+                }
+            }
+            yield this.updateChangedLinkInNote(notePath, changedLinks);
+            return changedLinks;
+        });
+    }
+    updateChangedEmbedInNote(notePath, changedEmbeds) {
+        return __awaiter(this, void 0, void 0, function* () {
+            let noteFile = this.getFileByPath(notePath);
+            if (!noteFile) {
+                console.error(this.consoleLogPrefix + "cant update embeds in note, file not found: " + notePath);
+                return;
+            }
+            let text = yield this.app.vault.read(noteFile);
+            let dirty = false;
+            if (changedEmbeds && changedEmbeds.length > 0) {
+                for (let embed of changedEmbeds) {
+                    if (embed.old.link == embed.newLink)
+                        continue;
+                    if (this.checkIsCorrectMarkdownEmbed(embed.old.original)) {
+                        text = text.replace(embed.old.original, '![' + embed.old.displayText + ']' + '(' + embed.newLink + ')');
+                    }
+                    else if (this.checkIsCorrectWikiEmbed(embed.old.original)) {
+                        text = text.replace(embed.old.original, '![[' + embed.newLink + ']]');
+                    }
+                    else {
+                        console.error(this.consoleLogPrefix + notePath + " has bad embed (format of link is not maekdown or wikilink): " + embed.old.original);
+                        continue;
+                    }
+                    console.log(this.consoleLogPrefix + "embed updated in note [note, old link, new link]: \n   "
+                        + noteFile.path + "\n   " + embed.old.link + "\n   " + embed.newLink);
+                    dirty = true;
+                }
+            }
+            if (dirty)
+                yield this.app.vault.modify(noteFile, text);
+        });
+    }
+    updateChangedLinkInNote(notePath, chandedLinks) {
+        return __awaiter(this, void 0, void 0, function* () {
+            let noteFile = this.getFileByPath(notePath);
+            if (!noteFile) {
+                console.error(this.consoleLogPrefix + "cant update links in note, file not found: " + notePath);
+                return;
+            }
+            let text = yield this.app.vault.read(noteFile);
+            let dirty = false;
+            if (chandedLinks && chandedLinks.length > 0) {
+                for (let link of chandedLinks) {
+                    if (link.old.link == link.newLink)
+                        continue;
+                    if (this.checkIsCorrectMarkdownLink(link.old.original)) {
+                        text = text.replace(link.old.original, '[' + link.old.displayText + ']' + '(' + link.newLink + ')');
+                    }
+                    else if (this.checkIsCorrectWikiLink(link.old.original)) {
+                        text = text.replace(link.old.original, '[[' + link.newLink + ']]');
+                    }
+                    else {
+                        console.error(this.consoleLogPrefix + notePath + " has bad link (format of link is not maekdown or wikilink): " + link.old.original);
+                        continue;
+                    }
+                    console.log(this.consoleLogPrefix + "link updated in note [note, old link, new link]: \n   "
+                        + noteFile.path + "\n   " + link.old.link + "\n   " + link.newLink);
+                    dirty = true;
+                }
+            }
+            if (dirty)
+                yield this.app.vault.modify(noteFile, text);
+        });
+    }
+    replaceAllNoteWikilinksWithMarkdownLinks(notePath) {
+        var _a, _b;
+        return __awaiter(this, void 0, void 0, function* () {
+            let res = {
+                links: [],
+                embeds: [],
+            };
+            let noteFile = this.getFileByPath(notePath);
+            if (!noteFile) {
+                console.error(this.consoleLogPrefix + "cant update wikilinks in note, file not found: " + notePath);
+                return;
+            }
+            let links = (_a = this.app.metadataCache.getCache(notePath)) === null || _a === void 0 ? void 0 : _a.links;
+            let embeds = (_b = this.app.metadataCache.getCache(notePath)) === null || _b === void 0 ? void 0 : _b.embeds;
+            let text = yield this.app.vault.read(noteFile);
+            let dirty = false;
+            if (embeds) { //embeds must go first!
+                for (let embed of embeds) {
+                    if (this.checkIsCorrectWikiEmbed(embed.original)) {
+                        let newPath = Utils.normalizePathForLink(embed.link);
+                        let newLink = '![' + ']' + '(' + newPath + ')';
+                        text = text.replace(embed.original, newLink);
+                        console.log(this.consoleLogPrefix + "wikilink (embed) replaced in note [note, old link, new link]: \n   "
+                            + noteFile.path + "\n   " + embed.original + "\n   " + newLink);
+                        res.embeds.push({ old: embed, newLink: newLink });
+                        dirty = true;
+                    }
+                }
+            }
+            if (links) {
+                for (let link of links) {
+                    if (this.checkIsCorrectWikiLink(link.original)) {
+                        let newPath = Utils.normalizePathForLink(link.link);
+                        let file = this.app.metadataCache.getFirstLinkpathDest(link.link, notePath);
+                        if (file && file.extension == "md" && !newPath.endsWith(".md"))
+                            newPath = newPath + ".md";
+                        let newLink = '[' + link.displayText + ']' + '(' + newPath + ')';
+                        text = text.replace(link.original, newLink);
+                        console.log(this.consoleLogPrefix + "wikilink replaced in note [note, old link, new link]: \n   "
+                            + noteFile.path + "\n   " + link.original + "\n   " + newLink);
+                        res.links.push({ old: link, newLink: newLink });
+                        dirty = true;
+                    }
+                }
+            }
+            if (dirty)
+                yield this.app.vault.modify(noteFile, text);
+            return res;
+        });
+    }
+>>>>>>> Stashed changes
 }
 
 function createCommonjsModule(fn, basedir, module) {
@@ -1454,6 +2490,7 @@ if (Md5.hashStr('hello') !== '5d41402abc4b2a76b9719d911017c592') {
 
 });
 
+<<<<<<< Updated upstream
 class ConsistentAttachmentsAndLinks extends obsidian.Plugin {
     onload() {
         return __awaiter(this, void 0, void 0, function* () {
@@ -1584,6 +2621,138 @@ class ConsistentAttachmentsAndLinks extends obsidian.Plugin {
             yield this.saveData(this.settings);
         });
     }
+=======
+class ConsistentAttachmentsAndLinks extends obsidian.Plugin {
+    onload() {
+        return __awaiter(this, void 0, void 0, function* () {
+            yield this.loadSettings();
+            this.addSettingTab(new SettingTab(this.app, this));
+            this.addCommand({
+                id: 'rename-all-attachments',
+                name: 'Rename all attachments',
+                callback: () => this.renameAllAttachments()
+            });
+            this.lh = new LinksHandler(this.app, "Unique attachments: ");
+        });
+    }
+    renameAllAttachments() {
+        return __awaiter(this, void 0, void 0, function* () {
+            let files = this.app.vault.getFiles();
+            let renamedCount = 0;
+            for (let file of files) {
+                let renamed = yield this.renameAttachmentIfNeeded(file);
+                if (renamed)
+                    renamedCount++;
+            }
+            if (renamedCount == 0)
+                new obsidian.Notice("No files found that need to be renamed");
+            else if (renamedCount == 1)
+                new obsidian.Notice("Renamed 1 file.");
+            else
+                new obsidian.Notice("Renamed " + renamedCount + " files.");
+        });
+    }
+    renameAttachmentIfNeeded(file) {
+        return __awaiter(this, void 0, void 0, function* () {
+            let filePath = file.path;
+            if (this.checkFilePathIsIgnored(filePath) || !this.checkFileTypeIsAllowed(filePath)) {
+                return false;
+            }
+            let ext = path.extname(filePath);
+            let baseName = path.basename(filePath, ext);
+            let validBaseName = yield this.generateValidBaseName(filePath);
+            if (baseName == validBaseName) {
+                return false;
+            }
+            let notes = yield this.lh.getNotesThatHaveLinkToFile(filePath);
+            if (!notes || notes.length == 0) {
+                if (this.settings.renameOnlyLinkedAttachments) {
+                    return false;
+                }
+            }
+            let validPath = this.lh.getFilePathWithRenamedBaseName(filePath, validBaseName);
+            let targetFileAlreadyExists = yield this.app.vault.adapter.exists(validPath);
+            if (targetFileAlreadyExists) {
+                //if file content is the same in both files, one of them will be deleted			
+                let validAnotherFileBaseName = yield this.generateValidBaseName(validPath);
+                if (validAnotherFileBaseName != validBaseName) {
+                    console.warn("Unique attachments: cant rename file \n   " + filePath + "\n    to\n   " + validPath + "\n   Another file exists with the same (target) name but different content.");
+                    return false;
+                }
+                if (!this.settings.mergeTheSameAttachments) {
+                    console.warn("Unique attachments: cant rename file \n   " + filePath + "\n    to\n   " + validPath + "\n   Another file exists with the same (target) name and the same content. You can enable \"Delte duplicates\" setting for delete this file and merge attachments.");
+                    return false;
+                }
+                try {
+                    yield this.app.vault.delete(file);
+                }
+                catch (e) {
+                    console.error("Unique attachments: cant delete duplicate file " + filePath + ".\n" + e);
+                    return false;
+                }
+                if (notes) {
+                    for (let note of notes) {
+                        yield this.lh.updateChangedPathInNote(note, filePath, validPath);
+                    }
+                }
+                console.log("Unique attachments: file content is the same in \n   " + filePath + "\n   and \n   " + validPath + "\n   Duplicates merged.");
+            }
+            else {
+                try {
+                    yield this.app.vault.rename(file, validPath);
+                }
+                catch (e) {
+                    console.error("Unique attachments: cant rename file \n   " + filePath + "\n   to \n   " + validPath + "   \n" + e);
+                    return false;
+                }
+                if (notes) {
+                    for (let note of notes) {
+                        yield this.lh.updateChangedPathInNote(note, filePath, validPath);
+                    }
+                }
+                console.log("Unique attachments: file renamed [from, to]:\n   " + filePath + "\n   " + validPath);
+            }
+            return true;
+        });
+    }
+    checkFilePathIsIgnored(filePath) {
+        for (let folder of this.settings.ignoreFolders) {
+            if (filePath.startsWith(folder))
+                return true;
+        }
+        return false;
+    }
+    checkFileTypeIsAllowed(filePath) {
+        for (let ext of this.settings.renameFileTypes) {
+            if (filePath.endsWith("." + ext))
+                return true;
+        }
+        return false;
+    }
+    generateValidBaseName(filePath) {
+        return __awaiter(this, void 0, void 0, function* () {
+            let file = this.lh.getFileByPath(filePath);
+            let data = yield this.app.vault.readBinary(file);
+            const buf = Buffer.from(data);
+            // var crypto = require('crypto');
+            // let hash: string = crypto.createHash('md5').update(buf).digest("hex");
+            let md5$1 = new md5.Md5();
+            md5$1.appendByteArray(buf);
+            let hash = md5$1.end().toString();
+            return hash;
+        });
+    }
+    loadSettings() {
+        return __awaiter(this, void 0, void 0, function* () {
+            this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData());
+        });
+    }
+    saveSettings() {
+        return __awaiter(this, void 0, void 0, function* () {
+            yield this.saveData(this.settings);
+        });
+    }
+>>>>>>> Stashed changes
 }
 
 module.exports = ConsistentAttachmentsAndLinks;

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
 	"id": "obsidian-show-file-path",
 	"name": "Show Current File Path",
@@ -8,3 +9,15 @@
 	"authorUrl": "https://ravimashru.dev",
 	"isDesktopOnly": false
 }
+=======
+{
+	"id": "obsidian-show-file-path",
+	"name": "Show Current File Path",
+	"version": "0.4.0",
+	"minAppVersion": "0.12.10",
+	"description": "Show the full path of the currently open file in the status bar",
+	"author": "Ravi Mashru",
+	"authorUrl": "https://ravimashru.dev",
+	"isDesktopOnly": false
+}
+>>>>>>> Stashed changes

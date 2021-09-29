@@ -7,6 +7,7 @@ if you want to view the source visit the plugins github repository
 
 var obsidian = require('obsidian');
 
+<<<<<<< Updated upstream
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -157,6 +158,158 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.addCommands();
         })));
     }
+=======
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+
+function __awaiter(thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+}
+
+const DEFAULT_SETTINGS = {
+    language1: '',
+    language2: '',
+    language3: '',
+};
+class CodeBlockFromSelection extends obsidian.Plugin {
+    onload() {
+        return __awaiter(this, void 0, void 0, function* () {
+            yield this.loadSettings();
+            this.addCommands();
+            this.addSettingTab(new SettingTab(this.app, this));
+        });
+    }
+    addCommands() {
+        this.addCommand({
+            id: 'code-block-from-selection',
+            name: this.settings.language1 ? `language1 (${this.settings.language1})` : "language1",
+            callback: () => this.insertCodeBlock("language1")
+        });
+        this.addCommand({
+            id: 'code-block-from-selection-2',
+            name: this.settings.language2 ? `language2 (${this.settings.language2})` : "language2",
+            callback: () => this.insertCodeBlock("language2")
+        });
+        this.addCommand({
+            id: 'code-block-from-selection-3',
+            name: this.settings.language3 ? `language3 (${this.settings.language3})` : "language3",
+            callback: () => this.insertCodeBlock("language3")
+        });
+    }
+    insertCodeBlock(setting) {
+        let editor = this.getEditor();
+        if (editor) {
+            let selectedText = this.getSelectedText(editor);
+            let line = this.getLineUnderCursor(editor).start.line;
+            let language = this.settings.language1;
+            if (setting === "language2") {
+                language = this.settings.language2;
+            }
+            if (setting === "language3") {
+                language = this.settings.language3;
+            }
+            editor.replaceSelection(`\`\`\`${language}\n${selectedText}\n\`\`\`\n`);
+            if (!selectedText) {
+                editor.setSelection({ line: line + 1, ch: 0 });
+            }
+        }
+    }
+    getEditor() {
+        var _a;
+        return (_a = this.app.workspace.getActiveViewOfType(obsidian.MarkdownView)) === null || _a === void 0 ? void 0 : _a.sourceMode.cmEditor;
+    }
+    getSelectedText(editor) {
+        if (!editor.somethingSelected())
+            this.selectLineUnderCursor(editor);
+        return editor.getSelection();
+    }
+    selectLineUnderCursor(editor) {
+        let selection = this.getLineUnderCursor(editor);
+        editor.getDoc().setSelection(selection.start, selection.end);
+    }
+    getLineUnderCursor(editor) {
+        let fromCh, toCh;
+        let cursor = editor.getCursor();
+        fromCh = 0;
+        toCh = editor.getLine(cursor.line).length;
+        return {
+            start: { line: cursor.line, ch: fromCh },
+            end: { line: cursor.line, ch: toCh },
+        };
+    }
+    loadSettings() {
+        return __awaiter(this, void 0, void 0, function* () {
+            this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData());
+        });
+    }
+    saveSettings() {
+        return __awaiter(this, void 0, void 0, function* () {
+            yield this.saveData(this.settings);
+        });
+    }
+}
+class SettingTab extends obsidian.PluginSettingTab {
+    constructor(app, plugin) {
+        super(app, plugin);
+        this.plugin = plugin;
+    }
+    display() {
+        let { containerEl } = this;
+        containerEl.empty();
+        containerEl.createEl('h2', { text: 'Code block from selection - Settings' });
+        new obsidian.Setting(containerEl)
+            .setName('Language1')
+            .setDesc('')
+            .addText(text => text
+            .setPlaceholder('Example: c++')
+            .setValue(this.plugin.settings.language1)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.language1 = value;
+            yield this.plugin.saveSettings();
+            this.plugin.addCommands();
+        })));
+        new obsidian.Setting(containerEl)
+            .setName('Language2')
+            .setDesc('')
+            .addText(text => text
+            .setPlaceholder('')
+            .setValue(this.plugin.settings.language2)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.language2 = value;
+            yield this.plugin.saveSettings();
+            this.plugin.addCommands();
+        })));
+        new obsidian.Setting(containerEl)
+            .setName('Language3')
+            .setDesc('')
+            .addText(text => text
+            .setPlaceholder('')
+            .setValue(this.plugin.settings.language3)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.language3 = value;
+            yield this.plugin.saveSettings();
+            this.plugin.addCommands();
+        })));
+    }
+>>>>>>> Stashed changes
 }
 
 module.exports = CodeBlockFromSelection;

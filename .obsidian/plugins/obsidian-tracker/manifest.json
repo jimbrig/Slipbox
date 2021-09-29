@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
 	"id": "obsidian-tracker",
 	"name": "Tracker",
@@ -8,3 +9,15 @@
 	"authorUrl": "",
 	"isDesktopOnly": false
 }
+=======
+{
+	"id": "obsidian-tracker",
+	"name": "Tracker",
+	"version": "1.9.2",
+	"minAppVersion": "0.9.12",
+	"description": "A plugin tracks occurrences and numbers in your notes",
+	"author": "pyrochlore",
+	"authorUrl": "",
+	"isDesktopOnly": false
+}
+>>>>>>> Stashed changes

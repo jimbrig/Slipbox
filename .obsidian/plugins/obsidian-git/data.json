@@ -8,6 +8,10 @@
   "pullBeforePush": true,
   "disablePopups": false,
   "listChangedFilesInMessageBody": true,
+<<<<<<< Updated upstream
   "showStatusBar": true,
   "updateSubmodules": false
+=======
+  "showStatusBar": true
+>>>>>>> Stashed changes
 }

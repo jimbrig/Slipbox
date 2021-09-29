@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
 	"id": "obsidian-readwise",
 	"name": "Readwise Community",
@@ -8,3 +9,15 @@
 	"authorUrl": "https://renehernandez.io",
 	"isDesktopOnly": false
 }
+=======
+{
+	"id": "obsidian-readwise",
+	"name": "Readwise Community",
+	"version": "0.0.8",
+	"minAppVersion": "0.11.9",
+	"description": "Sync Readwise highlights into your notes",
+	"author": "Rene Hernandez",
+	"authorUrl": "https://renehernandez.io",
+	"isDesktopOnly": false
+}
+>>>>>>> Stashed changes

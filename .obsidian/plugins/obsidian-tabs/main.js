@@ -7,6 +7,7 @@ if you want to view the source visit the plugins github repository
 
 var obsidian = require('obsidian');
 
+<<<<<<< Updated upstream
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -238,6 +239,239 @@ class TabSettingTab extends obsidian.PluginSettingTab {
             this.plugin.refresh();
         }));
     }
+=======
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+
+function __awaiter(thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+}
+
+class TabbedView extends obsidian.Plugin {
+    onload() {
+        return __awaiter(this, void 0, void 0, function* () {
+            yield this.loadSettings();
+            this.addSettingTab(new TabSettingTab(this.app, this));
+            this.handleTabs = this.handleTabs.bind(this);
+            this.handleOpen = this.handleOpen.bind(this);
+            this.registerEvent(this.app.workspace.on("layout-change", this.handleTabs));
+            this.registerEvent(this.app.workspace.on("active-leaf-change", this.handleOpen));
+            this.app.workspace.onLayoutReady(() => {
+                this.startTabs();
+                this.refresh();
+            });
+            this.addCommand({
+                id: 'toggle-tabs',
+                name: 'Toggle Obsidian Tabs',
+                callback: () => {
+                    // switch the disabled setting and save
+                    this.settings.tabEnabled = !this.settings.tabEnabled;
+                    this.saveData(this.settings);
+                    // disable or enable as necessary
+                    this.refresh();
+                }
+            });
+        });
+    }
+    loadSettings() {
+        return __awaiter(this, void 0, void 0, function* () {
+            this.settings = Object.assign(DEFAULT_SETTINGS, yield this.loadData());
+        });
+    }
+    //prevent tabbed views besides the active pane from being collapsed on startup
+    startTabs() {
+        let childsplitfirsttab = Array.from(this.app.workspace.rootSplit.containerEl.querySelectorAll(".mod-vertical .workspace-leaf:first-of-type"));
+        childsplitfirsttab.forEach((node) => {
+            node.addClass("stayopen");
+        });
+    }
+    removeStyle() {
+        document.body.removeClass("rowoverflow", "horizontal-to-vertical", "hide-buttons", "small-title", "compact-title", "tab-numbering", "tab-underline");
+        this.app.workspace.rootSplit.containerEl.style.removeProperty("--headerheight");
+        this.app.workspace.rootSplit.containerEl.style.removeProperty("--jstabs");
+        this.app.workspace.rootSplit.containerEl.style.removeProperty("--rowsjs");
+        let childsplittabs = Array.from(this.app.workspace.rootSplit.containerEl.querySelectorAll(".mod-vertical"));
+        childsplittabs.forEach((node) => {
+            node.style.removeProperty("--rowsjs");
+            node.style.removeProperty("--jstabs");
+        });
+    }
+    updateStyle() {
+        document.body.classList.toggle("rowoverflow", this.settings.rowOverflow);
+        document.body.classList.toggle("horizontal-to-vertical", this.settings.horizontalToVertical);
+        document.body.classList.toggle("hide-buttons", this.settings.hideButtons);
+        document.body.classList.toggle("small-title", this.settings.smallTitle);
+        document.body.classList.toggle("compact-title", this.settings.compactTitle);
+        document.body.classList.toggle("tab-numbering", this.settings.tabNumbering);
+        document.body.classList.toggle("tab-underline", this.settings.tabUnderline);
+        document.body.classList.toggle("plugin-tabs", this.settings.tabEnabled);
+        this.handleOpen();
+        this.handleTabs();
+        this.app.workspace.rootSplit.containerEl.style.setProperty("--headerheight", this.settings.headerHeight + "px");
+    }
+    refresh() {
+        // re-load the style
+        this.removeStyle();
+        this.updateStyle();
+    }
+    //remove class when plugin is disabled
+    onunload() {
+        this.removeStyle();
+        let openedTabs = Array.from(this.app.workspace.rootSplit.containerEl.querySelectorAll(".stayopen"));
+        openedTabs.forEach((node) => {
+            node.removeClass("stayopen");
+        });
+    }
+    handleOpen() {
+        if (this.app.workspace.activeLeaf) {
+            let removeopen = Array.from(this.app.workspace.activeLeaf.containerEl.parentNode.children); //remove class from siblings of active pane, but intentionally not from all
+            removeopen.forEach((node) => {
+                node.removeClass("stayopen");
+            });
+            this.app.workspace.activeLeaf.containerEl.addClass("stayopen");
+        }
+    }
+    handleTabs() {
+        function assignStylesToTab(tabparent) {
+            let tabwidth = tabparent.children.length - 1;
+            tabparent.style.setProperty("--jstabs", tabwidth);
+            if (tabwidth > 7) {
+                tabparent.style.setProperty("--rowsjs", 2);
+            }
+            else {
+                tabparent.style.removeProperty("--rowsjs");
+            }
+        }
+        let rootsplittabs = this.app.workspace.rootSplit.containerEl;
+        assignStylesToTab(rootsplittabs);
+        let childsplittabs = Array.from(this.app.workspace.rootSplit.containerEl.querySelectorAll(".mod-vertical"));
+        childsplittabs.forEach(assignStylesToTab);
+    }
+}
+const DEFAULT_SETTINGS = {
+    tabEnabled: true,
+    rowOverflow: true,
+    horizontalToVertical: false,
+    hideButtons: false,
+    smallTitle: false,
+    compactTitle: false,
+    tabNumbering: false,
+    tabUnderline: false,
+    headerHeight: 29,
+};
+class TabSettingTab extends obsidian.PluginSettingTab {
+    constructor(app, plugin) {
+        super(app, plugin);
+        this.plugin = plugin;
+    }
+    display() {
+        let { containerEl } = this;
+        containerEl.empty();
+        containerEl.createEl("h3", { text: "Obsidian Tabs Settings" });
+        new obsidian.Setting(containerEl)
+            .setName("Enable Obsidian Tabs")
+            .setDesc("Toggle to enable or disable Obsidian Tabs.")
+            .addToggle((toggle) => toggle.setValue(this.plugin.settings.tabEnabled).onChange((value) => {
+            this.plugin.settings.tabEnabled = value;
+            this.plugin.saveData(this.plugin.settings);
+            this.plugin.refresh();
+        }));
+        new obsidian.Setting(containerEl)
+            .setName("Two Row Tab Overview")
+            .setDesc("When sufficient tabs have been opened, display tabs in two rows.")
+            .addToggle((toggle) => toggle.setValue(this.plugin.settings.rowOverflow).onChange((value) => {
+            this.plugin.settings.rowOverflow = value;
+            this.plugin.saveData(this.plugin.settings);
+            this.plugin.refresh();
+        }));
+        new obsidian.Setting(containerEl)
+            .setName("Tab Height")
+            .setDesc("Sets the height of tabs and leaf headers (default 29).")
+            .addText((text) => text
+            .setPlaceholder("29")
+            .setValue((this.plugin.settings.headerHeight || "") + "")
+            .onChange((value) => {
+            let headerHeightTemp = parseInt(value.trim(), 10);
+            if (headerHeightTemp == null ||
+                Number.isNaN(headerHeightTemp)) {
+                this.plugin.settings.headerHeight = DEFAULT_SETTINGS.headerHeight;
+            }
+            else
+                (this.plugin.settings.headerHeight = headerHeightTemp);
+            this.plugin.saveData(this.plugin.settings);
+            this.plugin.refresh();
+        }));
+        new obsidian.Setting(containerEl)
+            .setName("Proper Horizontal Splits")
+            .setDesc("Enable to make 'horizontal' splits actually horizontal. Handy for resizing the tabbed split for side-by-side view.")
+            .addToggle((toggle) => toggle
+            .setValue(this.plugin.settings.horizontalToVertical)
+            .onChange((value) => {
+            this.plugin.settings.horizontalToVertical = value;
+            this.plugin.saveData(this.plugin.settings);
+            this.plugin.refresh();
+        }));
+        new obsidian.Setting(containerEl)
+            .setName("Show Tab Buttons")
+            .setDesc("Enable to show tab buttons.")
+            .addToggle((toggle) => toggle.setValue(this.plugin.settings.hideButtons).onChange((value) => {
+            this.plugin.settings.hideButtons = value;
+            this.plugin.saveData(this.plugin.settings);
+            this.plugin.refresh();
+        }));
+        new obsidian.Setting(containerEl)
+            .setName("Full Sized Title Text")
+            .setDesc("Enable full sized title text.")
+            .addToggle((toggle) => toggle.setValue(this.plugin.settings.smallTitle).onChange((value) => {
+            this.plugin.settings.smallTitle = value;
+            this.plugin.saveData(this.plugin.settings);
+            this.plugin.refresh();
+        }));
+        new obsidian.Setting(containerEl)
+            .setName("Full Tab Spacing.")
+            .setDesc("Enable for default tab button spacing.")
+            .addToggle((toggle) => toggle.setValue(this.plugin.settings.compactTitle).onChange((value) => {
+            this.plugin.settings.compactTitle = value;
+            this.plugin.saveData(this.plugin.settings);
+            this.plugin.refresh();
+        }));
+        containerEl.createEl("h4", { text: "Pane Relief Specific Settings" });
+        new obsidian.Setting(containerEl)
+            .setName("Remove Tab Numbers")
+            .setDesc("By default, tabs are numbered, for ease of use with Pane Relief.")
+            .addToggle((toggle) => toggle.setValue(this.plugin.settings.tabNumbering).onChange((value) => {
+            this.plugin.settings.tabNumbering = value;
+            this.plugin.saveData(this.plugin.settings);
+            this.plugin.refresh();
+        }));
+        new obsidian.Setting(containerEl)
+            .setName("Remove Tab Underline")
+            .setDesc("By default, the next tab is underlined, for ease of use with Pane Relief.")
+            .addToggle((toggle) => toggle.setValue(this.plugin.settings.tabUnderline).onChange((value) => {
+            this.plugin.settings.tabUnderline = value;
+            this.plugin.saveData(this.plugin.settings);
+            this.plugin.refresh();
+        }));
+    }
+>>>>>>> Stashed changes
 }
 
 module.exports = TabbedView;

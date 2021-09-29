@@ -3471,12 +3471,21 @@ async function init(input) {
     return wasm;
 }
 
+<<<<<<< Updated upstream
 class RustPlugin extends obsidian.Plugin {
 	async onload() {
 		const buffer = Uint8Array.from(atob(rustPlugin), c => c.charCodeAt(0));
 		await init(Promise.resolve(buffer));
 		onload(this);
 	}
+=======
+class RustPlugin extends obsidian.Plugin {
+	async onload() {
+		const buffer = Uint8Array.from(atob(rustPlugin), c => c.charCodeAt(0));
+		await init(Promise.resolve(buffer));
+		onload(this);
+	}
+>>>>>>> Stashed changes
 }
 
 module.exports = RustPlugin;

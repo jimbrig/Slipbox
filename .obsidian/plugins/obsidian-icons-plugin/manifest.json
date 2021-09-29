@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
 	"id": "obsidian-icons-plugin",
 	"name": "Icons",
@@ -7,4 +8,15 @@
 	"author": "Camillo Visini",
 	"authorUrl": "https://github.com/visini",
 	"isDesktopOnly": true
+=======
+{
+	"id": "obsidian-icons-plugin",
+	"name": "Icons",
+	"version": "0.3.0",
+	"minAppVersion": "0.10.7",
+	"description": "Add icons to your Obsidian notes.",
+	"author": "Camillo Visini",
+	"authorUrl": "https://github.com/visini",
+	"isDesktopOnly": true
+>>>>>>> Stashed changes
 }

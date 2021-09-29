@@ -4,7 +4,13 @@
   "disableNotifications": false,
   "headerTemplatePath": "",
   "highlightTemplatePath": "",
+<<<<<<< Updated upstream
   "highlightStoragePath": "Highlights",
   "authorsMappingFilename": "authors.json",
   "lastUpdate": 1630023141357
+=======
+  "highlightStoragePath": "3-Resources/Highlights",
+  "authorsMappingFilename": "authors.json",
+  "lastUpdate": 1632887661528
+>>>>>>> Stashed changes
 }

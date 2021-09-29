@@ -12,7 +12,11 @@
   },
   "syntaxHighlight": false,
   "copyButton": true,
+<<<<<<< Updated upstream
   "version": "6.2.10",
+=======
+  "version": "6.2.2",
+>>>>>>> Stashed changes
   "autoCollapse": false,
   "defaultCollapseType": "open",
   "syncLinks": true,

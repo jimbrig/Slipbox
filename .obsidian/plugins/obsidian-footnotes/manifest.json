@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
 	"id": "obsidian-footnotes",
 	"name": "Footnote Shortcut",
@@ -8,3 +9,15 @@
 	"authorUrl": "https://publish.obsidian.md/alexisrondeau",
 	"isDesktopOnly": false
 }
+=======
+{
+	"id": "obsidian-footnotes",
+	"name": "Footnote Shortcut",
+	"version": "0.0.7",
+	"minAppVersion": "0.9.12",
+	"description": "Insert and write footnotes faster",
+	"author": "Alexis Rondeau",
+	"authorUrl": "https://publish.obsidian.md/alexisrondeau",
+	"isDesktopOnly": false
+}
+>>>>>>> Stashed changes

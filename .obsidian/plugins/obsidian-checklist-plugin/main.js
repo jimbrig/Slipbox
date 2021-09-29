@@ -2,10 +2,18 @@
 
 var obsidian = require('obsidian');
 var punycode = require('punycode');
+<<<<<<< Updated upstream
+=======
+var util = require('util');
+>>>>>>> Stashed changes
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
 var punycode__default = /*#__PURE__*/_interopDefaultLegacy(punycode);
+<<<<<<< Updated upstream
+=======
+var util__default = /*#__PURE__*/_interopDefaultLegacy(util);
+>>>>>>> Stashed changes
 
 const TODO_VIEW_TYPE = "todo";
 const LOCAL_SORT_OPT = {
@@ -397,6 +405,7 @@ class SvelteComponent {
     }
 }
 
+<<<<<<< Updated upstream
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -420,6 +429,31 @@ function __awaiter(thisArg, _arguments, P, generator) {
         function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
+=======
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+
+function __awaiter(thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+>>>>>>> Stashed changes
 }
 
 function createCommonjsModule(fn, basedir, module) {
@@ -9184,7 +9218,11 @@ for (var i = 0; i < 256; i++) { ESCAPED.push(0); }
   .split('').forEach(function (ch) { ESCAPED[ch.charCodeAt(0)] = 1; });
 
 
+<<<<<<< Updated upstream
 var _escape = function escape(state, silent) {
+=======
+var _escape$1 = function escape(state, silent) {
+>>>>>>> Stashed changes
   var ch, pos = state.pos, max = state.posMax;
 
   if (state.src.charCodeAt(pos) !== 0x5C/* \ */) { return false; }
@@ -10313,7 +10351,11 @@ var state_inline = StateInline;
 var _rules = [
   [ 'text',            text ],
   [ 'newline',         newline ],
+<<<<<<< Updated upstream
   [ 'escape',          _escape ],
+=======
+  [ 'escape',          _escape$1 ],
+>>>>>>> Stashed changes
   [ 'backticks',       backticks ],
   [ 'strikethrough',   strikethrough.tokenize ],
   [ 'emphasis',        emphasis.tokenize ],
@@ -12030,6 +12072,7 @@ MarkdownIt.prototype.renderInline = function (src, env) {
 };
 
 
+<<<<<<< Updated upstream
 var lib = MarkdownIt;
 
 var markdownIt = lib;
@@ -12075,13 +12118,151 @@ const highlightPlugin = regexPlugin(/\=\=([^\=]+)\=\=/, (match, utils) => {
 });
 
 const linkPlugin = (linkMap) => regexPlugin(/\[\[([^\]]+)\]\]/, (match, utils) => {
+=======
+var lib$1 = MarkdownIt;
+
+var markdownIt = lib$1;
+
+/*!
+ * markdown-it-regexp
+ * Copyright (c) 2014 Alex Kocharin
+ * MIT Licensed
+ */
+
+/**
+ * Module dependencies.
+ */
+
+
+
+/**
+ * Escape special characters in the given string of html.
+ *
+ * Borrowed from escape-html component, MIT-licensed
+ */
+var _escape = function(html) {
+  return String(html)
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+};
+
+var utils = {
+	escape: _escape
+};
+
+/*!
+ * markdown-it-regexp
+ * Copyright (c) 2014 Alex Kocharin
+ * MIT Licensed
+ */
+
+/**
+ * Module dependencies.
+ */
+
+
+
+
+/**
+ * Counter for multi usage.
+ */
+var counter = 0;
+
+/**
+ * Expose `Plugin`
+ */
+
+var lib = Plugin;
+
+/**
+ * Constructor function
+ */
+
+function Plugin(regexp, replacer) {
+  // return value should be a callable function
+  // with strictly defined options passed by markdown-it
+  var self = function (md, options) {
+    self.options = options;
+    self.init(md);
+  };
+
+  // initialize plugin object
+  self.__proto__ = Plugin.prototype;
+
+  // clone regexp with all the flags
+  var flags = (regexp.global     ? 'g' : '')
+            + (regexp.multiline  ? 'm' : '')
+            + (regexp.ignoreCase ? 'i' : '');
+
+  self.regexp = RegExp('^' + regexp.source, flags);
+
+  // copy init options
+  self.replacer = replacer;
+
+  // this plugin can be inserted multiple times,
+  // so we're generating unique name for it
+  self.id = 'regexp-' + counter;
+  counter++;
+
+  return self
+}
+
+util__default['default'].inherits(Plugin, Function);
+
+// function that registers plugin with markdown-it
+Plugin.prototype.init = function (md) {
+  md.inline.ruler.push(this.id, this.parse.bind(this));
+
+  md.renderer.rules[this.id] = this.render.bind(this);
+};
+
+Plugin.prototype.parse = function (state, silent) {
+  // slowwww... maybe use an advanced regexp engine for this
+  var match = this.regexp.exec(state.src.slice(state.pos));
+  if (!match) return false
+
+  // valid match found, now we need to advance cursor
+  state.pos += match[0].length;
+
+  // don't insert any tokens in silent mode
+  if (silent) return true
+
+  var token = state.push(this.id, '', 0);
+  token.meta = { match: match };
+
+  return true
+};
+
+Plugin.prototype.render = function (tokens, id, options, env) {
+  return this.replacer(tokens[id].meta.match, utils)
+};
+
+var markdownItRegexp = lib;
+
+const commentPlugin = markdownItRegexp(/\%\%([^\%]+)\%\%/, (match, utils) => {
+    return `<!--${utils.escape(match[1])}}-->`;
+});
+
+const highlightPlugin = markdownItRegexp(/\=\=([^\=]+)\=\=/, (match, utils) => {
+    return `<mark>${utils.escape(match[1])}</mark>`;
+});
+
+const linkPlugin = (linkMap) => markdownItRegexp(/\[\[([^\]]+)\]\]/, (match, utils) => {
+>>>>>>> Stashed changes
     var _a;
     const content = match[1];
     const [link, label] = content.split("|");
     return `<a data-href="${link}" data-type="link" data-filepath="${(_a = linkMap.get(link)) === null || _a === void 0 ? void 0 : _a.filePath}" class="internal-link">${utils.escape(label || link)}</a>`;
 });
 
+<<<<<<< Updated upstream
 const tagPlugin = regexPlugin(/\#\S+/, (match, utils) => {
+=======
+const tagPlugin = markdownItRegexp(/\#\S+/, (match, utils) => {
+>>>>>>> Stashed changes
     const content = match[0];
     return `<a href="${utils.escape(content)}" data-type="link" class="tag" target="_blank" rel="noopener">${utils.escape(content)}</a>`;
 });
@@ -12406,8 +12587,13 @@ class CheckCircle extends SvelteComponent {
 
 function add_css$3() {
 	var style = element("style");
+<<<<<<< Updated upstream
 	style.id = "svelte-gpx85b-style";
 	style.textContent = "li.svelte-gpx85b.svelte-gpx85b{display:flex;align-items:center;background-color:var(--todoList-listItemBackground);border-radius:var(--todoList-listItemBorderRadius);margin:var(--todoList-listItemMargin);cursor:pointer;transition:background-color 100ms ease-in-out}li.svelte-gpx85b.svelte-gpx85b:hover{background-color:var(--todoList-listItemBackground--hover)}.toggle.svelte-gpx85b.svelte-gpx85b{padding:var(--todoList-togglePadding);background:transparent;flex-shrink:1}.content.svelte-gpx85b.svelte-gpx85b{padding:var(--todoList-contentPadding);flex:1}.compact.svelte-gpx85b.svelte-gpx85b{bottom:var(--todoList-listItemMargin--compact)}.compact.svelte-gpx85b>.content.svelte-gpx85b{padding:var(--todoList-contentPadding--compact)}.compact.svelte-gpx85b>.toggle.svelte-gpx85b{padding:var(--todoList-togglePadding--compact)}.toggle.svelte-gpx85b.svelte-gpx85b:hover{opacity:0.8}";
+=======
+	style.id = "svelte-1q8cjhd-style";
+	style.textContent = "li.svelte-1q8cjhd.svelte-1q8cjhd{display:flex;align-items:center;background-color:var(--todoList-listItemBackground);border-radius:var(--todoList-listItemBorderRadius);margin:var(--todoList-listItemMargin);cursor:pointer;transition:background-color 100ms ease-in-out}li.svelte-1q8cjhd.svelte-1q8cjhd:hover{background-color:var(--todoList-listItemBackground--hover)}.toggle.svelte-1q8cjhd.svelte-1q8cjhd{padding:var(--todoList-togglePadding);background:transparent}.content.svelte-1q8cjhd.svelte-1q8cjhd{padding:var(--todoList-contentPadding)}.compact.svelte-1q8cjhd.svelte-1q8cjhd{bottom:var(--todoList-listItemMargin--compact)}.compact.svelte-1q8cjhd>.content.svelte-1q8cjhd{padding:var(--todoList-contentPadding--compact)}.compact.svelte-1q8cjhd>.toggle.svelte-1q8cjhd{padding:var(--todoList-togglePadding--compact)}.toggle.svelte-1q8cjhd.svelte-1q8cjhd:hover{opacity:0.8}";
+>>>>>>> Stashed changes
 	append(document.head, style);
 }
 
@@ -12433,9 +12619,15 @@ function create_fragment$3(ctx) {
 			create_component(checkcircle.$$.fragment);
 			t = space();
 			div = element("div");
+<<<<<<< Updated upstream
 			attr(button, "class", "toggle svelte-gpx85b");
 			attr(div, "class", "content svelte-gpx85b");
 			attr(li, "class", li_class_value = "" + (null_to_empty(`${/*lookAndFeel*/ ctx[1]}`) + " svelte-gpx85b"));
+=======
+			attr(button, "class", "toggle svelte-1q8cjhd");
+			attr(div, "class", "content svelte-1q8cjhd");
+			attr(li, "class", li_class_value = "" + (null_to_empty(`${/*lookAndFeel*/ ctx[1]}`) + " svelte-1q8cjhd"));
+>>>>>>> Stashed changes
 		},
 		m(target, anchor) {
 			insert(target, li, anchor);
@@ -12461,7 +12653,11 @@ function create_fragment$3(ctx) {
 			if (dirty & /*item*/ 1) checkcircle_changes.checked = /*item*/ ctx[0].checked;
 			checkcircle.$set(checkcircle_changes);
 
+<<<<<<< Updated upstream
 			if (!current || dirty & /*lookAndFeel*/ 2 && li_class_value !== (li_class_value = "" + (null_to_empty(`${/*lookAndFeel*/ ctx[1]}`) + " svelte-gpx85b"))) {
+=======
+			if (!current || dirty & /*lookAndFeel*/ 2 && li_class_value !== (li_class_value = "" + (null_to_empty(`${/*lookAndFeel*/ ctx[1]}`) + " svelte-1q8cjhd"))) {
+>>>>>>> Stashed changes
 				attr(li, "class", li_class_value);
 			}
 		},
@@ -12552,7 +12748,11 @@ function instance$3($$self, $$props, $$invalidate) {
 class ChecklistItem extends SvelteComponent {
 	constructor(options) {
 		super();
+<<<<<<< Updated upstream
 		if (!document.getElementById("svelte-gpx85b-style")) add_css$3();
+=======
+		if (!document.getElementById("svelte-1q8cjhd-style")) add_css$3();
+>>>>>>> Stashed changes
 		init(this, options, instance$3, create_fragment$3, safe_not_equal, { item: 0, lookAndFeel: 1, app: 2 });
 	}
 }
@@ -12672,10 +12872,17 @@ function get_each_context$1(ctx, list, i) {
 // (34:6) {:else}
 function create_else_block$1(ctx) {
 	let span0;
+<<<<<<< Updated upstream
 	let t0_value = `#${/*mainTag*/ ctx[1]}${/*group*/ ctx[0].groupName != null ? "/" : ""}` + "";
 	let t0;
 	let span1;
 	let t1_value = (/*group*/ ctx[0].groupName ?? "") + "";
+=======
+	let t0_value = `#${/*mainTag*/ ctx[2]}${/*group*/ ctx[1].groupName != null ? "/" : ""}` + "";
+	let t0;
+	let span1;
+	let t1_value = (/*group*/ ctx[1].groupName ?? "") + "";
+>>>>>>> Stashed changes
 	let t1;
 
 	return {
@@ -12694,8 +12901,13 @@ function create_else_block$1(ctx) {
 			append(span1, t1);
 		},
 		p(ctx, dirty) {
+<<<<<<< Updated upstream
 			if (dirty & /*mainTag, group*/ 3 && t0_value !== (t0_value = `#${/*mainTag*/ ctx[1]}${/*group*/ ctx[0].groupName != null ? "/" : ""}` + "")) set_data(t0, t0_value);
 			if (dirty & /*group*/ 1 && t1_value !== (t1_value = (/*group*/ ctx[0].groupName ?? "") + "")) set_data(t1, t1_value);
+=======
+			if (dirty & /*mainTag, group*/ 6 && t0_value !== (t0_value = `#${/*mainTag*/ ctx[2]}${/*group*/ ctx[1].groupName != null ? "/" : ""}` + "")) set_data(t0, t0_value);
+			if (dirty & /*group*/ 2 && t1_value !== (t1_value = (/*group*/ ctx[1].groupName ?? "") + "")) set_data(t1, t1_value);
+>>>>>>> Stashed changes
 		},
 		d(detaching) {
 			if (detaching) detach(span0);
@@ -12706,7 +12918,11 @@ function create_else_block$1(ctx) {
 
 // (32:6) {#if group.type === "page"}
 function create_if_block_1$1(ctx) {
+<<<<<<< Updated upstream
 	let t_value = /*group*/ ctx[0].groupName + "";
+=======
+	let t_value = /*group*/ ctx[1].groupName + "";
+>>>>>>> Stashed changes
 	let t;
 
 	return {
@@ -12717,7 +12933,11 @@ function create_if_block_1$1(ctx) {
 			insert(target, t, anchor);
 		},
 		p(ctx, dirty) {
+<<<<<<< Updated upstream
 			if (dirty & /*group*/ 1 && t_value !== (t_value = /*group*/ ctx[0].groupName + "")) set_data(t, t_value);
+=======
+			if (dirty & /*group*/ 2 && t_value !== (t_value = /*group*/ ctx[1].groupName + "")) set_data(t, t_value);
+>>>>>>> Stashed changes
 		},
 		d(detaching) {
 			if (detaching) detach(t);
@@ -12729,7 +12949,11 @@ function create_if_block_1$1(ctx) {
 function create_if_block$1(ctx) {
 	let each_1_anchor;
 	let current;
+<<<<<<< Updated upstream
 	let each_value = /*group*/ ctx[0].todos;
+=======
+	let each_value = /*group*/ ctx[1].todos;
+>>>>>>> Stashed changes
 	let each_blocks = [];
 
 	for (let i = 0; i < each_value.length; i += 1) {
@@ -12757,8 +12981,13 @@ function create_if_block$1(ctx) {
 			current = true;
 		},
 		p(ctx, dirty) {
+<<<<<<< Updated upstream
 			if (dirty & /*group, lookAndFeel, app*/ 25) {
 				each_value = /*group*/ ctx[0].todos;
+=======
+			if (dirty & /*group, lookAndFeel, app*/ 50) {
+				each_value = /*group*/ ctx[1].todos;
+>>>>>>> Stashed changes
 				let i;
 
 				for (i = 0; i < each_value.length; i += 1) {
@@ -12817,8 +13046,13 @@ function create_each_block$1(ctx) {
 	checklistitem = new ChecklistItem({
 			props: {
 				item: /*item*/ ctx[9],
+<<<<<<< Updated upstream
 				lookAndFeel: /*lookAndFeel*/ ctx[3],
 				app: /*app*/ ctx[4]
+=======
+				lookAndFeel: /*lookAndFeel*/ ctx[4],
+				app: /*app*/ ctx[5]
+>>>>>>> Stashed changes
 			}
 		});
 
@@ -12832,9 +13066,15 @@ function create_each_block$1(ctx) {
 		},
 		p(ctx, dirty) {
 			const checklistitem_changes = {};
+<<<<<<< Updated upstream
 			if (dirty & /*group*/ 1) checklistitem_changes.item = /*item*/ ctx[9];
 			if (dirty & /*lookAndFeel*/ 8) checklistitem_changes.lookAndFeel = /*lookAndFeel*/ ctx[3];
 			if (dirty & /*app*/ 16) checklistitem_changes.app = /*app*/ ctx[4];
+=======
+			if (dirty & /*group*/ 2) checklistitem_changes.item = /*item*/ ctx[9];
+			if (dirty & /*lookAndFeel*/ 16) checklistitem_changes.lookAndFeel = /*lookAndFeel*/ ctx[4];
+			if (dirty & /*app*/ 32) checklistitem_changes.app = /*app*/ ctx[5];
+>>>>>>> Stashed changes
 			checklistitem.$set(checklistitem_changes);
 		},
 		i(local) {
@@ -12860,7 +13100,11 @@ function create_fragment$1(ctx) {
 	let div1;
 	let t1;
 	let div2;
+<<<<<<< Updated upstream
 	let t2_value = /*group*/ ctx[0].todos.length + "";
+=======
+	let t2_value = /*group*/ ctx[1].todos.length + "";
+>>>>>>> Stashed changes
 	let t2;
 	let t3;
 	let button;
@@ -12874,7 +13118,11 @@ function create_fragment$1(ctx) {
 	let dispose;
 
 	function select_block_type(ctx, dirty) {
+<<<<<<< Updated upstream
 		if (/*group*/ ctx[0].type === "page") return create_if_block_1$1;
+=======
+		if (/*group*/ ctx[1].type === "page") return create_if_block_1$1;
+>>>>>>> Stashed changes
 		return create_else_block$1;
 	}
 
@@ -12884,11 +13132,19 @@ function create_fragment$1(ctx) {
 	icon = new Icon({
 			props: {
 				name: "chevron",
+<<<<<<< Updated upstream
 				direction: /*isCollapsed*/ ctx[2] ? "left" : "down"
 			}
 		});
 
 	let if_block1 = !/*isCollapsed*/ ctx[2] && create_if_block$1(ctx);
+=======
+				direction: /*isCollapsed*/ ctx[3] ? "left" : "down"
+			}
+		});
+
+	let if_block1 = !/*isCollapsed*/ ctx[3] && create_if_block$1(ctx);
+>>>>>>> Stashed changes
 
 	return {
 		c() {
@@ -12912,9 +13168,15 @@ function create_fragment$1(ctx) {
 			attr(div2, "class", "count svelte-yzsyxo");
 			attr(button, "class", "collapse svelte-yzsyxo");
 			attr(button, "title", "Toggle Group");
+<<<<<<< Updated upstream
 			attr(header, "class", header_class_value = "" + (null_to_empty(`group-header ${/*group*/ ctx[0].type}`) + " svelte-yzsyxo"));
 			attr(ul, "class", "svelte-yzsyxo");
 			attr(section, "class", section_class_value = "group " + /*groupNameAsClass*/ ctx[6] + " svelte-yzsyxo");
+=======
+			attr(header, "class", header_class_value = "" + (null_to_empty(`group-header ${/*group*/ ctx[1].type}`) + " svelte-yzsyxo"));
+			attr(ul, "class", "svelte-yzsyxo");
+			attr(section, "class", section_class_value = "group " + /*groupNameAsClass*/ ctx[0] + " svelte-yzsyxo");
+>>>>>>> Stashed changes
 		},
 		m(target, anchor) {
 			insert(target, section, anchor);
@@ -12956,6 +13218,7 @@ function create_fragment$1(ctx) {
 				}
 			}
 
+<<<<<<< Updated upstream
 			if ((!current || dirty & /*group*/ 1) && t2_value !== (t2_value = /*group*/ ctx[0].todos.length + "")) set_data(t2, t2_value);
 			const icon_changes = {};
 			if (dirty & /*isCollapsed*/ 4) icon_changes.direction = /*isCollapsed*/ ctx[2] ? "left" : "down";
@@ -12970,6 +13233,22 @@ function create_fragment$1(ctx) {
 					if_block1.p(ctx, dirty);
 
 					if (dirty & /*isCollapsed*/ 4) {
+=======
+			if ((!current || dirty & /*group*/ 2) && t2_value !== (t2_value = /*group*/ ctx[1].todos.length + "")) set_data(t2, t2_value);
+			const icon_changes = {};
+			if (dirty & /*isCollapsed*/ 8) icon_changes.direction = /*isCollapsed*/ ctx[3] ? "left" : "down";
+			icon.$set(icon_changes);
+
+			if (!current || dirty & /*group*/ 2 && header_class_value !== (header_class_value = "" + (null_to_empty(`group-header ${/*group*/ ctx[1].type}`) + " svelte-yzsyxo"))) {
+				attr(header, "class", header_class_value);
+			}
+
+			if (!/*isCollapsed*/ ctx[3]) {
+				if (if_block1) {
+					if_block1.p(ctx, dirty);
+
+					if (dirty & /*isCollapsed*/ 8) {
+>>>>>>> Stashed changes
 						transition_in(if_block1, 1);
 					}
 				} else {
@@ -12988,7 +13267,11 @@ function create_fragment$1(ctx) {
 				check_outros();
 			}
 
+<<<<<<< Updated upstream
 			if (!current || dirty & /*groupNameAsClass*/ 64 && section_class_value !== (section_class_value = "group " + /*groupNameAsClass*/ ctx[6] + " svelte-yzsyxo")) {
+=======
+			if (!current || dirty & /*groupNameAsClass*/ 1 && section_class_value !== (section_class_value = "group " + /*groupNameAsClass*/ ctx[0] + " svelte-yzsyxo")) {
+>>>>>>> Stashed changes
 				attr(section, "class", section_class_value);
 			}
 		},
@@ -13023,7 +13306,11 @@ function instance$1($$self, $$props, $$invalidate) {
 	let { lookAndFeel } = $$props;
 	let { app } = $$props;
 	let { onToggle } = $$props;
+<<<<<<< Updated upstream
 	let groupNameAsClass;
+=======
+	let { groupNameAsClass } = $$props;
+>>>>>>> Stashed changes
 
 	function clickTitle(ev) {
 		if (group.type === "page") navToFile(app, group.groupId, ev);
@@ -13032,6 +13319,7 @@ function instance$1($$self, $$props, $$invalidate) {
 	const click_handler = () => onToggle(group.groupId);
 
 	$$self.$$set = $$props => {
+<<<<<<< Updated upstream
 		if ("group" in $$props) $$invalidate(0, group = $$props.group);
 		if ("mainTag" in $$props) $$invalidate(1, mainTag = $$props.mainTag);
 		if ("isCollapsed" in $$props) $$invalidate(2, isCollapsed = $$props.isCollapsed);
@@ -13042,6 +13330,19 @@ function instance$1($$self, $$props, $$invalidate) {
 
 	$$self.$$.update = () => {
 		if ($$self.$$.dirty & /*group, mainTag*/ 3) {
+=======
+		if ("group" in $$props) $$invalidate(1, group = $$props.group);
+		if ("mainTag" in $$props) $$invalidate(2, mainTag = $$props.mainTag);
+		if ("isCollapsed" in $$props) $$invalidate(3, isCollapsed = $$props.isCollapsed);
+		if ("lookAndFeel" in $$props) $$invalidate(4, lookAndFeel = $$props.lookAndFeel);
+		if ("app" in $$props) $$invalidate(5, app = $$props.app);
+		if ("onToggle" in $$props) $$invalidate(6, onToggle = $$props.onToggle);
+		if ("groupNameAsClass" in $$props) $$invalidate(0, groupNameAsClass = $$props.groupNameAsClass);
+	};
+
+	$$self.$$.update = () => {
+		if ($$self.$$.dirty & /*group, mainTag*/ 6) {
+>>>>>>> Stashed changes
 			{
 				const groupName = group.groupName || mainTag;
 				const sanitzedGroupName = groupName.replace(/[^A-Za-z0-9]/g, "");
@@ -13051,19 +13352,30 @@ function instance$1($$self, $$props, $$invalidate) {
 					return p1.toLowerCase();
 				});
 
+<<<<<<< Updated upstream
 				$$invalidate(6, groupNameAsClass = `group-${dasherizedGroupName}`);
+=======
+				$$invalidate(0, groupNameAsClass = `group-${dasherizedGroupName}`);
+>>>>>>> Stashed changes
 			}
 		}
 	};
 
 	return [
+<<<<<<< Updated upstream
+=======
+		groupNameAsClass,
+>>>>>>> Stashed changes
 		group,
 		mainTag,
 		isCollapsed,
 		lookAndFeel,
 		app,
 		onToggle,
+<<<<<<< Updated upstream
 		groupNameAsClass,
+=======
+>>>>>>> Stashed changes
 		clickTitle,
 		click_handler
 	];
@@ -13075,12 +13387,22 @@ class ChecklistGroup extends SvelteComponent {
 		if (!document.getElementById("svelte-yzsyxo-style")) add_css$1();
 
 		init(this, options, instance$1, create_fragment$1, safe_not_equal, {
+<<<<<<< Updated upstream
 			group: 0,
 			mainTag: 1,
 			isCollapsed: 2,
 			lookAndFeel: 3,
 			app: 4,
 			onToggle: 5
+=======
+			group: 1,
+			mainTag: 2,
+			isCollapsed: 3,
+			lookAndFeel: 4,
+			app: 5,
+			onToggle: 6,
+			groupNameAsClass: 0
+>>>>>>> Stashed changes
 		});
 	}
 }
@@ -13579,6 +13901,7 @@ class TodoPlugin extends obsidian.Plugin {
     initLeaf() {
         if (this.app.workspace.getLeavesOfType(TODO_VIEW_TYPE).length)
             return;
+<<<<<<< Updated upstream
         this.app.workspace.getRightLeaf(false).setViewState({
             type: TODO_VIEW_TYPE,
             active: true,
@@ -13588,6 +13911,15 @@ class TodoPlugin extends obsidian.Plugin {
         var _a;
         await this.view.onClose();
         (_a = this.app.workspace.getLeavesOfType(TODO_VIEW_TYPE)[0]) === null || _a === void 0 ? void 0 : _a.detach();
+=======
+        this.app.workspace.getRightLeaf(true).setViewState({
+            type: TODO_VIEW_TYPE,
+            active: false,
+        });
+    }
+    onunload() {
+        this.view.onClose();
+>>>>>>> Stashed changes
     }
     async loadSettings() {
         const loadedData = await this.loadData();

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "id": "obsidian-outliner",
   "name": "Outliner",
@@ -8,3 +9,15 @@
   "authorUrl": "https://github.com/vslinko",
   "isDesktopOnly": true
 }
+=======
+{
+  "id": "obsidian-outliner",
+  "name": "Outliner",
+  "version": "1.3.1",
+  "minAppVersion": "0.12.10",
+  "description": "Work with your lists like in Workflowy or RoamResearch.",
+  "author": "Viacheslav Slinko",
+  "authorUrl": "https://github.com/vslinko",
+  "isDesktopOnly": true
+}
+>>>>>>> Stashed changes
