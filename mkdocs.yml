@@ -9,6 +9,7 @@ repo_name: jimbrig/Slipbox
 remote_branch: gh-pages
 edit_uri: blob/gh-pages/
 use_directory_urls: true
+docs_dir: .
 plugins:
   - search
   # - autolinks
