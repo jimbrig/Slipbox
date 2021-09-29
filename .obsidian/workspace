@@ -1,32 +1,48 @@
 {
   "main": {
-    "id": "376fdda07e1771dc",
+    "id": "f66eb41388d428a8",
     "type": "split",
     "children": [
       {
-        "id": "d0e468b28d63dd18",
+        "id": "6b099741b46df8cc",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      },
+      {
+        "id": "efebf7c2cdaa920f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Day Planners/Day Planner-20210826.md",
+            "file": "README.md",
             "mode": "source"
           }
+        }
+      },
+      {
+        "id": "fac0697af0e0704f",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1fd739e61c3fd8aa",
+    "id": "3d074fb3464402a3",
     "type": "split",
     "children": [
       {
-        "id": "011a7abf332097bd",
+        "id": "6b34edb987936d9e",
         "type": "tabs",
         "children": [
           {
-            "id": "dd48c4fc19ee779e",
+            "id": "74178abd0140d2a6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,12 +50,12 @@
             }
           },
           {
-            "id": "e04bc79cdae688a8",
+            "id": "b436dc945c83e5b7",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Source",
+                "query": "tag:#tools",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +65,7 @@
             }
           },
           {
-            "id": "ca5fdae2d0a5b4f0",
+            "id": "071b8ad39567bd64",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -57,15 +73,15 @@
             }
           },
           {
-            "id": "913ba98054ef421c",
+            "id": "468c731a96e87ab9",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "file-tree-view",
               "state": {}
             }
           },
           {
-            "id": "e1a0f5ed1bf67836",
+            "id": "b45651cd40a82024",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -76,94 +92,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 443
   },
   "right": {
-    "id": "189edfa13993d9cc",
+    "id": "5aa066e6b140736e",
     "type": "split",
     "children": [
       {
-        "id": "80e316169552cc5d",
+        "id": "d6074716eb3dc613",
         "type": "tabs",
         "children": [
           {
-            "id": "5016ce5c088cf909",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "27128dacf3e323f0",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Day Planners/Day Planner-20210826.md"
-              }
-            }
-          },
-          {
-            "id": "d1284b783d53b738",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "ceae8cb243c6e03a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "694d5abf1bfcda4b",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Day Planners/Day Planner-20210826.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": false,
-                  "textFadeMultiplier": -2.4,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.7132754626224423,
-                  "close": true
-                }
-              }
-            }
-          },
-          {
-            "id": "146fa3d349065f16",
+            "id": "04e0557015f9376b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day Planners/Day Planner-20210826.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,34 +119,77 @@
             }
           },
           {
-            "id": "e8d06124716be876",
+            "id": "90341acdff20f8df",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Day Planners/Day Planner-20210826.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "b5737a30efe3f4f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5429adc7f95452de",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "b6755fce2bb5fed3",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "9f49f04901bc7cb7",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "5abeb6659b9e4d9d",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 453
+    "width": 300
   },
-  "active": "d0e468b28d63dd18",
+  "active": "fac0697af0e0704f",
   "lastOpenFiles": [
-    "Day Planners/Day Planner-20210826.md",
-    "Daily-Notes/2021-08-26.md",
-    "SlipBox/AutoHotKey Scripts.md",
-    "SlipBox/Check Internet Speed with Command Line.md",
-    "SlipBox/How to Resolve PIN Issues in Windows.md",
-    "SlipBox/Run Commands as Another User Account - RUNAS.md",
-    "SlipBox/The Roles of a Personal Knowledge Manager.md",
-    "SlipBox/Backend Web Architecture.md",
-    "SlipBox/Computer Setup.md",
-    "README.md"
+    "1-Maps-of-Content/020 - Development.md",
+    "2-Slipbox/Windows Registry Paths and Keys.md",
+    "2-Slipbox/Windows Registry.md",
+    "2-Slipbox/Windows Developer Environment.md",
+    "2-Slipbox/Using diskusage Command in Windows.md",
+    "3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md",
+    "2-Slipbox/Keyboard shortcuts for Gmail - Computer.md",
+    "2-Slipbox/How to Cleanup Windows from Command Line.md",
+    "2-Slipbox/How To Change Explorer Drive Icons via Registry.md",
+    "2-Slipbox/Dotfiles Tools.md"
   ]
 }
