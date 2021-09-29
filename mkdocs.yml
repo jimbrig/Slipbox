@@ -7,7 +7,7 @@ copyright: Copyright &copy; 2021 Jimmy Briggs
 repo_url: https://github.com/jimbrig/Slipbox
 repo_name: jimbrig/Slipbox
 remote_branch: gh-pages
-edit_uri: blob/main/docs
+edit_uri: blob/main
 use_directory_urls: true
 plugins:
   - search
