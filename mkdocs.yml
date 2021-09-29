@@ -7,9 +7,10 @@ copyright: Copyright &copy; 2021 Jimmy Briggs
 repo_url: https://github.com/jimbrig/Slipbox
 repo_name: jimbrig/Slipbox
 remote_branch: gh-pages
-edit_uri: blob/gh-pages/
+edit_uri: blob/master/vault
 use_directory_urls: true
-docs_dir: .
+docs_dir: vault
+site_dir: site
 plugins:
   - search
   # - autolinks
@@ -51,17 +52,18 @@ markdown_extensions:
   # - pymdownx.tasklist:
   #     custom_checkbox: true
   # - pymdownx.tilde
-# theme:
-#   name: cinder
-#   colorscheme: dracula
-#   highlightjs: true
-#  language: "en"
-#   favicon: "obsidian.ico"
-#   icon:
-#     repo: fontawesome/brands/github
-#   features:
-#     - tabs
-#     - search.highlight
+theme:
+  name: null
+  custom_dir: themes/cinder
+  colorscheme: dracula
+  highlightjs: true
+  language: "en"
+  #favicon: "obsidian.ico"
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - tabs
+    - search.highlight
 extra:
   version: 1.0
   social:
