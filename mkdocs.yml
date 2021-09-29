@@ -50,17 +50,17 @@ markdown_extensions:
   # - pymdownx.tasklist:
   #     custom_checkbox: true
   # - pymdownx.tilde
-theme:
-  name: cinder
-  colorscheme: dracula
-  highlightjs: true
-  language: "en"
-  favicon: "obsidian.ico"
-  icon:
-    repo: fontawesome/brands/github
-  features:
-    - tabs
-    - search.highlight
+# theme:
+#   name: cinder
+#   colorscheme: dracula
+#   highlightjs: true
+#  language: "en"
+#   favicon: "obsidian.ico"
+#   icon:
+#     repo: fontawesome/brands/github
+#   features:
+#     - tabs
+#     - search.highlight
 extra:
   version: 1.0
   social:
