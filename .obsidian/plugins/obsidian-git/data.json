@@ -1,17 +1,14 @@
 {
-  "commitMessage": "vault backup: {{date}}",
+  "commitMessage": "update: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 5,
-  "autoPullInterval": 5,
+  "autoSaveInterval": 0,
+  "autoPullInterval": 0,
   "autoPullOnBoot": true,
   "disablePush": false,
   "pullBeforePush": true,
   "disablePopups": false,
   "listChangedFilesInMessageBody": true,
-<<<<<<< Updated upstream
   "showStatusBar": true,
-  "updateSubmodules": false
-=======
-  "showStatusBar": true
->>>>>>> Stashed changes
+  "updateSubmodules": true,
+  "gitPath": ""
 }

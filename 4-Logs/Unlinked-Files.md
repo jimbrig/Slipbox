@@ -19,7 +19,7 @@
 - [[EDA Packages in R]]
 - [[Docker Compose Reference Docs]]
 - [[Databases with R Resources]]
-- [[Database GUIs]]
+- [[2-Slipbox/Database GUIs]]
 - [[Database Documentation]]
 - [[Data Validation Packages in R]]
 - [[Daily Notes as Your Scratch Space]]

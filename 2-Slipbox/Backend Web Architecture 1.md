@@ -116,7 +116,7 @@ Source: e
 
 
 
-Links: [[010-Development-MOC|Development]] | [[Web Development]] | [[System Design]] | [[System Design Primer]]
+Links: [[010-Development-MOC|Development]] | [[Web Development]] | [[System Design]] | [[System Design Primer 1]]
 
 Sources: <https://www.codecademy.com/articles/back-end-architecture>
 

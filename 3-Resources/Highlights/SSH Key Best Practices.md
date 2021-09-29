@@ -1,7 +1,7 @@
 - **URL:** https://dev.to/paulmicheli/ssh-key-best-practices-2cb7
 - **Author:** dev.to
 - **Tags:** #Source/Article
-- **Date:** [[2021-08-25]]
+- **Date:** [[3-Resources/Daily-Notes/Daily-Notes/2021-08-25]]
 ---
 
 Ensure SSH Keys Are Associated With a Single Services %% highlight_id: 218789239 %%

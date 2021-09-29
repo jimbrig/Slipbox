@@ -69,7 +69,7 @@ AP is a good choice if the business needs allow for [eventual consistency](https
 -   [Understanding latency vs throughput](https://community.cadence.com/cadence_blogs_8/b/sd/archive/2010/09/13/understanding-latency-vs-throughput)
 
 ***
-Links: [[System Design]] | [[Web Development]] | [[Backend Web Architecture]] | [[010-Development-MOC|Development]]
+Links: [[System Design]] | [[Web Development]] | [[Backend Web Architecture 1]] | [[010-Development-MOC|Development]]
 
 Source: [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
 

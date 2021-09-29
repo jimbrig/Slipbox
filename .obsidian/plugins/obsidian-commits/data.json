@@ -1094,14 +1094,6 @@
       "tags": 1,
       "links": 30
     },
-<<<<<<< Updated upstream
-=======
-    "README.md": {
-      "size": 200,
-      "tags": 2,
-      "links": 5
-    },
->>>>>>> Stashed changes
     "Productivity/zettelkasten.md": {
       "size": 4071,
       "tags": 0,
@@ -5732,7 +5724,6 @@
       "tags": 1,
       "links": 2
     },
-<<<<<<< Updated upstream
     "4-Logs/SyncLog.md": {
       "size": 123203,
       "tags": 0,
@@ -5741,7 +5732,7 @@
     "4-Logs/Changelog.md": {
       "size": 19708,
       "tags": 0,
-      "links": 404
+      "links": 441
     },
     "4-Logs/Unlinked-Files.md": {
       "size": 2234,
@@ -5909,139 +5900,10 @@
       "links": 2
     },
     "Daily-Notes/2021-08-24.md": {
-=======
-    "2-Slipbox/PowerShellGet.md": {
-      "size": 211,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Computer Backup System.md": {
-      "size": 232,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Git Links.md": {
-      "size": 371,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/PowerShell Tips.md": {
-      "size": 379,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Run Command to Edit Environment Variables.md": {
-      "size": 607,
-      "tags": 4,
-      "links": 3
-    },
-    "2-Slipbox/Obsidian Setup.md": {
-      "size": 685,
-      "tags": 3,
-      "links": 18
-    },
-    "2-Slipbox/Obsidian Taxonomy.md": {
-      "size": 806,
-      "tags": 3,
-      "links": 3
-    },
-    "2-Slipbox/SSH and SCP.md": {
-      "size": 895,
-      "tags": 1,
-      "links": 6
-    },
-    "2-Slipbox/Windows Registry Paths and Keys.md": {
-      "size": 1043,
-      "tags": 5,
-      "links": 4
-    },
-    "2-Slipbox/WSL-Notes.md": {
-      "size": 1667,
-      "tags": 0,
-      "links": 3
-    },
-    "2-Slipbox/Focused Note Taking via the Cornell Notes Method.md": {
-      "size": 2459,
-      "tags": 4,
-      "links": 1
-    },
-    "2-Slipbox/Mermaid Diagrams.md": {
-      "size": 2673,
-      "tags": 6,
-      "links": 3
-    },
-    "2-Slipbox/Windows Developer Environment.md": {
-      "size": 2789,
-      "tags": 5,
-      "links": 3
-    },
-    "2-Slipbox/How To Change Explorer Drive Icons via Registry.md": {
-      "size": 2938,
-      "tags": 5,
-      "links": 14
-    },
-    "2-Slipbox/MkDocs.md": {
-      "size": 3252,
-      "tags": 2,
-      "links": 1
-    },
-    "2-Slipbox/Tools - Resilio Sync.md": {
-      "size": 3408,
-      "tags": 4,
-      "links": 11
-    },
-    "2-Slipbox/Start an Offline Scan with Windows Defender from PowerShell.md": {
-      "size": 3989,
-      "tags": 5,
-      "links": 3
-    },
-    "2-Slipbox/Windows Registry.md": {
-      "size": 4233,
-      "tags": 4,
-      "links": 2
-    },
-    "2-Slipbox/Web terms 101 – Google Domains.md": {
-      "size": 5593,
-      "tags": 0,
-      "links": 9
-    },
-    "2-Slipbox/Classification of Note Types.md": {
-      "size": 4963,
-      "tags": 3,
-      "links": 9
-    },
-    "3-Resources/Daily-Notes/2021-05-02.md": {
-      "size": 259,
-      "tags": 1,
-      "links": 2
-    },
-    "3-Resources/Daily-Notes/2021-04-28.md": {
-      "size": 262,
-      "tags": 1,
-      "links": 2
-    },
-    "3-Resources/Daily-Notes/2021-04-22.md": {
-      "size": 367,
-      "tags": 1,
-      "links": 2
-    },
-    "3-Resources/Daily-Notes/2021-04-24.md": {
-      "size": 377,
-      "tags": 1,
-      "links": 2
-    },
-    "3-Resources/Daily-Notes/2021-04-23.md": {
-      "size": 405,
-      "tags": 1,
-      "links": 2
-    },
-    "3-Resources/Daily-Notes/2021-05-01.md": {
->>>>>>> Stashed changes
       "size": 410,
       "tags": 1,
       "links": 2
     },
-<<<<<<< Updated upstream
     "Daily-Notes/2021-08-25.md": {
       "size": 368,
       "tags": 1,
@@ -6228,1749 +6090,10 @@
       "links": 15
     },
     "MOCs/000-INDEX.md": {
-=======
-    "3-Resources/Daily-Notes/2021-04-21.md": {
-      "size": 620,
-      "tags": 1,
-      "links": 2
-    },
-    "3-Resources/Daily-Notes/2021-04-29.md": {
-      "size": 623,
-      "tags": 1,
-      "links": 2
-    },
-    "3-Resources/Daily-Notes/2021-07-25.md": {
-      "size": 840,
-      "tags": 1,
-      "links": 3
-    },
-    "3-Resources/Daily-Notes/2021-07-21.md": {
-      "size": 974,
-      "tags": 1,
-      "links": 3
-    },
-    "3-Resources/Daily-Notes/2021-07-27.md": {
-      "size": 977,
-      "tags": 1,
-      "links": 3
-    },
-    "3-Resources/Daily-Notes/2021-07-30.md": {
-      "size": 1005,
-      "tags": 1,
-      "links": 3
-    },
-    "3-Resources/Daily-Notes/2021-04-25.md": {
-      "size": 1177,
-      "tags": 4,
-      "links": 6
-    },
-    "3-Resources/Mindsweeps/Mindsweep Trigger List.md": {
-      "size": 244,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Daily-Notes/2021-07-24.md": {
-      "size": 1212,
-      "tags": 1,
-      "links": 3
-    },
-    "3-Resources/Daily-Notes/2021-07-19.md": {
-      "size": 1440,
-      "tags": 1,
-      "links": 5
-    },
-    "3-Resources/Daily-Notes/2020-04-20.md": {
-      "size": 1515,
-      "tags": 1,
-      "links": 2
-    },
-    "3-Resources/Daily-Notes/2021-07-29.md": {
-      "size": 1982,
-      "tags": 1,
-      "links": 4
-    },
-    "3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md": {
-      "size": 3074,
-      "tags": 0,
-      "links": 2
-    },
-    "2-Slipbox/Johnny Decimal System.md": {
-      "size": 6927,
-      "tags": 2,
-      "links": 0
-    },
-    "3-Resources/Templates/Default-Note-Template.md": {
-      "size": 253,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Resources/Templates/MOC-Template.md": {
-      "size": 300,
-      "tags": 2,
-      "links": 0
-    },
-    "3-Resources/Templates/Mindsweep-Note-Template.md": {
-      "size": 365,
-      "tags": 0,
-      "links": 1
-    },
-    "2-Slipbox/Kubernetes Sandbox with minikube and kubectl.md": {
-      "size": 12070,
-      "tags": 9,
-      "links": 25
-    },
-    "2-Slipbox/AutoHotKey Scripts.md": {
-      "size": 58746,
-      "tags": 3,
-      "links": 10
-    },
-    "4-Logs/SyncLog.md": {
-      "size": 123203,
-      "tags": 0,
-      "links": 0
-    },
-    "4-Logs/Changelog.md": {
-      "size": 19708,
-      "tags": 0,
-      "links": 404
-    },
-    "2-Slipbox/Mindfulness - The Key to Success.md": {
-      "size": 8814,
-      "tags": 3,
-      "links": 10
-    },
-    "4-Logs/Unlinked-Files.md": {
-      "size": 2234,
-      "tags": 0,
-      "links": 36
-    },
-    "4-Logs/Unresolved-Links.md": {
-      "size": 14517,
-      "tags": 0,
-      "links": 255
-    },
-    "2-Slipbox/Daily Notes as Your Scratch Space.md": {
-      "size": 324,
-      "tags": 2,
-      "links": 1
-    },
-    "2-Slipbox/How to Ship Side Projects.md": {
-      "size": 12359,
-      "tags": 1,
-      "links": 1
-    },
-    "2-Slipbox/Keyboard shortcuts for Gmail - Computer.md": {
-      "size": 3936,
-      "tags": 1,
-      "links": 0
-    },
-    "2-Slipbox/Managing projects with GTD.md": {
-      "size": 2104,
-      "tags": 3,
-      "links": 0
-    },
-    "2-Slipbox/How to Pay off Debt.md": {
-      "size": 3173,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Database GUIs.md": {
-      "size": 3651,
-      "tags": 1,
-      "links": 0
-    },
-    "2-Slipbox/PostgreSQL Tools.md": {
-      "size": 5393,
-      "tags": 3,
-      "links": 0
-    },
-    "2-Slipbox/Google Cloud Setup Notes.md": {
-      "size": 1027,
-      "tags": 2,
-      "links": 2
-    },
-    "2-Slipbox/WSL Commands and Installs.md": {
-      "size": 972,
-      "tags": 1,
-      "links": 0
-    },
-    "2-Slipbox/How to Cleanup Windows from Command Line.md": {
-      "size": 2842,
-      "tags": 3,
-      "links": 3
-    },
-    "2-Slipbox/SFC and DISM Commands.md": {
-      "size": 6771,
-      "tags": 1,
-      "links": 8
-    },
-    "2-Slipbox/Using diskusage Command in Windows.md": {
-      "size": 1837,
-      "tags": 3,
-      "links": 0
-    },
-    "2-Slipbox/Windows Command Line Commands Overview.md": {
-      "size": 27074,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/WinGet CLI Setup and Settings.md": {
-      "size": 3153,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Backend Web Architecture.md": {
-      "size": 8773,
-      "tags": 1,
-      "links": 13
-    },
-    "2-Slipbox/HTTP Requests Notes.md": {
-      "size": 8399,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Javascript.md": {
-      "size": 21637,
-      "tags": 2,
-      "links": 0
-    },
-    "2-Slipbox/WebDev Resource List.md": {
-      "size": 252,
-      "tags": 2,
-      "links": 0
-    },
-    "2-Slipbox/System Design Primer.md": {
-      "size": 4226,
-      "tags": 1,
-      "links": 3
-    },
-    "2-Slipbox/Base Package Hidden Gems in R.md": {
-      "size": 9459,
-      "tags": 1,
-      "links": 1
-    },
-    "2-Slipbox/Data Validation Packages in R.md": {
-      "size": 1424,
-      "tags": 1,
-      "links": 0
-    },
-    "2-Slipbox/Databases with R Resources.md": {
-      "size": 205,
-      "tags": 3,
-      "links": 0
-    },
-    "2-Slipbox/Plumber Logging.md": {
-      "size": 4200,
-      "tags": 2,
-      "links": 1
-    },
-    "2-Slipbox/Plumber Resources.md": {
-      "size": 192,
-      "tags": 3,
-      "links": 0
-    },
-    "2-Slipbox/Plumber REST APIs in R.md": {
-      "size": 1396,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/EDA Packages in R.md": {
-      "size": 13843,
-      "tags": 1,
-      "links": 0
-    },
-    "2-Slipbox/R Books List.md": {
-      "size": 2159,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/R Miscellaneous Notes.md": {
-      "size": 4356,
-      "tags": 1,
-      "links": 0
-    },
-    "2-Slipbox/RStudio Configuration Notes.md": {
-      "size": 13153,
-      "tags": 2,
-      "links": 10
-    },
-    "2-Slipbox/Shiny Apps as Packages in R.md": {
-      "size": 5858,
-      "tags": 2,
-      "links": 18
-    },
-    "2-Slipbox/Tools Package Hidden Gems in R.md": {
-      "size": 307,
-      "tags": 2,
-      "links": 0
-    },
-    "2-Slipbox/Useful Packages in R List.md": {
-      "size": 6180,
-      "tags": 3,
-      "links": 2
-    },
-    "2-Slipbox/Utils Package Hidden Gems in R.md": {
-      "size": 5603,
-      "tags": 2,
-      "links": 8
-    },
-    "2-Slipbox/Python.md": {
-      "size": 176,
-      "tags": 1,
-      "links": 0
-    },
-    "2-Slipbox/Ludicrously Complex Projects in Software Development.md": {
-      "size": 1241,
-      "tags": 2,
-      "links": 0
-    },
-    "2-Slipbox/Notes on Finishing Projects.md": {
-      "size": 830,
-      "tags": 1,
-      "links": 3
-    },
-    "2-Slipbox/Time Management.md": {
-      "size": 1206,
-      "tags": 1,
-      "links": 1
-    },
-    "2-Slipbox/Project Management Pipeline.md": {
-      "size": 2861,
-      "tags": 2,
-      "links": 3
-    },
-    "2-Slipbox/Taming a Chaotic Project.md": {
-      "size": 8823,
-      "tags": 2,
-      "links": 13
-    },
-    "2-Slipbox/Database Documentation.md": {
-      "size": 1028,
-      "tags": 3,
-      "links": 4
-    },
-    "2-Slipbox/Obsidian Git Plugin Notes.md": {
-      "size": 1139,
-      "tags": 1,
-      "links": 1
-    },
-    "2-Slipbox/Obsidian Links List.md": {
-      "size": 13070,
-      "tags": 1,
-      "links": 3
-    },
-    "2-Slipbox/Publishing Workflow.md": {
-      "size": 1576,
-      "tags": 1,
-      "links": 3
-    },
-    "2-Slipbox/Git Tools.md": {
-      "size": 201,
-      "tags": 2,
-      "links": 1
-    },
-    "2-Slipbox/Github Actions for R.md": {
-      "size": 6964,
-      "tags": 1,
-      "links": 0
-    },
-    "2-Slipbox/Docker Compose Reference Docs.md": {
-      "size": 9642,
-      "tags": 1,
-      "links": 0
-    },
-    "2-Slipbox/Docker Best Practices.md": {
-      "size": 4619,
-      "tags": 1,
-      "links": 0
-    },
-    "2-Slipbox/Firefox Developer Edition.md": {
-      "size": 2950,
-      "tags": 3,
-      "links": 1
-    },
-    "2-Slipbox/Web Browsers.md": {
-      "size": 383,
-      "tags": 2,
-      "links": 9
-    },
-    "2-Slipbox/Views vs. Materialized Views.md": {
-      "size": 1962,
-      "tags": 3,
-      "links": 4
-    },
-    "2-Slipbox/Markdown.md": {
-      "size": 514,
-      "tags": 4,
-      "links": 4
-    },
-    "2-Slipbox/APIs.md": {
-      "size": 295,
-      "tags": 3,
-      "links": 2
-    },
-    "2-Slipbox/CLI Tools.md": {
-      "size": 328,
-      "tags": 3,
-      "links": 0
-    },
-    "3-Resources/Daily-Notes/2021-08-02.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 3
-    },
-    "1-Maps-of-Content/000 - INDEX.md": {
-      "size": 557,
-      "tags": 2,
-      "links": 8
-    },
-    "1-Maps-of-Content/010 - Productivity.md": {
-      "size": 224,
-      "tags": 2,
-      "links": 23
-    },
-    "1-Maps-of-Content/020 - Development.md": {
-      "size": 10879,
-      "tags": 3,
-      "links": 169
-    },
-    "1-Maps-of-Content/030 - Professional.md": {
-      "size": 224,
-      "tags": 0,
-      "links": 0
-    },
-    "1-Maps-of-Content/040 - Personal.md": {
-      "size": 216,
-      "tags": 0,
-      "links": 3
-    },
-    "1-Maps-of-Content/050 - Computer.md": {
-      "size": 901,
-      "tags": 0,
-      "links": 19
-    },
-    "1-Maps-of-Content/MOC - Databases.md": {
-      "size": 301,
-      "tags": 1,
-      "links": 3
-    },
-    "1-Maps-of-Content/MOC - Links.md": {
-      "size": 1109,
-      "tags": 2,
-      "links": 0
-    },
-    "1-Maps-of-Content/MOC - PKM.md": {
-      "size": 297,
-      "tags": 2,
-      "links": 3
-    },
-    "1-Maps-of-Content/MOC - PostgreSQL.md": {
-      "size": 27524,
-      "tags": 2,
-      "links": 21
-    },
-    "1-Maps-of-Content/MOC - Project Management.md": {
-      "size": 224,
-      "tags": 0,
-      "links": 0
-    },
-    "1-Maps-of-Content/MOC - R.md": {
-      "size": 38,
-      "tags": 2,
-      "links": 1
-    },
-    "1-Maps-of-Content/MOC - Setup.md": {
-      "size": 1609,
-      "tags": 4,
-      "links": 19
-    },
-    "1-Maps-of-Content/MOC - System Design.md": {
-      "size": 214,
-      "tags": 0,
-      "links": 0
-    },
-    "4-Logs/README.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 5
-    },
-    "2-Slipbox/Obsidian Templater Plugin Notes.md": {
-      "size": 332,
-      "tags": 2,
-      "links": 2
-    },
-    "3-Resources/README.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 13
-    },
-    "3-Resources/Daily-Notes/README.md": {
-      "size": 286,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Dictionaries/Dictionary.md": {
-      "size": 649,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Dictionaries/Knowledge.md": {
-      "size": 741,
-      "tags": 1,
-      "links": 1
-    },
-    "3-Resources/Dictionaries/Wisdom.md": {
-      "size": 684,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Dictionaries/Ephemeral.md": {
-      "size": 538,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Dictionaries/Fleeting.md": {
-      "size": 620,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Dictionaries/Index.md": {
-      "size": 1586,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Dictionaries/Archive.md": {
-      "size": 732,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Dictionaries/Gyroscope.md": {
-      "size": 769,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Dictionaries/README.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 0
-    },
-    "3-Resources/Highlights/README.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Kanbans/README.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Mindsweeps/README.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Templates/README.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 6
-    },
-    "3-Resources/Dictionaries/Kanban.md": {
-      "size": 552,
-      "tags": 1,
-      "links": 0
-    },
-    "1-Maps-of-Content/README.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 15
-    },
-    "3-Resources/Gallery/README.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 0
-    },
-    "2-Slipbox/README.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Daily-Notes/2021-08-03.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/How to fix Issues with Windows File Type Associations.md": {
-      "size": 2146,
-      "tags": 4,
-      "links": 9
-    },
-    "2-Slipbox/Mindfulness - The Key to Success 1.md": {
-      "size": 8739,
-      "tags": 0,
-      "links": 11
-    },
-    "2-Slipbox/Reset OneDrive with Command Line.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 3
-    },
-    "2-Slipbox/Enhanced CleanMgr Command.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 2
-    },
-    "2-Slipbox/About the AppxProvisioning.xml File in Windows.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 1
-    },
-    "2-Slipbox/Hot to force remove Windows store Apps (UWP).md": {
-      "size": 11647,
-      "tags": 1,
-      "links": 0
-    },
-    "2-Slipbox/XML.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 1
-    },
-    "2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md": {
-      "size": 10636,
-      "tags": 1,
-      "links": 16
-    },
-    "4-Logs/Vault-Consistensy-Report.md": {
-      "size": 14218,
-      "tags": 0,
-      "links": 51
-    },
-    "3-Resources/Daily-Notes/2020-08-20.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Linux.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Bootstrapping Dotfiles.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "1-Maps-of-Content/MOC - Web Development.md": {
-      "size": 0,
-      "tags": 3,
-      "links": 2
-    },
-    "2-Slipbox/Windows Terminal.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 7
-    },
-    "2-Slipbox/Windows Terminal Command Line Arguments.md": {
-      "size": 20840,
-      "tags": 4,
-      "links": 7
-    },
-    "1-Maps-of-Content/MOC - PowerShell.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 0
-    },
-    "1-Maps-of-Content/MOC - Obsidian.md": {
-      "size": 4163,
-      "tags": 4,
-      "links": 18
-    },
-    "2-Slipbox/Windows Subsystem for Linux (WSL).md": {
-      "size": 185,
-      "tags": 1,
-      "links": 0
-    },
-    "1-Maps-of-Content/MOC - Command Line.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Code is not Production Code.md": {
-      "size": 2779,
-      "tags": 1,
-      "links": 5
-    },
-    "3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 1
-    },
-    "3-Resources/Highlights/Highlights - Code Comments.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 1
-    },
-    "1-Maps-of-Content/MOC - People.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 7
-    },
-    "2-Slipbox/Achieving Your Goals Feels Good.md": {
-      "size": 5379,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/Placeholders/Amazon Drive.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Amazon Web Services - AWS.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Assembly.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Atom.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/AWS-CLI.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Azure CLI.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Bash.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Beekeeper.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/BIOS.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/C.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/C-Sharp.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/C++.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Cargo.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Chocolatey.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Clojure.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Code Comments.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 2
-    },
-    "0-Inbox/Placeholders/CRAN.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/CSS.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Cygwin.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Dann Felker.md": {
-      "size": 3086,
-      "tags": 1,
-      "links": 17
-    },
-    "2-Slipbox/Flutter.md": {
-      "size": 31343,
-      "tags": 1,
-      "links": 9
-    },
-    "2-Slipbox/Increase your productivity with outsourcing and SOPs.md": {
-      "size": 7311,
-      "tags": 0,
-      "links": 1
-    },
-    "2-Slipbox/Learning to Program Sucks.md": {
-      "size": 10853,
-      "tags": 0,
-      "links": 1
-    },
-    "2-Slipbox/Obsidian Advanced Tables Plugin.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 1
-    },
-    "2-Slipbox/Regular expressions - JavaScript - MDN.md": {
-      "size": 20730,
-      "tags": 1,
-      "links": 4
-    },
-    "2-Slipbox/S.M.A.R.T. Goals.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 1
-    },
-    "2-Slipbox/The Single Best Thing to do for your Career.md": {
-      "size": 5377,
-      "tags": 1,
-      "links": 2
-    },
-    "2-Slipbox/The Three Buckets - Rule of Thirds.md": {
-      "size": 2451,
-      "tags": 1,
-      "links": 2
-    },
-    "2-Slipbox/What Blog Platform Should I Use.md": {
-      "size": 14061,
-      "tags": 0,
-      "links": 18
-    },
-    "2-Slipbox/What Gets Measured, Gets Managed.md": {
-      "size": 2978,
-      "tags": 0,
-      "links": 2
-    },
-    "2-Slipbox/Why you need to step out of your comfort zone.md": {
-      "size": 4675,
-      "tags": 0,
-      "links": 1
-    },
-    "2-Slipbox/Why You Should Never Quit too Early.md": {
-      "size": 8232,
-      "tags": 0,
-      "links": 1
-    },
-    "2-Slipbox/You Need a Blog.md": {
-      "size": 8346,
-      "tags": 0,
-      "links": 1
-    },
-    "2-Slipbox/You Need a Status Page.md": {
-      "size": 7020,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/Placeholders/Yarn.md": {
-      "size": 280,
-      "tags": 0,
-      "links": 5
-    },
-    "0-Inbox/Placeholders/DBeaver.md": {
-      "size": 202,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Digital Ocean.md": {
-      "size": 214,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Disk Partitions.md": {
-      "size": 218,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/DISM.md": {
-      "size": 196,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/DotNet Framework.md": {
-      "size": 220,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Drivers.md": {
-      "size": 202,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/EaseUS.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Firebase.md": {
-      "size": 204,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Gatsby.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/gcloud SDK.md": {
-      "size": 208,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Ghost.md": {
-      "size": 198,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Git.md": {
-      "size": 3923,
-      "tags": 1,
-      "links": 11
-    },
-    "0-Inbox/Placeholders/GitBook.md": {
-      "size": 202,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Github Pages.md": {
-      "size": 212,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/GitHub.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Github-CLI.md": {
-      "size": 208,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/GitKraken.md": {
-      "size": 206,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Go.md": {
-      "size": 192,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Google Cloud Platform - GCP.md": {
-      "size": 218,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Google Drive.md": {
-      "size": 212,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/GPG.md": {
-      "size": 194,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Groovy.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Helm.md": {
-      "size": 196,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Heroku.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Heroku-CLI.md": {
-      "size": 208,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Hexo.md": {
-      "size": 196,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/HTML.md": {
-      "size": 196,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/HTTPS.md": {
-      "size": 198,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/iCloud Drive.md": {
-      "size": 212,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Iobit.md": {
-      "size": 198,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Java.md": {
-      "size": 196,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Jekyll.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Jupiter Notebooks.md": {
-      "size": 222,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Kubernetes.md": {
-      "size": 208,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/LaTex.md": {
-      "size": 198,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Lepton.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Linode.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Lua.md": {
-      "size": 194,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Medium.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Microsoft PowerToys.md": {
-      "size": 226,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Netlify.md": {
-      "size": 202,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/NextJS.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Nginx.md": {
-      "size": 198,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Ninite.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Nodejs.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/npm.md": {
-      "size": 194,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/NuGet.md": {
-      "size": 198,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Objective-C.md": {
-      "size": 210,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/OneDrive.md": {
-      "size": 204,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/OneGet.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Perl.md": {
-      "size": 196,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/pgAdmin 4.md": {
-      "size": 206,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/pgcli.md": {
-      "size": 198,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/PHP.md": {
-      "size": 194,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/pip.md": {
-      "size": 194,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/PowerShell Modules.md": {
-      "size": 224,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/psql.md": {
-      "size": 196,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/RapidEE.md": {
-      "size": 202,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/React Native.md": {
-      "size": 212,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/React.md": {
-      "size": 198,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/ReadTheDocs.md": {
-      "size": 210,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/R-Markdown.md": {
-      "size": 208,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/RStudio.md": {
-      "size": 202,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Ruby.md": {
-      "size": 196,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Rust.md": {
-      "size": 196,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/SASS.md": {
-      "size": 196,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Scala.md": {
-      "size": 198,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Scoop.md": {
-      "size": 198,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/SFC.md": {
-      "size": 194,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/SQL.md": {
-      "size": 194,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/SSH.md": {
-      "size": 194,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Swift.md": {
-      "size": 198,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/TeX.md": {
-      "size": 194,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Tools - Github.md": {
-      "size": 216,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Tools - Outlook.md": {
-      "size": 218,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Tools - Todoist.md": {
-      "size": 218,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Typora.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Ubuntu.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Uninstall Tool.md": {
-      "size": 216,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Visual Basic.md": {
-      "size": 212,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Visual Studio Code.md": {
-      "size": 224,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Visual Studio.md": {
-      "size": 214,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Windows 10.md": {
-      "size": 208,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Windows 11.md": {
-      "size": 208,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Windows APK.md": {
-      "size": 210,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Windows Insider.md": {
-      "size": 218,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Windows SDK.md": {
-      "size": 210,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/WindowsPE.md": {
-      "size": 206,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/WinGet.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/WordPress.md": {
-      "size": 206,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Xamarin.md": {
-      "size": 202,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/README.md": {
-      "size": 309,
-      "tags": 0,
-      "links": 0
-    },
-    "4-Logs/Vault Statistics.md": {
-      "size": 46550,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Resources/Highlights/Highlights - Mindfulness.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 1
-    },
-    "2-Slipbox/R Packages Install Script.md": {
-      "size": 4817,
-      "tags": 3,
-      "links": 3
-    },
-    "0-Inbox/Placeholders/Building a Second Brain.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Cloud Hosted Environments.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/Placeholders/Collectors Fallacy.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Google Chrome.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/GTD - Desired Outcome.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Information Overload.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Memory in R.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 2
-    },
-    "0-Inbox/Placeholders/Microsoft Edge.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Mozilla Firefox.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Package Managers.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/RStudio Tips and Tricks.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/Placeholders/Static Site Generators.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Time Block Planner.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Placeholders/Virtual Machines.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/Placeholders/WinSCP.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 1
-    },
-    "2-Slipbox/Kubernetes.md": {
-      "size": 2754,
-      "tags": 0,
-      "links": 1
-    },
-    "2-Slipbox/HashiCorp Terraform.md": {
-      "size": 4405,
-      "tags": 1,
-      "links": 1
-    },
-    "2-Slipbox/Automate Getting Help.md": {
-      "size": 767,
-      "tags": 1,
-      "links": 2
-    },
-    "3-Resources/Daily-Notes/2021-08-06.md": {
-      "size": 1200,
-      "tags": 0,
-      "links": 6
-    },
-    "2-Slipbox/Obsidian Mobile.md": {
-      "size": 215,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Obsidian Graph Filters.md": {
-      "size": 365,
-      "tags": 2,
-      "links": 1
-    },
-    "2-Slipbox/iOS Shortcuts for Obsidian.md": {
-      "size": 1075,
-      "tags": 4,
-      "links": 6
-    },
-    "2-Slipbox/Instapaper.md": {
-      "size": 540,
-      "tags": 1,
-      "links": 3
-    },
-    "3-Reference/Obsidian Chrome Clipper.md": {
-      "size": 4450,
-      "tags": 6,
-      "links": 1
-    },
-    "2-Slipbox/Tweaking.com Windows Repair Checklist.md": {
-      "size": 1412,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Reference/Windows Links.md": {
-      "size": 2231,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Reference/Subscriptions.md": {
-      "size": 1453,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Resources/Daily-Notes/2021-08-08.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 3
-    },
-    "3-Resources/Dictionaries/Derivation.md": {
-      "size": 725,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Dictionaries/Deduction.md": {
-      "size": 796,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Dictionaries/Catalogue.md": {
-      "size": 675,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Reference/Library Classification System.md": {
-      "size": 15656,
-      "tags": 3,
-      "links": 18
-    },
-    "5-Projects/Create a Personal Website 📝.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 24
-    },
-    "3-Resources/Daily-Notes/2021-08-09.md": {
-      "size": 692,
-      "tags": 0,
-      "links": 3
-    },
-    "3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md": {
-      "size": 16516,
-      "tags": 1,
-      "links": 3
-    },
-    "1-Maps-of-Content/MOC - Microsoft Azure.md": {
-      "size": 218,
-      "tags": 4,
-      "links": 12
-    },
-    "3-Reference/Organizing Resources in Azure.md": {
-      "size": 10870,
-      "tags": 5,
-      "links": 17
-    },
-    "3-Reference/Organize and Manage your Azure Subscriptions.md": {
-      "size": 4820,
-      "tags": 5,
-      "links": 6
-    },
-    "2-Slipbox/R Blogs.md": {
-      "size": 159005,
-      "tags": 1,
-      "links": 5
-    },
-    "3-Reference/mkdocs-docs.md": {
-      "size": 508,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Prioritize these 5 essentials of healthy achievement.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 2
-    },
-    "3-Reference/S-CLI.md": {
-      "size": 6190,
-      "tags": 3,
-      "links": 5
-    },
-    "3-Resources/Daily-Notes/2021-08-10.md": {
-      "size": 1080,
-      "tags": 0,
-      "links": 3
-    },
-    "3-Reference/Ansible for the Windows System Admin.md": {
-      "size": 2285,
-      "tags": 6,
-      "links": 7
-    },
-    "2-Slipbox/How to Use Sysprep in Windows.md": {
-      "size": 5937,
-      "tags": 5,
-      "links": 11
-    },
-    "2-Slipbox/S-CLI.md": {
-      "size": 6211,
-      "tags": 3,
-      "links": 4
-    },
-    "3-Resources/Templates/Daily-Note-Template.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 3
-    },
-    "3-Resources/Templates/Project-Note-Template.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 2
-    },
-    "3-Resources/Templates/README-Template.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 0
-    },
-    "5-Projects/README.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 1
-    },
-    "3-Resources/Gallery/Development-LocalGraphView.md": {
-      "size": 183,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/Cloud Run - Serverless Applications.md": {
-      "size": 885,
-      "tags": 1,
-      "links": 1
-    },
-    "3-Reference/Windows Reset Definitive Checklist (YouTube).md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Reference/Untitled.md": {
-      "size": 248,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Organizing Disk Partitions on Windows.md": {
-      "size": 9514,
-      "tags": 2,
-      "links": 8
-    },
-    "3-Resources/Daily-Notes/2021-08-13.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 3
-    },
-    "3-Resources/Highlights/Highlights - Organizing Partitions on Windows.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 1
-    },
-    "3-Resources/Highlights/Highlights - Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights.md": {
-      "size": 3513,
-      "tags": 1,
-      "links": 1
-    },
-    "3-Resources/Highlights/Highlights - Cloud Based Computing Business Ideas for 2021.md": {
-      "size": 1287,
-      "tags": 1,
-      "links": 1
-    },
-    "3-Resources/Highlights/Highlights - How to Handle Inbox Infinity.md": {
-      "size": 2587,
-      "tags": 1,
-      "links": 1
-    },
-    "3-Resources/Highlights/Highlights - How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md": {
-      "size": 1248,
-      "tags": 1,
-      "links": 1
-    },
-    "3-Resources/Highlights/Highlights - The Linux Command Line.md": {
-      "size": 2133,
-      "tags": 0,
-      "links": 1
-    },
-    "3-Resources/Highlights/Highlights - Why We Sleep.md": {
-      "size": 2850,
-      "tags": 0,
-      "links": 1
-    },
-    "3-Resources/Daily-Notes/2021-08-14.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 3
-    },
-    "2-Slipbox/Dotfiles Tools.md": {
-      "size": 10075,
-      "tags": 0,
-      "links": 0
-    },
-    "2-Slipbox/Zsh.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Untitled go  pop 59)93,${~,|%|% goz.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Windows Security Policies - secpol.msc.md": {
-      "size": 413,
-      "tags": 6,
-      "links": 1
-    },
-    "3-Resources/Daily-Notes/2021-08-21.md": {
-      "size": 691,
-      "tags": 0,
-      "links": 3
-    },
-    "3-Resources/Daily-Notes/2021-08-19.md": {
-      "size": 691,
-      "tags": 0,
-      "links": 3
-    },
-    "3-Resources/Highlights/How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md": {
-      "size": 1248,
-      "tags": 1,
-      "links": 1
-    },
-    "3-Resources/Highlights/The Impact of the Cloud on Software Development | Developer_com.md": {
-      "size": 2703,
-      "tags": 1,
-      "links": 1
-    },
-    "3-Resources/Highlights/A Re-Introduction to JavaScript (JS Tutorial) - JavaScript | MDN.md": {
-      "size": 2409,
-      "tags": 1,
-      "links": 1
-    },
-    "3-Resources/Daily-Notes/2021-09-14.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 3
-    },
-    "3-Resources/Highlights/GTD Reference- The Best Filing System for Busy Lives | Shortform Books.md": {
-      "size": 6177,
-      "tags": 1,
-      "links": 1
-    },
-    "3-Resources/Highlights/SSH Key Best Practices.md": {
-      "size": 1241,
-      "tags": 1,
-      "links": 1
-    },
-    "0-Inbox/Movies and Shows to Watch.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Reference/Web-Clippings/2021-08-09-Keyboard shortcuts for Gmail - Computer - Gmail Help.md": {
-      "size": 285,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Reference/Web-Clippings/Obsidian Clipper.md": {
-      "size": 158,
-      "tags": 0,
-      "links": 1
-    },
-    "3-Resources/Weekly-Notes/2021-W34.md": {
->>>>>>> Stashed changes
       "size": 0,
       "tags": 0,
       "links": 0
     },
-<<<<<<< Updated upstream
     "MOCs/020-Productivity-MOC.md": {
       "size": 278,
       "tags": 2,
@@ -8000,286 +6123,2050 @@
       "size": 2932,
       "tags": 82,
       "links": 14
-=======
-    "3-Reference/Web-Clippings/Mobile-Shares.md": {
-      "size": 437,
+    },
+    "0-Inbox/Cleaning Up Windows.md": {
+      "size": 293,
+      "tags": 1,
+      "links": 0
+    },
+    "0-Inbox/Cloud Run - Serverless Applications.md": {
+      "size": 910,
+      "tags": 1,
+      "links": 1
+    },
+    "0-Inbox/Digital Cleanup.md": {
+      "size": 271,
       "tags": 0,
       "links": 0
     },
-    "3-Reference/Github/Obsidian CSS Snippets.md": {
-      "size": 627,
-      "tags": 0,
-      "links": 4
-    },
-    "3-Resources/Daily-Notes/2021-08-20.md": {
-      "size": 3352,
-      "tags": 0,
-      "links": 7
-    },
-    "3-Resources/Embeds/Todoist.md": {
-      "size": 369,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Resources/Embeds/Google Calendar.md": {
-      "size": 434,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Resources/Embeds/Raindrop.io.md": {
-      "size": 373,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Resources/Embeds/Raindrop.io - Published.md": {
-      "size": 564,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Resources/Embeds/GitHub Profile.md": {
-      "size": 300,
+    "0-Inbox/GitHub Repository Best Practices.md": {
+      "size": 530,
       "tags": 0,
       "links": 0
     },
     "0-Inbox/How To Create a Folder Tree in Windows.md": {
-      "size": 3930,
+      "size": 4020,
       "tags": 3,
       "links": 2
+    },
+    "0-Inbox/Movies and Shows to Watch.md": {
+      "size": 602,
+      "tags": 1,
+      "links": 0
+    },
+    "0-Inbox/MSI.md": {
+      "size": 1903,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/OneCommander.md": {
+      "size": 1236,
+      "tags": 1,
+      "links": 0
+    },
+    "0-Inbox/Obsidian Day Planner Plugin.md": {
+      "size": 10125,
+      "tags": 1,
+      "links": 4
     },
     "0-Inbox/PowerToys Run Feature.md": {
       "size": 73,
       "tags": 0,
       "links": 0
     },
-    "3-Resources/Daily-Notes/2021-08-22.md": {
-      "size": 659,
+    "0-Inbox/Programming as an Actuary.md": {
+      "size": 5031,
       "tags": 0,
-      "links": 4
+      "links": 0
+    },
+    "0-Inbox/README.md": {
+      "size": 358,
+      "tags": 0,
+      "links": 0
     },
     "0-Inbox/Robocopy.md": {
-      "size": 625,
+      "size": 705,
       "tags": 4,
       "links": 2
     },
-    "0-Inbox/OneCommander.md": {
-      "size": 1208,
-      "tags": 1,
-      "links": 0
-    },
-    "0-Inbox/Run Batch File from Current Directory.md": {
-      "size": 1496,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Windows Network Troubleshooting Commands.md": {
-      "size": 1183,
-      "tags": 0,
-      "links": 0
-    },
     "0-Inbox/Reset Windows Graphics Drivers with a Hotkey.md": {
-      "size": 815,
+      "size": 850,
       "tags": 2,
       "links": 3
     },
-    "3-Resources/Daily-Notes/2021-08-23.md": {
-      "size": 606,
-      "tags": 0,
-      "links": 3
-    },
-    "0-Inbox/Obsidian Day Planner Plugin.md": {
-      "size": 9866,
-      "tags": 1,
-      "links": 4
-    },
-    "3-Resources/Daily-Notes/2021-08-15.md": {
-      "size": 606,
-      "tags": 0,
-      "links": 3
-    },
-    "3-Resources/Daily-Notes/2021-08-24.md": {
-      "size": 550,
-      "tags": 0,
-      "links": 3
-    },
-    "Day Planners/Day Planner-20210825.md": {
-      "size": 21,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Resources/Daily-Notes/2021-08-25.md": {
-      "size": 519,
-      "tags": 0,
-      "links": 3
-    },
-    "Day Planners/Day Planner-20210824.md": {
-      "size": 592,
-      "tags": 0,
-      "links": 0
-    },
-    "Day Planners/Day Planner-20210826.md": {
-      "size": 21,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Resources/Daily-Notes/2021-08-26.md": {
-      "size": 561,
-      "tags": 0,
-      "links": 3
-    },
-    "2-Slipbox/WSL Setup.md": {
-      "size": 21786,
-      "tags": 0,
-      "links": 33
-    },
-    "Day Planners/Day Planner-20210827.md": {
-      "size": 21,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Resources/Daily-Notes/2021-08-27.md": {
-      "size": 561,
-      "tags": 0,
-      "links": 3
-    },
-    "0-Inbox/Untitled.md": {
-      "size": 5297,
+    "0-Inbox/Run Batch File from Current Directory.md": {
+      "size": 1523,
       "tags": 0,
       "links": 0
     },
     "0-Inbox/Windows Registry Hacks.md": {
-      "size": 5651,
+      "size": 5924,
       "tags": 0,
       "links": 7
     },
-    "Day Planners/Day Planner-20210830.md": {
-      "size": 21,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Resources/Daily-Notes/2021-08-30.md": {
-      "size": 867,
-      "tags": 0,
-      "links": 3
-    },
-    "0-Inbox/GitHub Repository Best Practices.md": {
-      "size": 504,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Digital Cleanup.md": {
-      "size": 248,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Resources/Daily-Notes/2021-09-21.md": {
-      "size": 561,
-      "tags": 0,
-      "links": 3
-    },
-    "3-Resources/Daily-Notes/2021-09-22.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 3
-    },
-    "3-Resources/Highlights/The Nitty-Gritty – Clearing Out Your Inbox - Next Action Associates.md": {
-      "size": 2697,
-      "tags": 1,
-      "links": 1
-    },
-    "0-Inbox/Programming as an Actuary.md": {
-      "size": 4893,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Cleaning Up Windows.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Daily-Notes/2021-09-23.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 3
-    },
-    "3-Resources/Daily-Notes/2021-09-24.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 3
-    },
-    "3-Resources/Daily-Notes/2021-09-26.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 3
-    },
-    "3-Resources/Highlights/A Builder’s Guide to Note-Taking.md": {
-      "size": 2224,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/MSI.md": {
-      "size": 1881,
+    "0-Inbox/Windows Network Troubleshooting Commands.md": {
+      "size": 1239,
       "tags": 0,
       "links": 0
     },
     "0-Inbox/Windows Registry.md": {
-      "size": 5299,
+      "size": 5563,
       "tags": 0,
       "links": 0
     },
-    "3-Resources/Daily-Notes/2021-09-28.md": {
-      "size": 0,
+    "0-Inbox/Windows Security Policies - secpol.msc.md": {
+      "size": 586,
+      "tags": 6,
+      "links": 1
+    },
+    "0-Inbox/Placeholders/Amazon Drive.md": {
+      "size": 228,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Amazon Web Services - AWS.md": {
+      "size": 254,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Assembly.md": {
+      "size": 220,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Atom.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/AWS-CLI.md": {
+      "size": 218,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Azure CLI.md": {
+      "size": 222,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Bash.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Beekeeper.md": {
+      "size": 222,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/BIOS.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/C++.md": {
+      "size": 210,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/C-Sharp.md": {
+      "size": 218,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/C.md": {
+      "size": 206,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Cargo.md": {
+      "size": 214,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Chocolatey.md": {
+      "size": 224,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Clojure.md": {
+      "size": 218,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Building a Second Brain.md": {
+      "size": 250,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Cloud Hosted Environments.md": {
+      "size": 269,
+      "tags": 0,
+      "links": 1
+    },
+    "0-Inbox/Placeholders/CRAN.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/CSS.md": {
+      "size": 210,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Collectors Fallacy.md": {
+      "size": 240,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Cygwin.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/DBeaver.md": {
+      "size": 218,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Digital Ocean.md": {
+      "size": 230,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Disk Partitions.md": {
+      "size": 234,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/DISM.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Drivers.md": {
+      "size": 218,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/EaseUS.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/DotNet Framework.md": {
+      "size": 236,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Firebase.md": {
+      "size": 220,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/gcloud SDK.md": {
+      "size": 224,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Ghost.md": {
+      "size": 214,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Git.md": {
+      "size": 4124,
+      "tags": 1,
+      "links": 11
+    },
+    "0-Inbox/Placeholders/Gatsby.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Github Pages.md": {
+      "size": 228,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Github-CLI.md": {
+      "size": 224,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/GitHub.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/GitBook.md": {
+      "size": 218,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Go.md": {
+      "size": 208,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Google Drive.md": {
+      "size": 228,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Google Cloud Platform - GCP.md": {
+      "size": 234,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Groovy.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/GPG.md": {
+      "size": 396,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/GTD - Desired Outcome.md": {
+      "size": 246,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Helm.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Heroku-CLI.md": {
+      "size": 224,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Heroku.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Hexo.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/HTML.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/HTTPS.md": {
+      "size": 214,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/iCloud Drive.md": {
+      "size": 228,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Information Overload.md": {
+      "size": 244,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Iobit.md": {
+      "size": 214,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Java.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Jekyll.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Jupiter Notebooks.md": {
+      "size": 238,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Google Chrome.md": {
+      "size": 230,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Lepton.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/LaTex.md": {
+      "size": 214,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Kubernetes.md": {
+      "size": 224,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Linode.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Medium.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Lua.md": {
+      "size": 210,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Microsoft Edge.md": {
+      "size": 232,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Microsoft PowerToys.md": {
+      "size": 242,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Netlify.md": {
+      "size": 218,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Mozilla Firefox.md": {
+      "size": 234,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Nginx.md": {
+      "size": 214,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Ninite.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Nodejs.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/NextJS.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/NuGet.md": {
+      "size": 214,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/npm.md": {
+      "size": 210,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Objective-C.md": {
+      "size": 226,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/OneDrive.md": {
+      "size": 220,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/OneGet.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Package Managers.md": {
+      "size": 236,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Perl.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/pgAdmin 4.md": {
+      "size": 222,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/pgcli.md": {
+      "size": 214,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/PHP.md": {
+      "size": 210,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/pip.md": {
+      "size": 210,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/PowerShell Modules.md": {
+      "size": 240,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/psql.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/GitKraken.md": {
+      "size": 222,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/R-Markdown.md": {
+      "size": 224,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/React Native.md": {
+      "size": 228,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/RapidEE.md": {
+      "size": 218,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/React.md": {
+      "size": 214,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/ReadTheDocs.md": {
+      "size": 226,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/RStudio.md": {
+      "size": 218,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Rust.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Ruby.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/SASS.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Scala.md": {
+      "size": 214,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Scoop.md": {
+      "size": 214,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/SFC.md": {
+      "size": 210,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/SSH.md": {
+      "size": 210,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/SQL.md": {
+      "size": 210,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Static Site Generators.md": {
+      "size": 248,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Swift.md": {
+      "size": 214,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Tools - Github.md": {
+      "size": 232,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/TeX.md": {
+      "size": 210,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Tools - Outlook.md": {
+      "size": 234,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Time Block Planner.md": {
+      "size": 240,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Typora.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Tools - Todoist.md": {
+      "size": 234,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Uninstall Tool.md": {
+      "size": 232,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Ubuntu.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Virtual Machines.md": {
+      "size": 251,
+      "tags": 0,
+      "links": 1
+    },
+    "0-Inbox/Placeholders/Visual Studio Code.md": {
+      "size": 240,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Visual Studio.md": {
+      "size": 230,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Windows 10.md": {
+      "size": 224,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Windows 11.md": {
+      "size": 224,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Visual Basic.md": {
+      "size": 228,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Windows Insider.md": {
+      "size": 234,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Windows SDK.md": {
+      "size": 226,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Windows APK.md": {
+      "size": 226,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/WindowsPE.md": {
+      "size": 222,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/WinGet.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/WinSCP.md": {
+      "size": 231,
+      "tags": 0,
+      "links": 1
+    },
+    "0-Inbox/Placeholders/WordPress.md": {
+      "size": 222,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Xamarin.md": {
+      "size": 218,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Yarn.md": {
+      "size": 348,
+      "tags": 0,
+      "links": 5
+    },
+    "1-Maps-of-Content/000 - INDEX.md": {
+      "size": 882,
+      "tags": 2,
+      "links": 8
+    },
+    "1-Maps-of-Content/010 - Productivity.md": {
+      "size": 1512,
+      "tags": 2,
+      "links": 23
+    },
+    "1-Maps-of-Content/020 - Development.md": {
+      "size": 10877,
+      "tags": 3,
+      "links": 169
+    },
+    "1-Maps-of-Content/040 - Personal.md": {
+      "size": 359,
       "tags": 0,
       "links": 3
     },
-    "2-Slipbox/Fixing Graphics Driver Issues in Windows.md": {
-      "size": 4365,
+    "1-Maps-of-Content/030 - Professional.md": {
+      "size": 241,
+      "tags": 0,
+      "links": 0
+    },
+    "1-Maps-of-Content/050 - Computer.md": {
+      "size": 1529,
+      "tags": 0,
+      "links": 19
+    },
+    "1-Maps-of-Content/MOC - Command Line.md": {
+      "size": 241,
+      "tags": 0,
+      "links": 0
+    },
+    "1-Maps-of-Content/MOC - Databases.md": {
+      "size": 446,
       "tags": 1,
-      "links": 17
+      "links": 3
     },
-    "2-Slipbox/YouTube Download CLI - youtube-dl.md": {
-      "size": 4322,
+    "1-Maps-of-Content/MOC - Microsoft Azure.md": {
+      "size": 1459,
       "tags": 4,
-      "links": 8
+      "links": 12
     },
-    "2-Slipbox/WSL - Permissions.md": {
-      "size": 491,
-      "tags": 3,
-      "links": 4
+    "1-Maps-of-Content/MOC - Links.md": {
+      "size": 1159,
+      "tags": 2,
+      "links": 0
     },
-    "3-Reference/Windows User Dictionaries Locations.md": {
-      "size": 659,
+    "1-Maps-of-Content/MOC - Obsidian.md": {
+      "size": 4528,
+      "tags": 4,
+      "links": 18
+    },
+    "1-Maps-of-Content/MOC - People.md": {
+      "size": 537,
+      "tags": 2,
+      "links": 7
+    },
+    "1-Maps-of-Content/MOC - PKM.md": {
+      "size": 371,
       "tags": 2,
       "links": 3
     },
+    "1-Maps-of-Content/MOC - PostgreSQL.md": {
+      "size": 27826,
+      "tags": 2,
+      "links": 21
+    },
+    "1-Maps-of-Content/MOC - Project Management.md": {
+      "size": 241,
+      "tags": 0,
+      "links": 0
+    },
+    "1-Maps-of-Content/MOC - PowerShell.md": {
+      "size": 260,
+      "tags": 2,
+      "links": 0
+    },
+    "1-Maps-of-Content/MOC - R.md": {
+      "size": 333,
+      "tags": 2,
+      "links": 1
+    },
+    "1-Maps-of-Content/MOC - Setup.md": {
+      "size": 1709,
+      "tags": 4,
+      "links": 19
+    },
+    "1-Maps-of-Content/MOC - System Design.md": {
+      "size": 231,
+      "tags": 0,
+      "links": 0
+    },
+    "1-Maps-of-Content/MOC - Web Development.md": {
+      "size": 361,
+      "tags": 3,
+      "links": 2
+    },
+    "1-Maps-of-Content/README.md": {
+      "size": 1065,
+      "tags": 1,
+      "links": 15
+    },
+    "2-Slipbox/About the AppxProvisioning.xml File in Windows.md": {
+      "size": 1831,
+      "tags": 1,
+      "links": 1
+    },
+    "2-Slipbox/Achieving Your Goals Feels Good.md": {
+      "size": 5509,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/APIs.md": {
+      "size": 399,
+      "tags": 3,
+      "links": 2
+    },
+    "2-Slipbox/AutoHotKey Scripts.md": {
+      "size": 61176,
+      "tags": 3,
+      "links": 10
+    },
+    "2-Slipbox/Automate Getting Help.md": {
+      "size": 797,
+      "tags": 1,
+      "links": 2
+    },
+    "2-Slipbox/Backend Web Architecture.md": {
+      "size": 9948,
+      "tags": 1,
+      "links": 13
+    },
+    "2-Slipbox/Base Package Hidden Gems in R.md": {
+      "size": 9737,
+      "tags": 1,
+      "links": 1
+    },
+    "2-Slipbox/Bootstrapping Dotfiles.md": {
+      "size": 248,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/CLI Tools.md": {
+      "size": 406,
+      "tags": 3,
+      "links": 0
+    },
+    "2-Slipbox/Code is not Production Code.md": {
+      "size": 2631,
+      "tags": 1,
+      "links": 5
+    },
+    "2-Slipbox/Code Comments.md": {
+      "size": 1589,
+      "tags": 1,
+      "links": 2
+    },
+    "2-Slipbox/Computer Backup System.md": {
+      "size": 249,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Data Validation Packages in R.md": {
+      "size": 1477,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/Daily Notes as Your Scratch Space.md": {
+      "size": 437,
+      "tags": 2,
+      "links": 1
+    },
+    "2-Slipbox/Classification of Note Types.md": {
+      "size": 5450,
+      "tags": 3,
+      "links": 9
+    },
+    "2-Slipbox/Database GUIs.md": {
+      "size": 3713,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/Database Documentation.md": {
+      "size": 1335,
+      "tags": 3,
+      "links": 4
+    },
+    "2-Slipbox/Databases with R Resources.md": {
+      "size": 269,
+      "tags": 3,
+      "links": 0
+    },
+    "2-Slipbox/Docker Best Practices.md": {
+      "size": 4748,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/Docker Compose Reference Docs.md": {
+      "size": 9831,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md": {
+      "size": 11042,
+      "tags": 1,
+      "links": 16
+    },
+    "2-Slipbox/Dotfiles Tools.md": {
+      "size": 10215,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/EDA Packages in R.md": {
+      "size": 14040,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/Enhanced CleanMgr Command.md": {
+      "size": 536,
+      "tags": 2,
+      "links": 2
+    },
+    "2-Slipbox/Firefox Developer Edition.md": {
+      "size": 3070,
+      "tags": 3,
+      "links": 1
+    },
+    "2-Slipbox/Fixing Graphics Driver Issues in Windows.md": {
+      "size": 4499,
+      "tags": 1,
+      "links": 17
+    },
+    "2-Slipbox/Flutter.md": {
+      "size": 31957,
+      "tags": 1,
+      "links": 9
+    },
+    "2-Slipbox/Focused Note Taking via the Cornell Notes Method.md": {
+      "size": 2550,
+      "tags": 4,
+      "links": 1
+    },
+    "2-Slipbox/Git Links.md": {
+      "size": 390,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Git Tools.md": {
+      "size": 275,
+      "tags": 2,
+      "links": 1
+    },
+    "2-Slipbox/Github Actions for R.md": {
+      "size": 7192,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/Google Cloud Setup Notes.md": {
+      "size": 1209,
+      "tags": 2,
+      "links": 2
+    },
+    "2-Slipbox/HashiCorp Terraform.md": {
+      "size": 4405,
+      "tags": 1,
+      "links": 1
+    },
+    "2-Slipbox/Hot to force remove Windows store Apps (UWP).md": {
+      "size": 11777,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/How To Change Explorer Drive Icons via Registry.md": {
+      "size": 3337,
+      "tags": 5,
+      "links": 14
+    },
+    "2-Slipbox/How to Cleanup Windows from Command Line.md": {
+      "size": 2903,
+      "tags": 3,
+      "links": 3
+    },
+    "2-Slipbox/How to fix Issues with Windows File Type Associations.md": {
+      "size": 2461,
+      "tags": 4,
+      "links": 9
+    },
+    "2-Slipbox/How to Pay off Debt.md": {
+      "size": 3235,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/How to Use Sysprep in Windows.md": {
+      "size": 6578,
+      "tags": 5,
+      "links": 11
+    },
+    "2-Slipbox/HTTP Requests Notes.md": {
+      "size": 8476,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Increase your productivity with outsourcing and SOPs.md": {
+      "size": 7435,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/How to Ship Side Projects.md": {
+      "size": 12970,
+      "tags": 1,
+      "links": 1
+    },
+    "2-Slipbox/Instapaper.md": {
+      "size": 589,
+      "tags": 1,
+      "links": 3
+    },
+    "2-Slipbox/Javascript.md": {
+      "size": 22303,
+      "tags": 2,
+      "links": 0
+    },
+    "2-Slipbox/iOS Shortcuts for Obsidian.md": {
+      "size": 1148,
+      "tags": 4,
+      "links": 6
+    },
+    "2-Slipbox/Keyboard shortcuts for Gmail - Computer.md": {
+      "size": 3929,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/Johnny Decimal System.md": {
+      "size": 7103,
+      "tags": 2,
+      "links": 0
+    },
+    "2-Slipbox/Kubernetes Sandbox with minikube and kubectl.md": {
+      "size": 12811,
+      "tags": 9,
+      "links": 25
+    },
+    "2-Slipbox/Kubernetes.md": {
+      "size": 2796,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/Learning to Program Sucks.md": {
+      "size": 10953,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/Ludicrously Complex Projects in Software Development.md": {
+      "size": 1290,
+      "tags": 2,
+      "links": 0
+    },
+    "2-Slipbox/Linux.md": {
+      "size": 214,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Managing projects with GTD.md": {
+      "size": 2153,
+      "tags": 3,
+      "links": 0
+    },
+    "2-Slipbox/Markdown.md": {
+      "size": 652,
+      "tags": 4,
+      "links": 4
+    },
+    "2-Slipbox/Memory in R.md": {
+      "size": 1037,
+      "tags": 2,
+      "links": 2
+    },
+    "2-Slipbox/Mermaid Diagrams.md": {
+      "size": 2852,
+      "tags": 6,
+      "links": 3
+    },
+    "2-Slipbox/Mindfulness - The Key to Success 1.md": {
+      "size": 9195,
+      "tags": 0,
+      "links": 11
+    },
+    "2-Slipbox/Mindfulness - The Key to Success.md": {
+      "size": 9569,
+      "tags": 3,
+      "links": 10
+    },
+    "2-Slipbox/MkDocs.md": {
+      "size": 3366,
+      "tags": 2,
+      "links": 1
+    },
+    "2-Slipbox/Notes on Finishing Projects.md": {
+      "size": 995,
+      "tags": 1,
+      "links": 3
+    },
+    "2-Slipbox/Obsidian Advanced Tables Plugin.md": {
+      "size": 1771,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/Obsidian Git Plugin Notes.md": {
+      "size": 1207,
+      "tags": 1,
+      "links": 1
+    },
+    "2-Slipbox/Obsidian Graph Filters.md": {
+      "size": 399,
+      "tags": 2,
+      "links": 1
+    },
+    "2-Slipbox/Obsidian Links List.md": {
+      "size": 13222,
+      "tags": 1,
+      "links": 3
+    },
+    "2-Slipbox/Obsidian Mobile.md": {
+      "size": 231,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Obsidian Setup.md": {
+      "size": 1584,
+      "tags": 3,
+      "links": 18
+    },
+    "2-Slipbox/Obsidian Taxonomy.md": {
+      "size": 955,
+      "tags": 3,
+      "links": 3
+    },
+    "2-Slipbox/Obsidian Templater Plugin Notes.md": {
+      "size": 489,
+      "tags": 2,
+      "links": 2
+    },
+    "2-Slipbox/Organizing Disk Partitions on Windows.md": {
+      "size": 9630,
+      "tags": 2,
+      "links": 8
+    },
+    "2-Slipbox/Plumber Logging.md": {
+      "size": 4393,
+      "tags": 2,
+      "links": 1
+    },
+    "2-Slipbox/Plumber Resources.md": {
+      "size": 235,
+      "tags": 3,
+      "links": 0
+    },
+    "2-Slipbox/Plumber REST APIs in R.md": {
+      "size": 1424,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/PostgreSQL Tools.md": {
+      "size": 5563,
+      "tags": 3,
+      "links": 0
+    },
+    "2-Slipbox/PowerShellGet.md": {
+      "size": 228,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Prioritize these 5 essentials of healthy achievement.md": {
+      "size": 1347,
+      "tags": 1,
+      "links": 2
+    },
+    "2-Slipbox/Publishing Workflow.md": {
+      "size": 1687,
+      "tags": 1,
+      "links": 3
+    },
+    "2-Slipbox/Python.md": {
+      "size": 201,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/Project Management Pipeline.md": {
+      "size": 3101,
+      "tags": 2,
+      "links": 3
+    },
+    "2-Slipbox/PowerShell Tips.md": {
+      "size": 397,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Dann Felker.md": {
+      "size": 3546,
+      "tags": 1,
+      "links": 17
+    },
+    "2-Slipbox/R Blogs.md": {
+      "size": 164922,
+      "tags": 1,
+      "links": 5
+    },
+    "2-Slipbox/R Books List.md": {
+      "size": 2186,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/R Miscellaneous Notes.md": {
+      "size": 4552,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/README.md": {
+      "size": 269,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/R Packages Install Script.md": {
+      "size": 5379,
+      "tags": 3,
+      "links": 3
+    },
+    "2-Slipbox/Regular expressions - JavaScript - MDN.md": {
+      "size": 21698,
+      "tags": 1,
+      "links": 4
+    },
+    "2-Slipbox/Reset OneDrive with Command Line.md": {
+      "size": 672,
+      "tags": 1,
+      "links": 3
+    },
+    "2-Slipbox/Run Command to Edit Environment Variables.md": {
+      "size": 811,
+      "tags": 4,
+      "links": 3
+    },
+    "2-Slipbox/RStudio Configuration Notes.md": {
+      "size": 12145,
+      "tags": 2,
+      "links": 10
+    },
+    "2-Slipbox/RStudio Tips and Tricks.md": {
+      "size": 542,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/S-CLI.md": {
+      "size": 6596,
+      "tags": 3,
+      "links": 4
+    },
+    "2-Slipbox/S.M.A.R.T. Goals.md": {
+      "size": 626,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/SFC and DISM Commands.md": {
+      "size": 7313,
+      "tags": 1,
+      "links": 8
+    },
+    "2-Slipbox/Shiny Apps as Packages in R.md": {
+      "size": 6632,
+      "tags": 2,
+      "links": 18
+    },
+    "2-Slipbox/SSH and SCP.md": {
+      "size": 1114,
+      "tags": 1,
+      "links": 6
+    },
+    "2-Slipbox/Start an Offline Scan with Windows Defender from PowerShell.md": {
+      "size": 4190,
+      "tags": 5,
+      "links": 3
+    },
+    "2-Slipbox/System Design Primer.md": {
+      "size": 4471,
+      "tags": 1,
+      "links": 3
+    },
+    "2-Slipbox/Taming a Chaotic Project.md": {
+      "size": 9653,
+      "tags": 2,
+      "links": 13
+    },
+    "2-Slipbox/The Single Best Thing to do for your Career.md": {
+      "size": 5445,
+      "tags": 1,
+      "links": 2
+    },
+    "2-Slipbox/The Three Buckets - Rule of Thirds.md": {
+      "size": 2521,
+      "tags": 1,
+      "links": 2
+    },
+    "2-Slipbox/Time Management.md": {
+      "size": 1026,
+      "tags": 1,
+      "links": 1
+    },
+    "2-Slipbox/Tools - Resilio Sync.md": {
+      "size": 3683,
+      "tags": 4,
+      "links": 11
+    },
+    "2-Slipbox/Tools Package Hidden Gems in R.md": {
+      "size": 606,
+      "tags": 2,
+      "links": 0
+    },
+    "2-Slipbox/Tweaking.com Windows Repair Checklist.md": {
+      "size": 1432,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Useful Packages in R List.md": {
+      "size": 6543,
+      "tags": 3,
+      "links": 2
+    },
+    "2-Slipbox/Using diskusage Command in Windows.md": {
+      "size": 2026,
+      "tags": 3,
+      "links": 0
+    },
+    "2-Slipbox/Utils Package Hidden Gems in R.md": {
+      "size": 5617,
+      "tags": 2,
+      "links": 8
+    },
+    "2-Slipbox/Views vs. Materialized Views.md": {
+      "size": 2264,
+      "tags": 3,
+      "links": 4
+    },
+    "2-Slipbox/Web Browsers.md": {
+      "size": 615,
+      "tags": 2,
+      "links": 9
+    },
+    "2-Slipbox/Web terms 101 – Google Domains.md": {
+      "size": 5593,
+      "tags": 0,
+      "links": 9
+    },
+    "2-Slipbox/WebDev Resource List.md": {
+      "size": 286,
+      "tags": 2,
+      "links": 0
+    },
+    "2-Slipbox/What Blog Platform Should I Use.md": {
+      "size": 14637,
+      "tags": 0,
+      "links": 18
+    },
+    "2-Slipbox/Why you need to step out of your comfort zone.md": {
+      "size": 4758,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/What Gets Measured, Gets Managed.md": {
+      "size": 3132,
+      "tags": 0,
+      "links": 2
+    },
+    "2-Slipbox/Windows Command Line Commands Overview.md": {
+      "size": 27048,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Why You Should Never Quit too Early.md": {
+      "size": 8410,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/Windows Developer Environment.md": {
+      "size": 2912,
+      "tags": 5,
+      "links": 3
+    },
+    "2-Slipbox/Windows Registry Paths and Keys.md": {
+      "size": 1268,
+      "tags": 5,
+      "links": 4
+    },
+    "2-Slipbox/Windows Registry.md": {
+      "size": 4453,
+      "tags": 4,
+      "links": 2
+    },
     "2-Slipbox/Windows Setup Checklist.md": {
-      "size": 745,
+      "size": 863,
       "tags": 5,
       "links": 0
->>>>>>> Stashed changes
+    },
+    "2-Slipbox/Windows Subsystem for Linux (WSL).md": {
+      "size": 209,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/Windows Terminal Command Line Arguments.md": {
+      "size": 21391,
+      "tags": 4,
+      "links": 7
+    },
+    "2-Slipbox/WinGet CLI Setup and Settings.md": {
+      "size": 3271,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/WSL - Permissions.md": {
+      "size": 649,
+      "tags": 3,
+      "links": 4
+    },
+    "2-Slipbox/WSL Commands and Installs.md": {
+      "size": 1017,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/WSL Setup.md": {
+      "size": 22481,
+      "tags": 0,
+      "links": 33
+    },
+    "2-Slipbox/Windows Terminal.md": {
+      "size": 540,
+      "tags": 0,
+      "links": 7
+    },
+    "2-Slipbox/WSL-Notes.md": {
+      "size": 1850,
+      "tags": 0,
+      "links": 3
+    },
+    "2-Slipbox/XML.md": {
+      "size": 519,
+      "tags": 2,
+      "links": 1
+    },
+    "2-Slipbox/You Need a Blog.md": {
+      "size": 8596,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/You Need a Status Page.md": {
+      "size": 7099,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/YouTube Download CLI - youtube-dl.md": {
+      "size": 4473,
+      "tags": 4,
+      "links": 8
+    },
+    "2-Slipbox/Zsh.md": {
+      "size": 408,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Reference/Ansible for the Windows System Admin.md": {
+      "size": 2395,
+      "tags": 6,
+      "links": 7
+    },
+    "3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md": {
+      "size": 15472,
+      "tags": 1,
+      "links": 3
+    },
+    "3-Reference/Library Classification System.md": {
+      "size": 15821,
+      "tags": 3,
+      "links": 18
+    },
+    "3-Reference/mkdocs-docs.md": {
+      "size": 508,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Reference/Obsidian Chrome Clipper.md": {
+      "size": 4619,
+      "tags": 6,
+      "links": 1
+    },
+    "3-Reference/Organize and Manage your Azure Subscriptions.md": {
+      "size": 5004,
+      "tags": 5,
+      "links": 6
+    },
+    "3-Reference/Organizing Resources in Azure.md": {
+      "size": 12239,
+      "tags": 5,
+      "links": 17
+    },
+    "3-Reference/S-CLI.md": {
+      "size": 6600,
+      "tags": 3,
+      "links": 5
+    },
+    "3-Reference/Subscriptions.md": {
+      "size": 1525,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Reference/Untitled.md": {
+      "size": 248,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Reference/Windows Links.md": {
+      "size": 2279,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Reference/Windows Reset Definitive Checklist (YouTube).md": {
+      "size": 248,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Reference/Windows User Dictionaries Locations.md": {
+      "size": 842,
+      "tags": 2,
+      "links": 3
+    },
+    "3-Reference/Github/Obsidian CSS Snippets.md": {
+      "size": 646,
+      "tags": 0,
+      "links": 4
+    },
+    "3-Reference/Web-Clippings/2021-08-09-Keyboard shortcuts for Gmail - Computer - Gmail Help.md": {
+      "size": 286,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Reference/Web-Clippings/Mobile-Shares.md": {
+      "size": 457,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Reference/Web-Clippings/Obsidian Clipper.md": {
+      "size": 162,
+      "tags": 0,
+      "links": 1
+    },
+    "3-Resources/README.md": {
+      "size": 1190,
+      "tags": 1,
+      "links": 13
+    },
+    "3-Resources/Daily-Notes/2020-04-20.md": {
+      "size": 1551,
+      "tags": 1,
+      "links": 2
+    },
+    "3-Resources/Daily-Notes/2020-08-20.md": {
+      "size": 224,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Daily-Notes/2021-04-22.md": {
+      "size": 390,
+      "tags": 1,
+      "links": 2
+    },
+    "3-Resources/Daily-Notes/2021-04-23.md": {
+      "size": 428,
+      "tags": 1,
+      "links": 2
+    },
+    "3-Resources/Daily-Notes/2021-04-24.md": {
+      "size": 402,
+      "tags": 1,
+      "links": 2
+    },
+    "3-Resources/Daily-Notes/2021-04-21.md": {
+      "size": 649,
+      "tags": 1,
+      "links": 2
+    },
+    "3-Resources/Daily-Notes/2021-04-25.md": {
+      "size": 1243,
+      "tags": 4,
+      "links": 6
+    },
+    "3-Resources/Daily-Notes/2021-04-28.md": {
+      "size": 285,
+      "tags": 1,
+      "links": 2
+    },
+    "3-Resources/Daily-Notes/2021-04-29.md": {
+      "size": 650,
+      "tags": 1,
+      "links": 2
+    },
+    "3-Resources/Daily-Notes/2021-05-01.md": {
+      "size": 433,
+      "tags": 1,
+      "links": 2
+    },
+    "3-Resources/Daily-Notes/2021-05-02.md": {
+      "size": 282,
+      "tags": 1,
+      "links": 2
+    },
+    "3-Resources/Daily-Notes/2021-07-19.md": {
+      "size": 1510,
+      "tags": 1,
+      "links": 5
+    },
+    "3-Resources/Daily-Notes/2021-07-21.md": {
+      "size": 1028,
+      "tags": 1,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-07-25.md": {
+      "size": 894,
+      "tags": 1,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-07-24.md": {
+      "size": 1266,
+      "tags": 1,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-07-27.md": {
+      "size": 1031,
+      "tags": 1,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-07-29.md": {
+      "size": 2092,
+      "tags": 1,
+      "links": 4
+    },
+    "3-Resources/Daily-Notes/2021-07-30.md": {
+      "size": 1059,
+      "tags": 1,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-08-02.md": {
+      "size": 1059,
+      "tags": 1,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-08-03.md": {
+      "size": 222,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Daily-Notes/2021-08-06.md": {
+      "size": 1243,
+      "tags": 0,
+      "links": 6
+    },
+    "3-Resources/Daily-Notes/2021-08-09.md": {
+      "size": 1113,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-08-08.md": {
+      "size": 1113,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-08-10.md": {
+      "size": 1115,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-08-15.md": {
+      "size": 644,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-08-14.md": {
+      "size": 725,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-08-13.md": {
+      "size": 725,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-08-19.md": {
+      "size": 725,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-08-20.md": {
+      "size": 3441,
+      "tags": 0,
+      "links": 7
+    },
+    "3-Resources/Daily-Notes/2021-08-21.md": {
+      "size": 1369,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-08-22.md": {
+      "size": 702,
+      "tags": 0,
+      "links": 4
+    },
+    "3-Resources/Daily-Notes/2021-08-23.md": {
+      "size": 644,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-08-24.md": {
+      "size": 587,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-08-25.md": {
+      "size": 556,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-08-26.md": {
+      "size": 597,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-08-30.md": {
+      "size": 904,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-08-27.md": {
+      "size": 597,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-09-14.md": {
+      "size": 725,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-09-21.md": {
+      "size": 597,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-09-22.md": {
+      "size": 597,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-09-23.md": {
+      "size": 597,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-09-24.md": {
+      "size": 597,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-09-26.md": {
+      "size": 597,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/2021-09-28.md": {
+      "size": 597,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Daily-Notes/README.md": {
+      "size": 277,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Catalogue.md": {
+      "size": 730,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Deduction.md": {
+      "size": 855,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Dictionary.md": {
+      "size": 700,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Derivation.md": {
+      "size": 784,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Archive.md": {
+      "size": 791,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Ephemeral.md": {
+      "size": 595,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Fleeting.md": {
+      "size": 671,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Gyroscope.md": {
+      "size": 818,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Index.md": {
+      "size": 1673,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/README.md": {
+      "size": 295,
+      "tags": 2,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Knowledge.md": {
+      "size": 827,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Dictionaries/Kanban.md": {
+      "size": 601,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Wisdom.md": {
+      "size": 735,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Embeds/Google Calendar.md": {
+      "size": 436,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Embeds/Raindrop.io - Published.md": {
+      "size": 568,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Embeds/Raindrop.io.md": {
+      "size": 375,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Highlights/A Builder’s Guide to Note-Taking.md": {
+      "size": 2240,
+      "tags": 0,
+      "links": 1
+    },
+    "3-Resources/Highlights/Highlights - Cloud Based Computing Business Ideas for 2021.md": {
+      "size": 1308,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Highlights/Highlights - Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights.md": {
+      "size": 3565,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Highlights/Highlights - Code Comments.md": {
+      "size": 818,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Highlights/Highlights - How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md": {
+      "size": 1265,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Highlights/Highlights - Mindfulness.md": {
+      "size": 1522,
+      "tags": 0,
+      "links": 1
+    },
+    "3-Resources/Highlights/Highlights - Organizing Partitions on Windows.md": {
+      "size": 480,
+      "tags": 0,
+      "links": 1
+    },
+    "3-Resources/Highlights/Highlights - How to Handle Inbox Infinity.md": {
+      "size": 2613,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Embeds/GitHub Profile.md": {
+      "size": 300,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md": {
+      "size": 3122,
+      "tags": 0,
+      "links": 2
+    },
+    "3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md": {
+      "size": 1704,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Highlights/Highlights - Why We Sleep.md": {
+      "size": 2857,
+      "tags": 0,
+      "links": 1
+    },
+    "3-Resources/Highlights/How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md": {
+      "size": 1265,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Highlights/Highlights - The Linux Command Line.md": {
+      "size": 2140,
+      "tags": 0,
+      "links": 1
+    },
+    "3-Resources/Highlights/SSH Key Best Practices.md": {
+      "size": 1271,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Embeds/Todoist.md": {
+      "size": 371,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Highlights/The Nitty-Gritty – Clearing Out Your Inbox - Next Action Associates.md": {
+      "size": 2729,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Gallery/Development-LocalGraphView.md": {
+      "size": 189,
+      "tags": 0,
+      "links": 1
+    },
+    "3-Resources/Gallery/README.md": {
+      "size": 269,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Highlights/README.md": {
+      "size": 260,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Kanbans/README.md": {
+      "size": 269,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Mindsweeps/Mindsweep Trigger List.md": {
+      "size": 265,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Mindsweeps/README.md": {
+      "size": 270,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Templates/Daily-Note-Template.md": {
+      "size": 597,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Templates/Default-Note-Template.md": {
+      "size": 283,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Templates/Mindsweep-Note-Template.md": {
+      "size": 393,
+      "tags": 0,
+      "links": 1
+    },
+    "3-Resources/Templates/MOC-Template.md": {
+      "size": 342,
+      "tags": 2,
+      "links": 0
+    },
+    "3-Resources/Templates/Project-Note-Template.md": {
+      "size": 478,
+      "tags": 1,
+      "links": 2
+    },
+    "3-Resources/Templates/README-Template.md": {
+      "size": 309,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Templates/README.md": {
+      "size": 558,
+      "tags": 1,
+      "links": 6
+    },
+    "3-Resources/Weekly-Notes/2021-W34.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-<<<<<<< Updated upstream
       "Refactor": 1428,
-      "Create": 879,
-      "Link": 987,
-=======
-      "Refactor": 983,
-      "Create": 780,
-      "Link": 918,
->>>>>>> Stashed changes
+      "Create": 1285,
+      "Link": 1364,
       "Expand": 114
     }
   },
   "dailyCommits": {
     "/": {
       "0": 188,
-<<<<<<< Updated upstream
-      "1": 1395,
-=======
-      "1": 782,
->>>>>>> Stashed changes
+      "1": 2178,
       "2": 171,
       "3": 156,
       "4": 7,
@@ -8308,11 +8195,7 @@
     "/": {
       "Mon": 498,
       "Tue": 274,
-<<<<<<< Updated upstream
-      "Wed": 1522,
-=======
-      "Wed": 909,
->>>>>>> Stashed changes
+      "Wed": 2305,
       "Thu": 151,
       "Fri": 663,
       "Sat": 0,
@@ -8375,111 +8258,57 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>"
       ],
       "Created": [
-<<<<<<< Updated upstream
-        "<a class=\"internal-link\" href=\"Meta/Tags.md\"> Tags </a>",
-        "<a class=\"internal-link\" href=\"Meta/Obsidian Vault Setup.md\"> Obsidian Vault Setup </a>",
-        "<a class=\"internal-link\" href=\"MOCs/010-Development-MOC.md\"> 010-Development-MOC </a>",
-        "<a class=\"internal-link\" href=\"MOCs/040-Computer-MOC.md\"> 040-Computer-MOC </a>",
-        "<a class=\"internal-link\" href=\"MOCs/030-Tools-MOC.md\"> 030-Tools-MOC </a>",
-        "<a class=\"internal-link\" href=\"MOCs/020-Productivity-MOC.md\"> 020-Productivity-MOC </a>",
-        "<a class=\"internal-link\" href=\"MOCs/000-INDEX.md\"> 000-INDEX </a>",
-        "<a class=\"internal-link\" href=\"Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
-        "<a class=\"internal-link\" href=\"Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
-        "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Wisdom.md\"> Wisdom </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Transitive.md\"> Transitive </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Taxonomy.md\"> Taxonomy </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Semantic.md\"> Semantic </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Schema.md\"> Schema </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Quantum.md\"> Quantum </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Psychology.md\"> Psychology </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Physics.md\"> Physics </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Perception.md\"> Perception </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Ontology.md\"> Ontology </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Kanban.md\"> Kanban </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Gyroscope.md\"> Gyroscope </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Hierarchy.md\"> Hierarchy </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Fleeting.md\"> Fleeting </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Fallacy.md\"> Fallacy </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Explicit.md\"> Explicit </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Ephemeral.md\"> Ephemeral </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Emergence.md\"> Emergence </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Derivation.md\"> Derivation </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Deduction.md\"> Deduction </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Declarative.md\"> Declarative </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Curation.md\"> Curation </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Constative.md\"> Constative </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Consciousness.md\"> Consciousness </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Cognitive.md\"> Cognitive </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Comprehensive.md\"> Comprehensive </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Cognition.md\"> Cognition </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Classification.md\"> Classification </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Catalogue.md\"> Catalogue </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Archive.md\"> Archive </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Algorithm.md\"> Algorithm </a>",
-        "<a class=\"internal-link\" href=\"Day Planners/Day Planner-20210826.md\"> Day Planner-20210826 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-26.md\"> 2021-08-26 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-25.md\"> 2021-08-25 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-24.md\"> 2021-08-24 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-13.md\"> 2021-08-13 </a>",
-        "<a class=\"internal-link\" href=\"Templates/TemplaterDemo.md\"> TemplaterDemo </a>",
-        "<a class=\"internal-link\" href=\"Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"Templates/MOC-Template.md\"> MOC-Template </a>",
-        "<a class=\"internal-link\" href=\"Templates/Mindsweep-Template.md\"> Mindsweep-Template </a>",
-        "<a class=\"internal-link\" href=\"Templates/Index-Template.md\"> Index-Template </a>"
-=======
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-28.md\"> 2021-09-28 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows Registry.md\"> Windows Registry </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/MSI.md\"> MSI </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/A Builder’s Guide to Note-Taking.md\"> A Builder’s Guide to Note-Taking </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-26.md\"> 2021-09-26 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-24.md\"> 2021-09-24 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-23.md\"> 2021-09-23 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Untitled 1.md\"> Untitled 1 </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Weekly-Notes/2021-W34.md\"> 2021-W34 </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/MOC-Template.md\"> MOC-Template </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Mindsweep-Note-Template.md\"> Mindsweep-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Default-Note-Template.md\"> Default-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/Mindsweep Trigger List.md\"> Mindsweep Trigger List </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Kanbans/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Gallery/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Gallery/Development-LocalGraphView.md\"> Development-LocalGraphView </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Nitty-Gritty – Clearing Out Your Inbox - Next Action Associates.md\"> The Nitty-Gritty – Clearing Out Your Inbox - Next Action Associates </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-22.md\"> 2021-09-22 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-21.md\"> 2021-09-21 </a>",
-        "<a class=\"internal-link\" href=\"Programming as an Actuary.md\"> Programming as an Actuary </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows Setup Checklist.md\"> Windows Setup Checklist </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Digital Cleanup.md\"> Digital Cleanup </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows User Dictionaries Locations.md\"> Windows User Dictionaries Locations </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitHub Repository Best Practices.md\"> GitHub Repository Best Practices </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-30.md\"> 2021-08-30 </a>",
-        "<a class=\"internal-link\" href=\"Day Planners/Day Planner-20210830.md\"> Day Planner-20210830 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows Registry Hacks.md\"> Windows Registry Hacks </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-27.md\"> 2021-08-27 </a>",
-        "<a class=\"internal-link\" href=\"Day Planners/Day Planner-20210827.md\"> Day Planner-20210827 </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/WSL Setup.md\"> WSL Setup </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-26.md\"> 2021-08-26 </a>",
-        "<a class=\"internal-link\" href=\"Day Planners/Day Planner-20210826.md\"> Day Planner-20210826 </a>",
-        "<a class=\"internal-link\" href=\"Day Planners/Day Planner-20210824.md\"> Day Planner-20210824 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-25.md\"> 2021-08-25 </a>",
-        "<a class=\"internal-link\" href=\"Day Planners/Day Planner-20210825.md\"> Day Planner-20210825 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-24.md\"> 2021-08-24 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-15.md\"> 2021-08-15 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Obsidian Day Planner Plugin.md\"> Obsidian Day Planner Plugin </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-23.md\"> 2021-08-23 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Fixing Graphics Driver Issues in Windows.md\"> Fixing Graphics Driver Issues in Windows </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Reset Windows Graphics Drivers with a Hotkey.md\"> Reset Windows Graphics Drivers with a Hotkey </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows Network Troubleshooting Commands.md\"> Windows Network Troubleshooting Commands </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Run Batch File from Current Directory.md\"> Run Batch File from Current Directory </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/OneCommander.md\"> OneCommander </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/YouTube Download CLI - youtube-dl.md\"> YouTube Download CLI - youtube-dl </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Robocopy.md\"> Robocopy </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-22.md\"> 2021-08-22 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/PowerToys Run Feature.md\"> PowerToys Run Feature </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/How To Create a Folder Tree in Windows.md\"> How To Create a Folder Tree in Windows </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Embeds/GitHub Profile.md\"> GitHub Profile </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Embeds/Raindrop.io - Published.md\"> Raindrop.io - Published </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Embeds/Raindrop.io.md\"> Raindrop.io </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Embeds/Google Calendar.md\"> Google Calendar </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Embeds/Todoist.md\"> Todoist </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-20.md\"> 2021-08-20 </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Github/Obsidian CSS Snippets.md\"> Obsidian CSS Snippets </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Web-Clippings/Mobile-Shares.md\"> Mobile-Shares </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Weekly-Notes/2021-W34.md\"> 2021-W34 </a>"
->>>>>>> Stashed changes
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/SSH Key Best Practices.md\"> SSH Key Best Practices </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - The Linux Command Line.md\"> Highlights - The Linux Command Line </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md\"> How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Why We Sleep.md\"> Highlights - Why We Sleep </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md\"> Highlights - What Blog Platform Should I Use </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md\"> Highlights - Pay off Your Debt - Tools and Tips </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Embeds/GitHub Profile.md\"> GitHub Profile </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - How to Handle Inbox Infinity.md\"> Highlights - How to Handle Inbox Infinity </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Organizing Partitions on Windows.md\"> Highlights - Organizing Partitions on Windows </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Mindfulness.md\"> Highlights - Mindfulness </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md\"> Highlights - How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Code Comments.md\"> Highlights - Code Comments </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights.md\"> Highlights - Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Cloud Based Computing Business Ideas for 2021.md\"> Highlights - Cloud Based Computing Business Ideas for 2021 </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/A Builder’s Guide to Note-Taking.md\"> A Builder’s Guide to Note-Taking </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Embeds/Raindrop.io.md\"> Raindrop.io </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Embeds/Raindrop.io - Published.md\"> Raindrop.io - Published </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Embeds/Google Calendar.md\"> Google Calendar </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Wisdom.md\"> Wisdom </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Kanban.md\"> Kanban </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Knowledge.md\"> Knowledge </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Index.md\"> Index </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Gyroscope.md\"> Gyroscope </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Fleeting.md\"> Fleeting </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Ephemeral.md\"> Ephemeral </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Archive.md\"> Archive </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Derivation.md\"> Derivation </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Dictionary.md\"> Dictionary </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Deduction.md\"> Deduction </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Catalogue.md\"> Catalogue </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-28.md\"> 2021-09-28 </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-26.md\"> 2021-09-26 </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-24.md\"> 2021-09-24 </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Setup Checklist.md\"> Windows Setup Checklist </a>",
@@ -8535,111 +8364,57 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>"
       ],
       "Tagged": [
-<<<<<<< Updated upstream
-        "<a class=\"internal-link\" href=\"Reference/Backend Web Architecture.md\"> Backend Web Architecture </a>",
-        "<a class=\"internal-link\" href=\"Reference/Database GUIs.md\"> Database GUIs </a>",
-        "<a class=\"internal-link\" href=\"Reference/System Design Primer.md\"> System Design Primer </a>",
-        "<a class=\"internal-link\" href=\"SlipBox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"SlipBox/Check Internet Speed with Command Line.md\"> Check Internet Speed with Command Line </a>",
-        "<a class=\"internal-link\" href=\"SlipBox/How to Resolve PIN Issues in Windows.md\"> How to Resolve PIN Issues in Windows </a>",
-        "<a class=\"internal-link\" href=\"Templates/Index-Template.md\"> Index-Template </a>",
-        "<a class=\"internal-link\" href=\"Templates/MOC-Template.md\"> MOC-Template </a>",
-        "<a class=\"internal-link\" href=\"Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-13.md\"> 2021-08-13 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-24.md\"> 2021-08-24 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-25.md\"> 2021-08-25 </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Algorithm.md\"> Algorithm </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Archive.md\"> Archive </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Catalogue.md\"> Catalogue </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Classification.md\"> Classification </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Cognition.md\"> Cognition </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Comprehensive.md\"> Comprehensive </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Cognitive.md\"> Cognitive </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Consciousness.md\"> Consciousness </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Constative.md\"> Constative </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Curation.md\"> Curation </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Declarative.md\"> Declarative </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Deduction.md\"> Deduction </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Derivation.md\"> Derivation </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Emergence.md\"> Emergence </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Ephemeral.md\"> Ephemeral </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Explicit.md\"> Explicit </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Fallacy.md\"> Fallacy </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Fleeting.md\"> Fleeting </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Hierarchy.md\"> Hierarchy </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Gyroscope.md\"> Gyroscope </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Kanban.md\"> Kanban </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Ontology.md\"> Ontology </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Perception.md\"> Perception </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Physics.md\"> Physics </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Psychology.md\"> Psychology </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Quantum.md\"> Quantum </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Schema.md\"> Schema </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Semantic.md\"> Semantic </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Taxonomy.md\"> Taxonomy </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Transitive.md\"> Transitive </a>",
-        "<a class=\"internal-link\" href=\"Glossary/Wisdom.md\"> Wisdom </a>",
-        "<a class=\"internal-link\" href=\"MOCs/020-Productivity-MOC.md\"> 020-Productivity-MOC </a>",
-        "<a class=\"internal-link\" href=\"MOCs/030-Tools-MOC.md\"> 030-Tools-MOC </a>",
-        "<a class=\"internal-link\" href=\"MOCs/040-Computer-MOC.md\"> 040-Computer-MOC </a>",
-        "<a class=\"internal-link\" href=\"MOCs/010-Development-MOC.md\"> 010-Development-MOC </a>",
-        "<a class=\"internal-link\" href=\"Meta/Obsidian Vault Setup.md\"> Obsidian Vault Setup </a>",
-        "<a class=\"internal-link\" href=\"Meta/Tags.md\"> Tags </a>",
-        "<a class=\"internal-link\" href=\"README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Registry Paths and Keys.md\"> Windows Registry Paths and Keys </a>"
-=======
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Registry Paths and Keys.md\"> Windows Registry Paths and Keys </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows Security Policies - secpol.msc.md\"> Windows Security Policies - secpol.msc </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows Setup Checklist.md\"> Windows Setup Checklist </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/WSL - Permissions.md\"> WSL - Permissions </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Windows User Dictionaries Locations.md\"> Windows User Dictionaries Locations </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Fixing Graphics Driver Issues in Windows.md\"> Fixing Graphics Driver Issues in Windows </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/A Builder’s Guide to Note-Taking.md\"> A Builder’s Guide to Note-Taking </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Cleaning Up Windows.md\"> Cleaning Up Windows </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Nitty-Gritty – Clearing Out Your Inbox - Next Action Associates.md\"> The Nitty-Gritty – Clearing Out Your Inbox - Next Action Associates </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Movies and Shows to Watch.md\"> Movies and Shows to Watch </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/How To Create a Folder Tree in Windows.md\"> How To Create a Folder Tree in Windows </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Robocopy.md\"> Robocopy </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/YouTube Download CLI - youtube-dl.md\"> YouTube Download CLI - youtube-dl </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/OneCommander.md\"> OneCommander </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Reset Windows Graphics Drivers with a Hotkey.md\"> Reset Windows Graphics Drivers with a Hotkey </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Obsidian Day Planner Plugin.md\"> Obsidian Day Planner Plugin </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/HashiCorp Terraform.md\"> HashiCorp Terraform </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md\"> How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Impact of the Cloud on Software Development | Developer_com.md\"> The Impact of the Cloud on Software Development | Developer_com </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/A Re-Introduction to JavaScript (JS Tutorial) - JavaScript | MDN.md\"> A Re-Introduction to JavaScript (JS Tutorial) - JavaScript | MDN </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/GTD Reference- The Best Filing System for Busy Lives | Shortform Books.md\"> GTD Reference- The Best Filing System for Busy Lives | Shortform Books </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/SSH Key Best Practices.md\"> SSH Key Best Practices </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Dotfiles Tools.md\"> Dotfiles Tools </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Cloud Run - Serverless Applications.md\"> Cloud Run - Serverless Applications </a>",
-        "<a class=\"internal-link\" href=\"README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"5-Projects/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Ansible for the Windows System Admin.md\"> Ansible for the Windows System Admin </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md\"> How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/How to Use Sysprep in Windows.md\"> How to Use Sysprep in Windows </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Microsoft Azure.md\"> Microsoft Azure </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md\"> Keyboard shortcuts for Gmail - Gmail Help </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Keyboard shortcuts for Gmail - Computer.md\"> Keyboard shortcuts for Gmail - Computer </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Prioritize these 5 essentials of healthy achievement.md\"> Prioritize these 5 essentials of healthy achievement </a>",
-        "<a class=\"internal-link\" href=\"5-Projects/Create a Personal Website 📝.md\"> Create a Personal Website 📝 </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Library Classification System.md\"> Library Classification System </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Library Classification System.md\"> Library Classification System </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Archive.md\"> Archive </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Deduction.md\"> Deduction </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Derivation.md\"> Derivation </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Dictionary.md\"> Dictionary </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Ephemeral.md\"> Ephemeral </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Fleeting.md\"> Fleeting </a>"
->>>>>>> Stashed changes
+        "<a class=\"internal-link\" href=\"0-Inbox/How To Create a Folder Tree in Windows.md\"> How To Create a Folder Tree in Windows </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Movies and Shows to Watch.md\"> Movies and Shows to Watch </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/OneCommander.md\"> OneCommander </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Obsidian Day Planner Plugin.md\"> Obsidian Day Planner Plugin </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Robocopy.md\"> Robocopy </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Reset Windows Graphics Drivers with a Hotkey.md\"> Reset Windows Graphics Drivers with a Hotkey </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Windows Security Policies - secpol.msc.md\"> Windows Security Policies - secpol.msc </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/000 - INDEX.md\"> 000 - INDEX </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/010 - Productivity.md\"> 010 - Productivity </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Databases.md\"> MOC - Databases </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Links.md\"> MOC - Links </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Obsidian.md\"> MOC - Obsidian </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PKM.md\"> MOC - PKM </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PostgreSQL.md\"> MOC - PostgreSQL </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PowerShell.md\"> MOC - PowerShell </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - R.md\"> MOC - R </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Setup.md\"> MOC - Setup </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/About the AppxProvisioning.xml File in Windows.md\"> About the AppxProvisioning.xml File in Windows </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/APIs.md\"> APIs </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Automate Getting Help.md\"> Automate Getting Help </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Base Package Hidden Gems in R.md\"> Base Package Hidden Gems in R </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/CLI Tools.md\"> CLI Tools </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Code is not Production Code.md\"> Code is not Production Code </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Code Comments.md\"> Code Comments </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Data Validation Packages in R.md\"> Data Validation Packages in R </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Daily Notes as Your Scratch Space.md\"> Daily Notes as Your Scratch Space </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Classification of Note Types.md\"> Classification of Note Types </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Database GUIs.md\"> Database GUIs </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Database Documentation.md\"> Database Documentation </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Databases with R Resources.md\"> Databases with R Resources </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Docker Best Practices.md\"> Docker Best Practices </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Docker Compose Reference Docs.md\"> Docker Compose Reference Docs </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/EDA Packages in R.md\"> EDA Packages in R </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Enhanced CleanMgr Command.md\"> Enhanced CleanMgr Command </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Firefox Developer Edition.md\"> Firefox Developer Edition </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Fixing Graphics Driver Issues in Windows.md\"> Fixing Graphics Driver Issues in Windows </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Flutter.md\"> Flutter </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Git Tools.md\"> Git Tools </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Github Actions for R.md\"> Github Actions for R </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -8656,7 +8431,6 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>"
       ],
       "Deleted": [
-<<<<<<< Updated upstream
         "<a class=\"internal-link\" href=\"Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
         "<a class=\"internal-link\" href=\"Templates/TemplaterDemo.md\"> TemplaterDemo </a>",
         "<a class=\"internal-link\" href=\"Templates/MOC-Template.md\"> MOC-Template </a>",
@@ -8710,135 +8484,57 @@
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Nitty-Gritty – Clearing Out Your Inbox - Next Action Associates.md\"> The Nitty-Gritty – Clearing Out Your Inbox - Next Action Associates </a>"
       ],
       "Linked": [
-        "<a class=\"internal-link\" href=\"Reference/Apps.md\"> Apps </a>",
-        "<a class=\"internal-link\" href=\"Reference/Backend Web Architecture.md\"> Backend Web Architecture </a>",
-        "<a class=\"internal-link\" href=\"Reference/System Design Primer.md\"> System Design Primer </a>",
-        "<a class=\"internal-link\" href=\"SlipBox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"SlipBox/Check Internet Speed with Command Line.md\"> Check Internet Speed with Command Line </a>",
-        "<a class=\"internal-link\" href=\"SlipBox/How to Resolve PIN Issues in Windows.md\"> How to Resolve PIN Issues in Windows </a>",
-        "<a class=\"internal-link\" href=\"Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"Templates/Mindsweep-Template.md\"> Mindsweep-Template </a>",
-        "<a class=\"internal-link\" href=\"Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-13.md\"> 2021-08-13 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-24.md\"> 2021-08-24 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-25.md\"> 2021-08-25 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-08-26.md\"> 2021-08-26 </a>",
-        "<a class=\"internal-link\" href=\"Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
-        "<a class=\"internal-link\" href=\"Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
-        "<a class=\"internal-link\" href=\"Meta/Obsidian Vault Setup.md\"> Obsidian Vault Setup </a>",
-        "<a class=\"internal-link\" href=\"Meta/Tags.md\"> Tags </a>",
-        "<a class=\"internal-link\" href=\"README.md\"> README </a>",
-=======
-        "<a class=\"internal-link\" href=\"2-Slipbox/HashiCorp Terraform 1.md\"> HashiCorp Terraform 1 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Mobile-Shares.md\"> Mobile-Shares </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper.md\"> 2021-08-07-Obsidian Clipper </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Edge-Clippings/2021-08-09-Keyboard shortcuts for Gmail - Computer - Gmail Help.md\"> 2021-08-09-Keyboard shortcuts for Gmail - Computer - Gmail Help </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Edge-Clippings/2021-08-07-notlmncopy-as-markdown 🖱 Browser extension to copy hyperlinks, images, and selected text as Markdown with GFM support.md\"> 2021-08-07-notlmncopy-as-markdown 🖱 Browser extension to copy hyperlinks, images, and selected text as Markdown with GFM support </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Notational.md\"> Notational </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Realization.md\"> Realization </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Classification.md\"> Classification </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Highlight-Template.md\"> Highlight-Template </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/2021-07-19-Mindsweep.md\"> 2021-07-19-Mindsweep </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-07-20.md\"> 2021-07-20 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-05.md\"> 2021-08-05 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-07-28.md\"> 2021-07-28 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-07.md\"> 2021-08-07 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-04.md\"> 2021-08-04 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-07-22.md\"> 2021-07-22 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-07-26.md\"> 2021-07-26 </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 1.md\"> 2021-08-07-Obsidian Clipper 1 </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 2.md\"> 2021-08-07-Obsidian Clipper 2 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/HashiCorp Terraform.md\"> HashiCorp Terraform </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Xamarin.md\"> Xamarin </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/WordPress.md\"> WordPress </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/WinGet.md\"> WinGet </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/WindowsPE.md\"> WindowsPE </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows SDK.md\"> Windows SDK </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows Insider.md\"> Windows Insider </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows APK.md\"> Windows APK </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows 11.md\"> Windows 11 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows 10.md\"> Windows 10 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Visual Studio.md\"> Visual Studio </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Visual Studio Code.md\"> Visual Studio Code </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Visual Basic.md\"> Visual Basic </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Uninstall Tool.md\"> Uninstall Tool </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Ubuntu.md\"> Ubuntu </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Typora.md\"> Typora </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Tools - Todoist.md\"> Tools - Todoist </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Tools - Outlook.md\"> Tools - Outlook </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Tools - Github.md\"> Tools - Github </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/TeX.md\"> TeX </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Swift.md\"> Swift </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/SSH.md\"> SSH </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/SQL.md\"> SQL </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/SFC.md\"> SFC </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Scoop.md\"> Scoop </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Scala.md\"> Scala </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/SASS.md\"> SASS </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Rust.md\"> Rust </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Ruby.md\"> Ruby </a>"
-      ],
-      "Linked": [
->>>>>>> Stashed changes
-        "<a class=\"internal-link\" href=\"2-Slipbox/WSL - Permissions.md\"> WSL - Permissions </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Windows User Dictionaries Locations.md\"> Windows User Dictionaries Locations </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Fixing Graphics Driver Issues in Windows.md\"> Fixing Graphics Driver Issues in Windows </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Fixing Graphics Driver Issues in Windows.md\"> Fixing Graphics Driver Issues in Windows </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-28.md\"> 2021-09-28 </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-26.md\"> 2021-09-26 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/A Builder’s Guide to Note-Taking.md\"> A Builder’s Guide to Note-Taking </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-24.md\"> 2021-09-24 </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-23.md\"> 2021-09-23 </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-21.md\"> 2021-09-21 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-22.md\"> 2021-09-22 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Nitty-Gritty – Clearing Out Your Inbox - Next Action Associates.md\"> The Nitty-Gritty – Clearing Out Your Inbox - Next Action Associates </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Cloud Run - Serverless Applications.md\"> Cloud Run - Serverless Applications </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows Security Policies - secpol.msc.md\"> Windows Security Policies - secpol.msc </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/How To Create a Folder Tree in Windows.md\"> How To Create a Folder Tree in Windows </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Robocopy.md\"> Robocopy </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/YouTube Download CLI - youtube-dl.md\"> YouTube Download CLI - youtube-dl </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Reset Windows Graphics Drivers with a Hotkey.md\"> Reset Windows Graphics Drivers with a Hotkey </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Fixing Graphics Driver Issues in Windows.md\"> Fixing Graphics Driver Issues in Windows </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Obsidian Day Planner Plugin.md\"> Obsidian Day Planner Plugin </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Cloud Hosted Environments.md\"> Cloud Hosted Environments </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Virtual Machines.md\"> Virtual Machines </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WinSCP.md\"> WinSCP </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Yarn.md\"> Yarn </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Robocopy.md\"> Robocopy </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Reset Windows Graphics Drivers with a Hotkey.md\"> Reset Windows Graphics Drivers with a Hotkey </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Windows Registry Hacks.md\"> Windows Registry Hacks </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Windows Security Policies - secpol.msc.md\"> Windows Security Policies - secpol.msc </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/000 - INDEX.md\"> 000 - INDEX </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/010 - Productivity.md\"> 010 - Productivity </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/040 - Personal.md\"> 040 - Personal </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/050 - Computer.md\"> 050 - Computer </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Databases.md\"> MOC - Databases </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Obsidian.md\"> MOC - Obsidian </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PKM.md\"> MOC - PKM </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PostgreSQL.md\"> MOC - PostgreSQL </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - R.md\"> MOC - R </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Setup.md\"> MOC - Setup </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/About the AppxProvisioning.xml File in Windows.md\"> About the AppxProvisioning.xml File in Windows </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Achieving Your Goals Feels Good.md\"> Achieving Your Goals Feels Good </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/APIs.md\"> APIs </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Automate Getting Help.md\"> Automate Getting Help </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Base Package Hidden Gems in R.md\"> Base Package Hidden Gems in R </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Code is not Production Code.md\"> Code is not Production Code </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Code Comments.md\"> Code Comments </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Daily Notes as Your Scratch Space.md\"> Daily Notes as Your Scratch Space </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Classification of Note Types.md\"> Classification of Note Types </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Database Documentation.md\"> Database Documentation </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Enhanced CleanMgr Command.md\"> Enhanced CleanMgr Command </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Firefox Developer Edition.md\"> Firefox Developer Edition </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Fixing Graphics Driver Issues in Windows.md\"> Fixing Graphics Driver Issues in Windows </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Flutter.md\"> Flutter </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Git Tools.md\"> Git Tools </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Google Cloud Setup Notes.md\"> Google Cloud Setup Notes </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/HashiCorp Terraform.md\"> HashiCorp Terraform </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/WSL Setup.md\"> WSL Setup </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-21.md\"> 2021-08-21 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-19.md\"> 2021-08-19 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-09-14.md\"> 2021-09-14 </a>",
-<<<<<<< Updated upstream
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-20.md\"> 2021-08-20 </a>"
-=======
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-20.md\"> 2021-08-20 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-22.md\"> 2021-08-22 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-23.md\"> 2021-08-23 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-15.md\"> 2021-08-15 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-24.md\"> 2021-08-24 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-25.md\"> 2021-08-25 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-26.md\"> 2021-08-26 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-27.md\"> 2021-08-27 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-30.md\"> 2021-08-30 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md\"> How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Impact of the Cloud on Software Development | Developer_com.md\"> The Impact of the Cloud on Software Development | Developer_com </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/A Re-Introduction to JavaScript (JS Tutorial) - JavaScript | MDN.md\"> A Re-Introduction to JavaScript (JS Tutorial) - JavaScript | MDN </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/GTD Reference- The Best Filing System for Busy Lives | Shortform Books.md\"> GTD Reference- The Best Filing System for Busy Lives | Shortform Books </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/SSH Key Best Practices.md\"> SSH Key Best Practices </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/S-CLI.md\"> S-CLI </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Web-Clippings/Obsidian Clipper.md\"> Obsidian Clipper </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Github/Obsidian CSS Snippets.md\"> Obsidian CSS Snippets </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-14.md\"> 2021-08-14 </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
->>>>>>> Stashed changes
+        "<a class=\"internal-link\" href=\"2-Slipbox/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to Cleanup Windows from Command Line.md\"> How to Cleanup Windows from Command Line </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

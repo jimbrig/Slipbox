@@ -3,7 +3,7 @@ Creation Date: 2021-08-04 16:25
 Last Modified Date: Wednesday 4th August 2021 16:25:15
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: Vault Statistics
-Tags: []
+Tags: ["#Vault/Meta"]
 ---
 
 # Vault Statistics

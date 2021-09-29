@@ -1,64 +1,32 @@
 {
   "main": {
-    "id": "f66eb41388d428a8",
+    "id": "4418b80b743fcb3d",
     "type": "split",
     "children": [
       {
-        "id": "6b099741b46df8cc",
-        "type": "leaf",
-        "state": {
-<<<<<<< Updated upstream
-          "type": "empty",
-          "state": {}
-=======
-          "type": "markdown",
-          "state": {
-            "file": "0-Inbox/Windows Security Policies - secpol.msc.md",
-            "mode": "source"
-          }
->>>>>>> Stashed changes
-        }
-      },
-      {
-        "id": "efebf7c2cdaa920f",
+        "id": "4e4af47b95d59fe2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "3-Resources/README.md",
             "mode": "source"
           }
-        }
-      },
-      {
-        "id": "fac0697af0e0704f",
-        "type": "leaf",
-        "state": {
-<<<<<<< Updated upstream
-          "type": "empty",
-          "state": {}
-=======
-          "type": "markdown",
-          "state": {
-            "file": "1-Maps-of-Content/020 - Development.md",
-            "mode": "source"
-          }
->>>>>>> Stashed changes
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "3d074fb3464402a3",
+    "id": "6ac27dcebecdaa3b",
     "type": "split",
     "children": [
       {
-        "id": "6b34edb987936d9e",
+        "id": "f4e8daf08e773a18",
         "type": "tabs",
         "children": [
           {
-            "id": "74178abd0140d2a6",
+            "id": "ed0bf011dfeb4deb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -66,12 +34,12 @@
             }
           },
           {
-            "id": "b436dc945c83e5b7",
+            "id": "75e23259c740a84f",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tools",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,26 +49,10 @@
             }
           },
           {
-            "id": "071b8ad39567bd64",
+            "id": "78eb03c160449c82",
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "468c731a96e87ab9",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "b45651cd40a82024",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
               "state": {}
             }
           }
@@ -108,26 +60,31 @@
       }
     ],
     "direction": "horizontal",
-    "width": 443
+    "width": 300
   },
   "right": {
-    "id": "5aa066e6b140736e",
+    "id": "6a383541a9f15a92",
     "type": "split",
     "children": [
       {
-        "id": "d6074716eb3dc613",
+        "id": "d72a8abaca4d74b1",
         "type": "tabs",
         "children": [
           {
-            "id": "04e0557015f9376b",
+            "id": "63a9e821f433973a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b77ff5fd22ffbf1f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-=======
-                "file": "1-Maps-of-Content/020 - Development.md",
->>>>>>> Stashed changes
+                "file": "3-Resources/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,22 +96,19 @@
             }
           },
           {
-            "id": "90341acdff20f8df",
+            "id": "d441ee5c52706bab",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< Updated upstream
-=======
-                "file": "1-Maps-of-Content/020 - Development.md",
->>>>>>> Stashed changes
+                "file": "3-Resources/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "b5737a30efe3f4f0",
+            "id": "f96cfd69a5162b12",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -165,61 +119,33 @@
             }
           },
           {
-            "id": "5429adc7f95452de",
+            "id": "61b00b68870587af",
             "type": "leaf",
             "state": {
               "type": "outline",
-<<<<<<< Updated upstream
-              "state": {}
-=======
               "state": {
-                "file": "1-Maps-of-Content/020 - Development.md"
+                "file": "3-Resources/README.md"
               }
->>>>>>> Stashed changes
-            }
-          },
-          {
-            "id": "b6755fce2bb5fed3",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "9f49f04901bc7cb7",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "5abeb6659b9e4d9d",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "fac0697af0e0704f",
+  "active": "4e4af47b95d59fe2",
   "lastOpenFiles": [
-    "1-Maps-of-Content/020 - Development.md",
-    "2-Slipbox/Windows Registry Paths and Keys.md",
-    "2-Slipbox/Windows Registry.md",
-    "2-Slipbox/Windows Developer Environment.md",
-    "2-Slipbox/Using diskusage Command in Windows.md",
-    "3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md",
-    "2-Slipbox/Keyboard shortcuts for Gmail - Computer.md",
-    "2-Slipbox/How to Cleanup Windows from Command Line.md",
-    "2-Slipbox/How To Change Explorer Drive Icons via Registry.md",
-    "2-Slipbox/Dotfiles Tools.md"
+    "3-Resources/README.md",
+    "README.md",
+    "3-Resources/Meta/Obsidian Vault Setup.md",
+    "Templates/TemplaterDemo.md",
+    "Templates/Project-Note-Template.md",
+    "3-Resources/Templates/Project-Note-Template.md",
+    "3-Resources/Templates/MOC-Template 1.md",
+    "3-Resources/Templates/MOC-Template.md",
+    "Templates/MOC-Template.md",
+    "Templates/Mindsweep-Template.md"
   ]
 }

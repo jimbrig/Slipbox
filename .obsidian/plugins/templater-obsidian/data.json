@@ -1,28 +1,22 @@
 {
   "command_timeout": 5,
-<<<<<<< Updated upstream
-  "template_folder": "Templates",
-=======
-  "template_folder": "3-Resources/Templates",
->>>>>>> Stashed changes
+  "templates_folder": "3-Resources/Templates",
   "templates_pairs": [
     [
       "",
       ""
     ]
   ],
-<<<<<<< Updated upstream
   "trigger_on_file_creation": true,
   "enable_system_commands": false,
   "shell_path": "",
-  "script_folder": "",
-  "empty_file_template": "Templates/Default-Note-Template",
-=======
-  "trigger_on_file_creation": false,
-  "enable_system_commands": false,
-  "shell_path": "",
-  "script_folder": "",
-  "empty_file_template": "3-Resources/Templates/Default-Note-Template",
->>>>>>> Stashed changes
-  "syntax_highlighting": true
+  "user_scripts_folder": "",
+  "empty_file_template": "3-Resources/Templates/Default-Note-Template.md",
+  "syntax_highlighting": true,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ]
 }

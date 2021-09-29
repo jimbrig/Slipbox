@@ -41,7 +41,7 @@ Tag inheritance is not yet supported but will be available soon.
 
 This inheritance model lets you arrange the subscriptions in your hierarchy so that each subscription follows appropriate policies and security controls.
 
-![](assets/azure-organize-resources-scope-levels.png)
+![](azure-organize-resources-scope-levels.png)
 *Figure 1: The four scope levels for organizing your Azure resources.*
 
 Any access or policy assignment on the root management group applies to all resources in the directory. Carefully consider which items you define at this scope. Include only the assignments you must have.

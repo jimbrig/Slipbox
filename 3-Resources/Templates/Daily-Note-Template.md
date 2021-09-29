@@ -1,37 +1,28 @@
 ---
 Creation Date: <% tp.file.creation_date() %>
 Last Modified Date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
-Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Alias: <% tp.file.creation_date() %>
-Tags: [  ]
+Author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
+Alias: ["<% tp.date.now("MMMM DD, YYYY - dddd") %>", "<% tp.file.creation_date("YYYY-MM-DD") %>"]
+Type: [ "#Type/Daily" ]
+---
+**Tags**::  
+**Links**::  
+**Sources**::  
+
 ---
 
 << [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
 
-# <% tp.date.now("dddd, MMMM YYYY") %>
+# <% tp.date.now("MMMM DD, YYYY - dddd") %>
 
-```ad-quote
-title: Daily Quote
-<center>
-<% tp.web.daily_quote() %>
-</center>
-```
+## 📝 Scratchpad
 
-## Scratchpad 📝
+## ✔️ Tasks
 
-- 
-
-## Tasks ✔️
-
--
-
-
-## Ideas 💡
-
--
+## 📂 Captures
 
 ***
 
-Links: [[3-Resources/Daily-Notes/README]]
+Links:
 
 Sources:
